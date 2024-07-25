@@ -1,0 +1,7 @@
+/.gitignore          [32m (Status: 200)[0m [Size: 42]
+/.htaccess           [33m (Status: 403)[0m [Size: 291]
+/.htpasswd           [33m (Status: 403)[0m [Size: 291]
+/.hta                [33m (Status: 403)[0m [Size: 286]
+/images              [36m (Status: 301)[0m [Size: 318][34m [--> http://192.168.110.140/images/][0m
+/index.html          [32m (Status: 200)[0m [Size: 1098]
+/server-status       [33m (Status: 403)[0m [Size: 295]

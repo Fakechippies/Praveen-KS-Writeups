@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Tue Jul 23 19:15:24 2024 as: nmap -sX -T5 -n -Pn -p- -o allportscan.txt 192.168.110.140
+Nmap scan report for 192.168.110.140
+Host is up (0.00019s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE         SERVICE
+80/tcp   open|filtered http
+4444/tcp open|filtered krb524
+8443/tcp open|filtered https-alt
+MAC Address: 52:54:00:94:E2:EC (QEMU virtual NIC)
+
+# Nmap done at Tue Jul 23 19:15:26 2024 -- 1 IP address (1 host up) scanned in 2.29 seconds

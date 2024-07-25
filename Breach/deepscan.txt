@@ -1,0 +1,42 @@
+# Nmap 7.95 scan initiated Tue Jul 23 19:31:55 2024 as: nmap -sC -sV -T5 -n -Pn -p 80,4444,8443 -A -o deepscan.txt 192.168.110.140
+Nmap scan report for 192.168.110.140
+Host is up (0.00044s latency).
+
+PORT     STATE SERVICE        VERSION
+80/tcp   open  http           Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: Welcome to Breach 1.0
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+4444/tcp open  krb524?
+| fingerprint-strings: 
+|   NULL: 
+|     v851
+|     Expires: x
+|     Content-Length: 6n
+|     <html>
+|     <head>
+|_    <title>CFkOlicom Fast Ethernet L3 Switch (19095)<
+8443/tcp open  ssl/https-alt?
+| ssl-cert: Subject: commonName=Unknown/organizationName=Unknown/stateOrProvinceName=Unknown/countryName=Unknown
+| Not valid before: 2016-05-20T17:51:07
+|_Not valid after:  2016-08-18T17:51:07
+|_ssl-date: 2024-07-23T14:02:29+00:00; -1s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port4444-TCP:V=7.95%I=7%D=7/23%Time=669FB7D4%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,67,"v851\nExpires:\x20x\nContent-Length:\x206n\n<html>\r\n\r\n<head>
+SF:\r\n<title>CFkOlicom\x20Fast\x20Ethernet\x20L3\x20Switch\x20\(19095\)<\
+SF:n");
+MAC Address: 52:54:00:94:E2:EC (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.2 - 4.14 (97%), Linux 3.8 - 3.16 (96%), Linux 3.13 (94%), OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (94%), Linux 4.10 (94%), Linux 3.2 - 3.10 (94%), Linux 3.2 - 3.16 (94%), Linux 3.10 - 4.11 (93%), Linux 3.13 - 4.4 (93%), Linux 3.16 - 4.6 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Host script results:
+|_clock-skew: -1s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.44 ms 192.168.110.140
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 23 19:32:31 2024 -- 1 IP address (1 host up) scanned in 35.74 seconds
