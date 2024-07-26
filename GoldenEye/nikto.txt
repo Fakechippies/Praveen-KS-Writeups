@@ -1,0 +1,21 @@
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          192.168.110.95
++ Target Hostname:    192.168.110.95
++ Target Port:        80
++ Start Time:         2024-07-26 19:11:58 (GMT5.5)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.7 (Ubuntu)
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /: Server may leak inodes via ETags, header found with file /, inode: fc, size: 56aba821be9ed, mtime: gzip. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418
++ Apache/2.4.7 appears to be outdated (current is at least 2.4.57). Apache 2.2.34 is the EOL for the 2.x branch.
++ OPTIONS: Allowed HTTP Methods: GET, HEAD, POST, OPTIONS .
++ /splashAdmin.php: Retrieved x-powered-by header: PHP/5.5.9-1ubuntu4.24.
++ /splashAdmin.php: Cobalt Qube 3 admin is running. This may have multiple security problems which could not be tested remotely. See: https://seclists.org/bugtraq/2002/Jul/262
++ /icons/README: Apache default file found. See: https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/
++ 8101 requests: 0 error(s) and 8 item(s) reported on remote host
++ End Time:           2024-07-26 19:12:06 (GMT5.5) (8 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

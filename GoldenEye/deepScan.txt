@@ -1,0 +1,33 @@
+# Nmap 7.95 scan initiated Fri Jul 26 18:43:44 2024 as: nmap -T5 -sC -sV -O -A -n -Pn -p 25,80,55006,55007 -o deepScan.txt 192.168.110.95
+Nmap scan report for 192.168.110.95
+Host is up (0.00044s latency).
+
+PORT      STATE SERVICE     VERSION
+25/tcp    open  smtp        Postfix smtpd
+|_ssl-date: TLS randomness does not represent time
+|_smtp-commands: ubuntu, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN
+80/tcp    open  http        Apache httpd 2.4.7 ((Ubuntu))
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: GoldenEye Primary Admin Server
+55006/tcp open  ssl/unknown
+| ssl-cert: Subject: commonName=localhost/organizationName=Dovecot mail server
+| Not valid before: 2018-04-24T03:23:52
+|_Not valid after:  2028-04-23T03:23:52
+|_ssl-date: TLS randomness does not represent time
+55007/tcp open  pop3        Dovecot pop3d
+|_ssl-date: TLS randomness does not represent time
+|_pop3-capabilities: SASL(PLAIN) UIDL RESP-CODES AUTH-RESP-CODE CAPA TOP PIPELINING STLS USER
+MAC Address: 52:54:00:5D:FB:09 (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.14, Linux 3.8 - 3.16
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.44 ms 192.168.110.95
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 26 18:44:12 2024 -- 1 IP address (1 host up) scanned in 27.94 seconds
