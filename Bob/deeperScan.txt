@@ -1,0 +1,21 @@
+# Nmap 7.95 scan initiated Sat Jul 27 03:21:14 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 21,80,25468 -o deeperScan.txt 192.168.110.81
+Nmap scan report for 192.168.110.81
+Host is up (0.00038s latency).
+
+PORT      STATE SERVICE VERSION
+21/tcp    open  ftp     ProFTPD 1.3.5b
+80/tcp    open  http    Apache httpd 2.4.25 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+| http-robots.txt: 4 disallowed entries 
+| /login.php /dev_shell.php /lat_memo.html 
+|_/passwords.html
+|_http-server-header: Apache/2.4.25 (Debian)
+25468/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 84:f2:f8:e5:ed:3e:14:f3:93:d4:1e:4c:41:3b:a2:a9 (RSA)
+|   256 5b:98:c7:4f:84:6e:fd:56:6a:35:16:83:aa:9c:ea:f8 (ECDSA)
+|_  256 39:16:56:fb:4e:0f:50:85:40:d3:53:22:41:43:38:15 (ED25519)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 27 03:21:21 2024 -- 1 IP address (1 host up) scanned in 6.61 seconds

@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Sat Jul 27 03:16:29 2024 as: nmap -T5 -n -Pn -p- --min-rate=10000 -o allPortScan.txt 192.168.110.81
+Nmap scan report for 192.168.110.81
+Host is up (0.00013s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+25468/tcp open  unknown
+MAC Address: 52:54:00:09:3E:0B (QEMU virtual NIC)
+
+# Nmap done at Sat Jul 27 03:16:30 2024 -- 1 IP address (1 host up) scanned in 1.08 seconds

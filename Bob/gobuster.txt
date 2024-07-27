@@ -1,0 +1,6 @@
+/.hta                [33m (Status: 403)[0m [Size: 293]
+/.htpasswd           [33m (Status: 403)[0m [Size: 298]
+/.htaccess           [33m (Status: 403)[0m [Size: 298]
+/index.html          [32m (Status: 200)[0m [Size: 1425]
+/robots.txt          [32m (Status: 200)[0m [Size: 111]
+/server-status       [33m (Status: 403)[0m [Size: 302]
