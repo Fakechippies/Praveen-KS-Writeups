@@ -1,0 +1,45 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 218]
+/.hta                [33m (Status: 403)[0m [Size: 213]
+/.htpasswd           [33m (Status: 403)[0m [Size: 218]
+/0                   [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/0/][0m
+/admin               [36m (Status: 301)[0m [Size: 233][34m [--> http://10.10.76.50/admin/][0m
+/atom                [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/feed/atom/][0m
+/audio               [36m (Status: 301)[0m [Size: 233][34m [--> http://10.10.76.50/audio/][0m
+/blog                [36m (Status: 301)[0m [Size: 232][34m [--> http://10.10.76.50/blog/][0m
+/css                 [36m (Status: 301)[0m [Size: 231][34m [--> http://10.10.76.50/css/][0m
+/dashboard           [36m (Status: 302)[0m [Size: 0][34m [--> http://10.10.76.50/wp-admin/][0m
+/favicon.ico         [32m (Status: 200)[0m [Size: 0]
+/feed                [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/feed/][0m
+/image               [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/image/][0m
+/Image               [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/Image/][0m
+/images              [36m (Status: 301)[0m [Size: 234][34m [--> http://10.10.76.50/images/][0m
+/index.html          [32m (Status: 200)[0m [Size: 1188]
+/index.php           [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/][0m
+/intro               [32m (Status: 200)[0m [Size: 516314]
+/js                  [36m (Status: 301)[0m [Size: 230][34m [--> http://10.10.76.50/js/][0m
+/license             [32m (Status: 200)[0m [Size: 309]
+/login               [36m (Status: 302)[0m [Size: 0][34m [--> http://10.10.76.50/wp-login.php][0m
+/page1               [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/][0m
+/phpmyadmin          [33m (Status: 403)[0m [Size: 94]
+/rdf                 [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/feed/rdf/][0m
+/readme              [32m (Status: 200)[0m [Size: 64]
+/robots              [32m (Status: 200)[0m [Size: 41]
+/robots.txt          [32m (Status: 200)[0m [Size: 41]
+/rss                 [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/feed/][0m
+/rss2                [36m (Status: 301)[0m [Size: 0][34m [--> http://10.10.76.50/feed/][0m
+/sitemap             [32m (Status: 200)[0m [Size: 0]
+/sitemap.xml         [32m (Status: 200)[0m [Size: 0]
+/video               [36m (Status: 301)[0m [Size: 233][34m [--> http://10.10.76.50/video/][0m
+/wp-admin            [36m (Status: 301)[0m [Size: 236][34m [--> http://10.10.76.50/wp-admin/][0m
+/wp-config           [32m (Status: 200)[0m [Size: 0]
+/wp-content          [36m (Status: 301)[0m [Size: 238][34m [--> http://10.10.76.50/wp-content/][0m
+/wp-cron             [32m (Status: 200)[0m [Size: 0]
+/wp-includes         [36m (Status: 301)[0m [Size: 239][34m [--> http://10.10.76.50/wp-includes/][0m
+/wp-load             [32m (Status: 200)[0m [Size: 0]
+/wp-links-opml       [32m (Status: 200)[0m [Size: 227]
+/wp-login            [32m (Status: 200)[0m [Size: 2599]
+/wp-mail             [31m (Status: 500)[0m [Size: 3064]
+/wp-settings         [31m (Status: 500)[0m [Size: 0]
+/wp-signup           [36m (Status: 302)[0m [Size: 0][34m [--> http://10.10.76.50/wp-login.php?action=register][0m
+/xmlrpc              [33m (Status: 405)[0m [Size: 42]
+/xmlrpc.php          [33m (Status: 405)[0m [Size: 42]

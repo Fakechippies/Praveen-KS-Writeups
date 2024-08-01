@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Thu Aug  1 13:24:09 2024 as: nmap -sC -sV -A -T5 -p 22,80,443 -o deeperScan.txt 10.10.76.50
+Nmap scan report for 10.10.76.50
+Host is up (0.17s latency).
+
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache
+443/tcp open   ssl/http Apache httpd
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=www.example.com
+| Not valid before: 2015-09-16T10:45:03
+|_Not valid after:  2025-09-13T10:45:03
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  1 13:24:31 2024 -- 1 IP address (1 host up) scanned in 21.58 seconds
