@@ -1,0 +1,13 @@
+127.0.0.1       localhost
+10.17.94.2       mkingdom.thm
+127.0.0.1       backgroundimages.concrete5.org
+127.0.0.1       www.concrete5.org
+127.0.0.1       newsflow.concrete5.org
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+

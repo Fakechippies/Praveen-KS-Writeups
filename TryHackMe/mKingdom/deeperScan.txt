@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Sat Aug  3 12:10:40 2024 as: nmap -sC -sV -A -T5 -p 85 -o deeperScan.txt 10.10.112.114
+Nmap scan report for 10.10.112.114
+Host is up (0.16s latency).
+
+PORT   STATE SERVICE VERSION
+85/tcp open  http    Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: 0H N0! PWN3D 4G4IN
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug  3 12:10:51 2024 -- 1 IP address (1 host up) scanned in 11.10 seconds
