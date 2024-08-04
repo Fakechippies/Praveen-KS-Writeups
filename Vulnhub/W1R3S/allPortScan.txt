@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Sun Aug  4 09:41:05 2024 as: nmap -p- -n -Pn -T5 --min-rate=10000 -o allPortScan.txt 192.168.122.72
+Nmap scan report for 192.168.122.72
+Host is up (0.00023s latency).
+Not shown: 55528 filtered tcp ports (no-response), 10003 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+
+# Nmap done at Sun Aug  4 09:41:18 2024 -- 1 IP address (1 host up) scanned in 12.21 seconds

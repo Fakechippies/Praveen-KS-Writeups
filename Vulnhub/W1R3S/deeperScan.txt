@@ -1,0 +1,36 @@
+# Nmap 7.94SVN scan initiated Sun Aug  4 10:25:38 2024 as: nmap -sC -sV -A -T5 -p 21,22,80,3306 -o deeperScan.txt 192.168.122.72
+Nmap scan report for localhost (192.168.122.72)
+Host is up (0.00073s latency).
+
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     vsftpd 2.0.8 or later
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| drwxr-xr-x    2 ftp      ftp          4096 Jan 23  2018 content
+| drwxr-xr-x    2 ftp      ftp          4096 Jan 23  2018 docs
+|_drwxr-xr-x    2 ftp      ftp          4096 Jan 28  2018 new-employees
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:192.168.122.64
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 07:e3:5a:5c:c8:18:65:b0:5f:6e:f7:75:c7:7e:11:e0 (RSA)
+|   256 03:ab:9a:ed:0c:9b:32:26:44:13:ad:b0:b0:96:c3:1e (ECDSA)
+|_  256 3d:6d:d2:4b:46:e8:c9:a3:49:e0:93:56:22:2e:e3:54 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+3306/tcp open  mysql   MySQL (unauthorized)
+Service Info: Host: W1R3S.inc; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug  4 10:25:55 2024 -- 1 IP address (1 host up) scanned in 16.29 seconds

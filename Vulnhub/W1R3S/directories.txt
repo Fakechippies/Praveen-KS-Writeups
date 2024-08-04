@@ -1,0 +1,8 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 298]
+/.hta                [33m (Status: 403)[0m [Size: 293]
+/.htpasswd           [33m (Status: 403)[0m [Size: 298]
+/administrator       [36m (Status: 301)[0m [Size: 324][34m [--> http://192.168.122.72/administrator/][0m
+/index.html          [32m (Status: 200)[0m [Size: 11321]
+/javascript          [36m (Status: 301)[0m [Size: 321][34m [--> http://192.168.122.72/javascript/][0m
+/server-status       [33m (Status: 403)[0m [Size: 302]
+/wordpress           [36m (Status: 301)[0m [Size: 320][34m [--> http://192.168.122.72/wordpress/][0m
