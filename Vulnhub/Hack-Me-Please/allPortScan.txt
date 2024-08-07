@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Wed Aug  7 19:41:25 2024 as: nmap -p- -n -Pn --min-rate=10000 -T5 -o allPortScan.txt 192.168.110.253
+Nmap scan report for 192.168.110.253
+Host is up (0.00099s latency).
+Not shown: 65532 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+80/tcp    open  http
+3306/tcp  open  mysql
+33060/tcp open  mysqlx
+
+# Nmap done at Wed Aug  7 19:41:26 2024 -- 1 IP address (1 host up) scanned in 1.04 seconds

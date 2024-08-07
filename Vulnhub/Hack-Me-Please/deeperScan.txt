@@ -1,0 +1,26 @@
+# Nmap 7.95 scan initiated Wed Aug  7 19:43:30 2024 as: nmap -sC -sV -A -T5 -p 80,3306,33060 -o deeperScan.txt 192.168.110.253
+Nmap scan report for 192.168.110.253
+Host is up (0.00040s latency).
+
+PORT      STATE SERVICE VERSION
+80/tcp    open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Welcome to the land of pwnland
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+3306/tcp  open  mysql   MySQL 8.0.25-0ubuntu0.20.04.1
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.25_Auto_Generated_Server_Certificate
+| Not valid before: 2021-07-03T00:33:15
+|_Not valid after:  2031-07-01T00:33:15
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.25-0ubuntu0.20.04.1
+|   Thread ID: 15
+|   Capabilities flags: 65535
+|   Some Capabilities: IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, SupportsTransactions, SupportsCompression, FoundRows, Speaks41ProtocolNew, SwitchToSSLAfterHandshake, IgnoreSigpipes, InteractiveClient, ODBCClient, Support41Auth, LongPassword, SupportsLoadDataLocal, DontAllowDatabaseTableColumn, LongColumnFlag, ConnectWithDatabase, SupportsMultipleStatments, SupportsMultipleResults, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: \x11\a\x01~J\x0D\x0Ej,M>`\x15\x05N^X[\x1D
+|_  Auth Plugin Name: caching_sha2_password
+33060/tcp open  mysqlx  MySQL X protocol listener
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug  7 19:43:40 2024 -- 1 IP address (1 host up) scanned in 10.13 seconds
