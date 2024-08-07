@@ -1,0 +1,18 @@
+/.php                [33m (Status: 403)[0m [Size: 294]
+/.hta.txt            [33m (Status: 403)[0m [Size: 298]
+/.hta.php            [33m (Status: 403)[0m [Size: 298]
+/.htaccess.txt       [33m (Status: 403)[0m [Size: 303]
+/.hta                [33m (Status: 403)[0m [Size: 294]
+/.htaccess           [33m (Status: 403)[0m [Size: 299]
+/.htpasswd.txt       [33m (Status: 403)[0m [Size: 303]
+/.htaccess.php       [33m (Status: 403)[0m [Size: 303]
+/.htpasswd           [33m (Status: 403)[0m [Size: 299]
+/.htpasswd.php       [33m (Status: 403)[0m [Size: 303]
+/dev                 [32m (Status: 200)[0m [Size: 131]
+/image.php           [32m (Status: 200)[0m [Size: 147]
+/index.php           [32m (Status: 200)[0m [Size: 136]
+/index.php           [32m (Status: 200)[0m [Size: 136]
+/javascript          [36m (Status: 301)[0m [Size: 323][34m [--> http://192.168.110.118/javascript/][0m
+/secret.txt          [32m (Status: 200)[0m [Size: 412]
+/server-status       [33m (Status: 403)[0m [Size: 303]
+/wordpress           [36m (Status: 301)[0m [Size: 322][34m [--> http://192.168.110.118/wordpress/][0m
