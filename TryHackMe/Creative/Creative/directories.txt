@@ -1,2 +1,0 @@
-/assets              [36m (Status: 301)[0m [Size: 178][34m [--> http://creative.thm/assets/][0m
-/index.html          [32m (Status: 200)[0m [Size: 37589]
