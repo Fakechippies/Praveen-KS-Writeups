@@ -1,7 +1,0 @@
-/.htpasswd           [33m (Status: 403)[0m [Size: 279]
-/.hta                [33m (Status: 403)[0m [Size: 279]
-/.htaccess           [33m (Status: 403)[0m [Size: 279]
-/cgi-bin/            [33m (Status: 403)[0m [Size: 279]
-/gate                [36m (Status: 301)[0m [Size: 315][34m [--> http://192.168.110.29/gate/][0m
-/index.html          [32m (Status: 200)[0m [Size: 241]
-/server-status       [33m (Status: 403)[0m [Size: 279]
