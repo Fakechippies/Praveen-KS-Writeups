@@ -1,0 +1,18 @@
+/.hta.txt            [33m (Status: 403)[0m [Size: 297]
+/.htaccess           [33m (Status: 403)[0m [Size: 298]
+/.hta.php            [33m (Status: 403)[0m [Size: 297]
+/.hta                [33m (Status: 403)[0m [Size: 293]
+/.htaccess.php       [33m (Status: 403)[0m [Size: 302]
+/.htpasswd.txt       [33m (Status: 403)[0m [Size: 302]
+/.htaccess.txt       [33m (Status: 403)[0m [Size: 302]
+/.htpasswd           [33m (Status: 403)[0m [Size: 298]
+/.htpasswd.php       [33m (Status: 403)[0m [Size: 302]
+/.php                [33m (Status: 403)[0m [Size: 293]
+/index.html          [32m (Status: 200)[0m [Size: 5871]
+/javascript          [36m (Status: 301)[0m [Size: 321][34m [--> http://192.168.110.26/javascript/][0m
+/login.php           [36m (Status: 302)[0m [Size: 0][34m [--> ./index.html][0m
+/manual              [36m (Status: 301)[0m [Size: 317][34m [--> http://192.168.110.26/manual/][0m
+/phpmyadmin          [36m (Status: 301)[0m [Size: 321][34m [--> http://192.168.110.26/phpmyadmin/][0m
+/robots.txt          [32m (Status: 200)[0m [Size: 59]
+/robots.txt          [32m (Status: 200)[0m [Size: 59]
+/server-status       [33m (Status: 403)[0m [Size: 302]
