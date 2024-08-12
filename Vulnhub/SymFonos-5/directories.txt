@@ -1,0 +1,7 @@
+/.hta                [33m (Status: 403)[0m [Size: 280]
+/.htpasswd           [33m (Status: 403)[0m [Size: 280]
+/.htaccess           [33m (Status: 403)[0m [Size: 280]
+/admin.php           [32m (Status: 200)[0m [Size: 1650]
+/index.html          [32m (Status: 200)[0m [Size: 207]
+/server-status       [33m (Status: 403)[0m [Size: 280]
+/static              [36m (Status: 301)[0m [Size: 319][34m [--> http://192.168.110.173/static/][0m
