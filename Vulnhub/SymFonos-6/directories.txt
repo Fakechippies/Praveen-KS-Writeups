@@ -1,0 +1,7 @@
+/.hta                [33m (Status: 403)[0m [Size: 206]
+/.htaccess           [33m (Status: 403)[0m [Size: 211]
+/.htpasswd           [33m (Status: 403)[0m [Size: 211]
+/cgi-bin/            [33m (Status: 403)[0m [Size: 210]
+/flyspray            [36m (Status: 301)[0m [Size: 240][34m [--> http://192.168.110.119/flyspray/][0m
+/index.html          [32m (Status: 200)[0m [Size: 251]
+/posts               [36m (Status: 301)[0m [Size: 237][34m [--> http://192.168.110.119/posts/][0m
