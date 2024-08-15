@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Thu Aug 15 21:12:54 2024 as: nmap -sC -sV -A -T5 -p 80 -o aggressiveScan.txt 192.168.110.237
+Nmap scan report for sar (192.168.110.237)
+Host is up (0.00042s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 15 21:13:00 2024 -- 1 IP address (1 host up) scanned in 6.41 seconds

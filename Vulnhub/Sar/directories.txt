@@ -1,0 +1,7 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 280]
+/.hta                [33m (Status: 403)[0m [Size: 280]
+/.htpasswd           [33m (Status: 403)[0m [Size: 280]
+/index.html          [32m (Status: 200)[0m [Size: 10918]
+/phpinfo.php         [32m (Status: 200)[0m [Size: 95423]
+/robots.txt          [32m (Status: 200)[0m [Size: 9]
+/server-status       [33m (Status: 403)[0m [Size: 280]
