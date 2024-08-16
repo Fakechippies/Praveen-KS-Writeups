@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Fri Aug 16 19:23:48 2024 as: nmap -p- -n -Pn -T5 --min-rate=10000 -o allPortScan.txt 192.168.110.145
+Nmap scan report for 192.168.110.145
+Host is up (0.00013s latency).
+Not shown: 65533 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Fri Aug 16 19:23:50 2024 -- 1 IP address (1 host up) scanned in 1.36 seconds

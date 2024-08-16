@@ -1,0 +1,17 @@
+# Nmap 7.94SVN scan initiated Fri Aug 16 19:26:32 2024 as: nmap -sC -sV -A -T5 -p 22,80 -o aggressiveScan.txt 192.168.110.145
+Nmap scan report for theEther (192.168.110.145)
+Host is up (0.00036s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 12:09:bc:b1:5c:c9:bd:c3:ca:0f:b1:d5:c3:7d:98:1e (RSA)
+|   256 de:77:4d:81:a0:93:da:00:53:3d:4a:30:bd:7e:35:7d (ECDSA)
+|_  256 86:6c:7c:4b:04:7e:57:4f:68:16:a9:74:4c:0d:2f:56 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: The Ether
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 16 19:26:39 2024 -- 1 IP address (1 host up) scanned in 6.53 seconds

@@ -1,0 +1,7 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 299]
+/.htpasswd           [33m (Status: 403)[0m [Size: 299]
+/.hta                [33m (Status: 403)[0m [Size: 294]
+/images              [36m (Status: 301)[0m [Size: 319][34m [--> http://192.168.110.145/images/][0m
+/index.php           [32m (Status: 200)[0m [Size: 6049]
+/layout              [36m (Status: 301)[0m [Size: 319][34m [--> http://192.168.110.145/layout/][0m
+/server-status       [33m (Status: 403)[0m [Size: 303]
