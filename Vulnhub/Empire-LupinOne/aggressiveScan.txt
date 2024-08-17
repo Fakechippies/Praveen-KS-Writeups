@@ -1,0 +1,19 @@
+# Nmap 7.94SVN scan initiated Sat Aug 17 20:09:22 2024 as: nmap -sC -sV -A -T5 -p 22,80 -o aggressiveScan.txt 192.168.110.15
+Nmap scan report for LupinOne (192.168.110.15)
+Host is up (0.00066s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 ed:ea:d9:d3:af:19:9c:8e:4e:0f:31:db:f2:5d:12:79 (RSA)
+|   256 bf:9f:a9:93:c5:87:21:a3:6b:6f:9e:e6:87:61:f5:19 (ECDSA)
+|_  256 ac:18:ec:cc:35:c0:51:f5:6f:47:74:c3:01:95:b4:0f (ED25519)
+80/tcp open  http    Apache httpd 2.4.48 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+| http-robots.txt: 1 disallowed entry 
+|_/~myfiles
+|_http-server-header: Apache/2.4.48 (Debian)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug 17 20:09:28 2024 -- 1 IP address (1 host up) scanned in 6.47 seconds
