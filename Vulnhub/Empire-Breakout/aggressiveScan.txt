@@ -1,0 +1,28 @@
+# Nmap 7.94SVN scan initiated Sun Aug 18 20:29:17 2024 as: nmap -sC -sV -A -T5 -p 80,139,445,10000,20000 -o aggressiveScan.txt 192.168.110.101
+Nmap scan report for breakout (192.168.110.101)
+Host is up (0.00045s latency).
+
+PORT      STATE SERVICE     VERSION
+80/tcp    open  http        Apache httpd 2.4.51 ((Debian))
+|_http-server-header: Apache/2.4.51 (Debian)
+|_http-title: Apache2 Debian Default Page: It works
+139/tcp   open  netbios-ssn Samba smbd 4.6.2
+445/tcp   open  netbios-ssn Samba smbd 4.6.2
+10000/tcp open  http        MiniServ 1.981 (Webmin httpd)
+|_http-title: 200 &mdash; Document follows
+20000/tcp open  http        MiniServ 1.830 (Webmin httpd)
+|_http-server-header: MiniServ/1.830
+|_http-title: 200 &mdash; Document follows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-08-18T14:59:29
+|_  start_date: N/A
+|_clock-skew: -1s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_nbstat: NetBIOS name: BREAKOUT, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug 18 20:29:59 2024 -- 1 IP address (1 host up) scanned in 41.43 seconds
