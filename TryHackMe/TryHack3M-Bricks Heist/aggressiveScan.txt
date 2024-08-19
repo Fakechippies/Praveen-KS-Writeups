@@ -1,0 +1,107 @@
+# Nmap 7.94SVN scan initiated Mon Aug 19 20:54:29 2024 as: nmap -sC -sV -A -T5 -p 22,80,443,3306 -o aggressiveScan.txt 10.10.161.74
+Nmap scan report for bricks.thm (10.10.161.74)
+Host is up (0.17s latency).
+
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 23:fc:1b:af:c5:96:b3:cd:3c:18:58:e7:39:f9:1f:ad (RSA)
+|   256 2a:ce:e4:55:8b:92:66:82:7f:08:c1:92:aa:2b:09:92 (ECDSA)
+|_  256 c9:c3:f6:fe:2f:98:5b:7e:1e:29:83:bc:01:8b:8f:da (ED25519)
+80/tcp   open  http     WebSockify Python/3.8.10
+|_http-server-header: WebSockify Python/3.8.10
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 405 Method Not Allowed
+|     Server: WebSockify Python/3.8.10
+|     Date: Mon, 19 Aug 2024 15:24:33 GMT
+|     Connection: close
+|     Content-Type: text/html;charset=utf-8
+|     Content-Length: 472
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+|     "http://www.w3.org/TR/html4/strict.dtd">
+|     <html>
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 405</p>
+|     <p>Message: Method Not Allowed.</p>
+|     <p>Error code explanation: 405 - Specified method is invalid for this resource.</p>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 501 Unsupported method ('OPTIONS')
+|     Server: WebSockify Python/3.8.10
+|     Date: Mon, 19 Aug 2024 15:24:34 GMT
+|     Connection: close
+|     Content-Type: text/html;charset=utf-8
+|     Content-Length: 500
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+|     "http://www.w3.org/TR/html4/strict.dtd">
+|     <html>
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 501</p>
+|     <p>Message: Unsupported method ('OPTIONS').</p>
+|     <p>Error code explanation: HTTPStatus.NOT_IMPLEMENTED - Server does not support this operation.</p>
+|     </body>
+|_    </html>
+|_http-title: Error response
+443/tcp  open  ssl/http Apache httpd
+|_http-server-header: Apache
+| ssl-cert: Subject: organizationName=Internet Widgits Pty Ltd/stateOrProvinceName=Some-State/countryName=US
+| Not valid before: 2024-04-02T11:59:14
+|_Not valid after:  2025-04-02T11:59:14
+|_http-generator: WordPress 6.5
+|_ssl-date: TLS randomness does not represent time
+| http-robots.txt: 1 disallowed entry 
+|_/wp-admin/
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_http-title: Brick by Brick
+3306/tcp open  mysql    MySQL (unauthorized)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.94SVN%I=7%D=8/19%Time=66C363B1%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,291,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nServer:\
+SF:x20WebSockify\x20Python/3\.8\.10\r\nDate:\x20Mon,\x2019\x20Aug\x202024\
+SF:x2015:24:33\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/htm
+SF:l;charset=utf-8\r\nContent-Length:\x20472\r\n\r\n<!DOCTYPE\x20HTML\x20P
+SF:UBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\"http://www\.w3\.org/TR/html4/strict\.dtd\">\n<html>\n\x20\x20
+SF:\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"C
+SF:ontent-Type\"\x20content=\"text/html;charset=utf-8\">\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20<title>Error\x20response</title>\n\x20\x20\x20\x20</hea
+SF:d>\n\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20\x20\x20<h1>Error\x
+SF:20response</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code:\x204
+SF:05</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:\x20Method\x20Not\x2
+SF:0Allowed\.</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code\x20exp
+SF:lanation:\x20405\x20-\x20Specified\x20method\x20is\x20invalid\x20for\x2
+SF:0this\x20resource\.</p>\n\x20\x20\x20\x20</body>\n</html>\n")%r(HTTPOpt
+SF:ions,2B9,"HTTP/1\.1\x20501\x20Unsupported\x20method\x20\('OPTIONS'\)\r\
+SF:nServer:\x20WebSockify\x20Python/3\.8\.10\r\nDate:\x20Mon,\x2019\x20Aug
+SF:\x202024\x2015:24:34\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x2
+SF:0text/html;charset=utf-8\r\nContent-Length:\x20500\r\n\r\n<!DOCTYPE\x20
+SF:HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\"http://www\.w3\.org/TR/html4/strict\.dtd\">\n<html>\
+SF:n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-
+SF:equiv=\"Content-Type\"\x20content=\"text/html;charset=utf-8\">\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20<title>Error\x20response</title>\n\x20\x20\x20
+SF:\x20</head>\n\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20\x20\x20<h
+SF:1>Error\x20response</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20c
+SF:ode:\x20501</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:\x20Unsuppo
+SF:rted\x20method\x20\('OPTIONS'\)\.</p>\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:<p>Error\x20code\x20explanation:\x20HTTPStatus\.NOT_IMPLEMENTED\x20-\x2
+SF:0Server\x20does\x20not\x20support\x20this\x20operation\.</p>\n\x20\x20\
+SF:x20\x20</body>\n</html>\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug 19 20:56:04 2024 -- 1 IP address (1 host up) scanned in 95.21 seconds
