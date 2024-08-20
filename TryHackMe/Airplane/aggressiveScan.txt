@@ -1,0 +1,93 @@
+# Nmap 7.94SVN scan initiated Tue Aug 20 19:38:22 2024 as: nmap -sC -sV -A -T5 -p 22,6048,8000 -o aggressiveScan.txt 10.10.37.234
+Nmap scan report for airplane.thm (10.10.37.234)
+Host is up (0.30s latency).
+
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 b8:64:f7:a9:df:29:3a:b5:8a:58:ff:84:7c:1f:1a:b7 (RSA)
+|   256 ad:61:3e:c7:10:32:aa:f1:f2:28:e2:de:cf:84:de:f0 (ECDSA)
+|_  256 a9:d8:49:aa:ee:de:c4:48:32:e4:f1:9e:2a:8a:67:f0 (ED25519)
+6048/tcp open  x11?
+8000/tcp open  http-alt Werkzeug/3.0.2 Python/3.8.10
+|_http-server-header: Werkzeug/3.0.2 Python/3.8.10
+| http-title: About Airplanes
+|_Requested resource was http://airplane.thm:8000/?page=index.html
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 NOT FOUND
+|     Server: Werkzeug/3.0.2 Python/3.8.10
+|     Date: Tue, 20 Aug 2024 14:08:35 GMT
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 207
+|     Connection: close
+|     <!doctype html>
+|     <html lang=en>
+|     <title>404 Not Found</title>
+|     <h1>Not Found</h1>
+|     <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+|   GetRequest: 
+|     HTTP/1.1 302 FOUND
+|     Server: Werkzeug/3.0.2 Python/3.8.10
+|     Date: Tue, 20 Aug 2024 14:08:30 GMT
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 269
+|     Location: http://airplane.thm:8000/?page=index.html
+|     Connection: close
+|     <!doctype html>
+|     <html lang=en>
+|     <title>Redirecting...</title>
+|     <h1>Redirecting...</h1>
+|     <p>You should be redirected automatically to the target URL: <a href="http://airplane.thm:8000/?page=index.html">http://airplane.thm:8000/?page=index.html</a>. If not, click the link.
+|   Socks5: 
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+|     "http://www.w3.org/TR/html4/strict.dtd">
+|     <html>
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 400</p>
+|     <p>Message: Bad request syntax ('
+|     ').</p>
+|     <p>Error code explanation: HTTPStatus.BAD_REQUEST - Bad request syntax or unsupported method.</p>
+|     </body>
+|_    </html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8000-TCP:V=7.94SVN%I=7%D=8/20%Time=66C4A35E%P=x86_64-pc-linux-gnu%r
+SF:(GetRequest,1F3,"HTTP/1\.1\x20302\x20FOUND\r\nServer:\x20Werkzeug/3\.0\
+SF:.2\x20Python/3\.8\.10\r\nDate:\x20Tue,\x2020\x20Aug\x202024\x2014:08:30
+SF:\x20GMT\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Leng
+SF:th:\x20269\r\nLocation:\x20http://airplane\.thm:8000/\?page=index\.html
+SF:\r\nConnection:\x20close\r\n\r\n<!doctype\x20html>\n<html\x20lang=en>\n
+SF:<title>Redirecting\.\.\.</title>\n<h1>Redirecting\.\.\.</h1>\n<p>You\x2
+SF:0should\x20be\x20redirected\x20automatically\x20to\x20the\x20target\x20
+SF:URL:\x20<a\x20href=\"http://airplane\.thm:8000/\?page=index\.html\">htt
+SF:p://airplane\.thm:8000/\?page=index\.html</a>\.\x20If\x20not,\x20click\
+SF:x20the\x20link\.\n")%r(FourOhFourRequest,184,"HTTP/1\.1\x20404\x20NOT\x
+SF:20FOUND\r\nServer:\x20Werkzeug/3\.0\.2\x20Python/3\.8\.10\r\nDate:\x20T
+SF:ue,\x2020\x20Aug\x202024\x2014:08:35\x20GMT\r\nContent-Type:\x20text/ht
+SF:ml;\x20charset=utf-8\r\nContent-Length:\x20207\r\nConnection:\x20close\
+SF:r\n\r\n<!doctype\x20html>\n<html\x20lang=en>\n<title>404\x20Not\x20Foun
+SF:d</title>\n<h1>Not\x20Found</h1>\n<p>The\x20requested\x20URL\x20was\x20
+SF:not\x20found\x20on\x20the\x20server\.\x20If\x20you\x20entered\x20the\x2
+SF:0URL\x20manually\x20please\x20check\x20your\x20spelling\x20and\x20try\x
+SF:20again\.</p>\n")%r(Socks5,213,"<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C
+SF://DTD\x20HTML\x204\.01//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\"http://
+SF:www\.w3\.org/TR/html4/strict\.dtd\">\n<html>\n\x20\x20\x20\x20<head>\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"\x20
+SF:content=\"text/html;charset=utf-8\">\n\x20\x20\x20\x20\x20\x20\x20\x20<
+SF:title>Error\x20response</title>\n\x20\x20\x20\x20</head>\n\x20\x20\x20\
+SF:x20<body>\n\x20\x20\x20\x20\x20\x20\x20\x20<h1>Error\x20response</h1>\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code:\x20400</p>\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20<p>Message:\x20Bad\x20request\x20syntax\x20\('\\
+SF:x05\\x04\\x00\\x01\\x02\\x80\\x05\\x01\\x00\\x03'\)\.</p>\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20<p>Error\x20code\x20explanation:\x20HTTPStatus\.BAD
+SF:_REQUEST\x20-\x20Bad\x20request\x20syntax\x20or\x20unsupported\x20metho
+SF:d\.</p>\n\x20\x20\x20\x20</body>\n</html>\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 20 19:41:21 2024 -- 1 IP address (1 host up) scanned in 178.97 seconds

