@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Thu Aug 22 21:35:00 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80 -o aggressiveScan.txt 10.10.11.28
+Nmap scan report for 10.10.11.28
+Host is up (0.080s latency).
+
+PORT   STATE    SERVICE VERSION
+22/tcp filtered ssh
+80/tcp open     http    Apache httpd 2.4.41 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Sea - Home
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 22 21:35:27 2024 -- 1 IP address (1 host up) scanned in 26.83 seconds

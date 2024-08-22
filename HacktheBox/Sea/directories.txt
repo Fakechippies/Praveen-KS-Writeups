@@ -1,0 +1,16 @@
+[2K                        [Status: 200, Size: 3650, Words: 582, Lines: 87, Duration: 154ms][0m
+[2K.hta                    [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 284ms][0m
+[2K.htaccess               [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 285ms][0m
+[2K.htpasswd               [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 285ms][0m
+[2K404                     [Status: 200, Size: 3341, Words: 530, Lines: 85, Duration: 289ms][0m
+[2K0                       [Status: 200, Size: 3650, Words: 582, Lines: 87, Duration: 4947ms][0m
+[2KDocuments and Settings  [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 88ms][0m
+[2Kdata                    [Status: 301, Size: 228, Words: 14, Lines: 8, Duration: 2132ms][0m
+[2Khome                    [Status: 200, Size: 3650, Words: 582, Lines: 87, Duration: 88ms][0m
+[2Kindex.php               [Status: 200, Size: 3650, Words: 582, Lines: 87, Duration: 87ms][0m
+[2Kmessages                [Status: 301, Size: 232, Words: 14, Lines: 8, Duration: 96ms][0m
+[2Kplugins                 [Status: 301, Size: 231, Words: 14, Lines: 8, Duration: 4941ms][0m
+[2KProgram Files           [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 243ms][0m
+[2Kreports list            [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 88ms][0m
+[2Kserver-status           [Status: 403, Size: 199, Words: 14, Lines: 8, Duration: 76ms][0m
+[2Kthemes                  [Status: 301, Size: 230, Words: 14, Lines: 8, Duration: 4400ms][0m
