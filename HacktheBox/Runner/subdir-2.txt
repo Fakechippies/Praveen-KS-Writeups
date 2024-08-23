@@ -1,0 +1,2 @@
+[2K                        [Status: 403, Size: 162, Words: 4, Lines: 8, Duration: 115ms][0m
+[2Kwow                     [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 75ms][0m

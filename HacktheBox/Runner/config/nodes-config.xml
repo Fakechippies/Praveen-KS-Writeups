@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes-config>
+  <nodes>
+    <node id="MAIN_SERVER" url="#" enabled-responsibilities="CAN_PROCESS_BUILD_MESSAGES,CAN_CHECK_FOR_CHANGES,CAN_PROCESS_BUILD_TRIGGERS,CAN_PROCESS_USER_DATA_MODIFICATION_REQUESTS,MAIN_NODE" />
+  </nodes>
+</nodes-config>
+

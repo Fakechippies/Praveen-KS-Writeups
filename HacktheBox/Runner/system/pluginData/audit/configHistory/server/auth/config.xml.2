@@ -1,0 +1,15 @@
+<auth-config>
+  <auth-modules>
+    <auth-module type="Default">
+      <property key="usersCanResetOwnPasswords">true</property>
+      <property key="usersCanChangeOwnPasswords">true</property>
+      <property key="freeRegistrationAllowed">false</property>
+    </auth-module>
+    <auth-module type="Token-Auth" />
+    <auth-module type="HTTP-Basic" />
+  </auth-modules>
+  <login-description />
+  <login-form collapsed="false" />
+  <two-factor-auth type="optional" />
+  <guest-login allowed="false" guest-username="guest" />
+</auth-config>

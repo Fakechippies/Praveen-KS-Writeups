@@ -1,0 +1,20 @@
+COMMENT_ID, OBJECT_INDEX, OBJECT_ID, OBJECT_NAME
+3, 0, 1, "\"1\""
+4, 0, 1, "\"1\""
+203, 0, 1, "\"1\""
+102, 0, NO_ID, MProjects
+102, 1, NO_ID, AllProjects
+103, 0, "project:project1|1|2", "version before: 1, version after: 2"
+104, 0, "auth:|1|2", "version before: 1, version after: 2"
+105, 0, AGENT_MANAGER, "\"Agent manager\""
+105, 1, _Root, "\"<Root project>\""
+106, 0, AGENT_MANAGER, "\"Agent manager\""
+106, 1, project1, "\"All-Projects\""
+107, 0, AGENT_MANAGER, "\"Agent manager\""
+107, 1, _Root, "\"<Root project>\""
+108, 0, AGENT_MANAGER, "\"Agent manager\""
+108, 1, project1, "\"All-Projects\""
+109, 0, PROJECT_DEVELOPER, "\"Project developer\""
+109, 1, project1, "\"All-Projects\""
+302, 0, SYSTEM_ADMIN, "\"System administrator\""
+302, 1, NO_ID, "\"global\""

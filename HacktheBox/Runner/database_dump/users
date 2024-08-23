@@ -1,0 +1,4 @@
+ID, USERNAME, PASSWORD, NAME, EMAIL, LAST_LOGIN_TIMESTAMP, ALGORITHM
+1, admin, $2a$07$neV5T/BlEDiMQUs.gM1p4uYl8xl8kvNUo4/8Aja2sAWHAQLWqufye, John, john@runner.htb, 1724426874196, BCRYPT
+2, matthew, $2a$07$q.m8WQP8niXODv55lJVovOmxGtg6K/YPHbD48/JQsdGLulmeVo.Em, Matthew, matthew@runner.htb, 1709150421438, BCRYPT
+11, city_adminevlh, $2a$07$D204MFIQd46B3465nIRQiexfAONENr8D2Ygpdb4bhyI9bhQcEr6sa, , angry-admin@funnybunny.org, 1724427000052, BCRYPT

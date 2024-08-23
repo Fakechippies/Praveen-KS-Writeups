@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup-settings>
+  <general>
+    <backup-dir path="backup" />
+  </general>
+  <recent>
+    <file-name>TeamCity_Backup</file-name>
+    <file-timestamp-suffix>yes</file-timestamp-suffix>
+    <preset>DCU</preset>
+    <custom-scope />
+  </recent>
+</backup-settings>
+

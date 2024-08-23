@@ -1,0 +1,24 @@
+<root>
+  <page path="/project/AllProjects" />
+  <page path="/admin/createObjectMenu.html" />
+  <page path="/admin/editProject.html?tab=ssh-manager" />
+  <page path="/admin/editProject.html" />
+  <page path="/project.html?tab=problems" />
+  <page path="/projectHealthStatusItems.html" />
+  <page path="/admin/admin.html" />
+  <page path="/admin/editProject.html?tab=projectGeneralTab" />
+  <page path="/400.html" />
+  <page path="/admin/createObjectFromUrl.html" />
+  <page path="/project.html?tab=mutedProblems" />
+  <page path="/admin/createUser.html" />
+  <page path="/admin/createProject.html" />
+  <page path="/project.html?tab=investigations" />
+  <page path="/project.html?tab=projectOverview" />
+  <page path="/bsout.html" />
+  <page path="/admin/editProject.html?tab=projectVcsRoots" />
+  <page path="/admin/projectHealthStatusItems.html" />
+  <page path="/project.html?tab=stats" />
+  <page path="/favorite/projects" />
+  <page path="/project.html?tab=flakyTests" />
+  <page path="/admin/editUser.html" />
+</root>

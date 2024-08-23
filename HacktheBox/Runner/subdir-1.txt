@@ -1,0 +1,6 @@
+[2K                        [Status: 403, Size: 162, Words: 4, Lines: 8, Duration: 135ms][0m
+[2Kcss                     [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 75ms][0m
+[2Kfonts                   [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 74ms][0m
+[2Kimg                     [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 74ms][0m
+[2Kjs                      [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 73ms][0m
+[2Kvendor                  [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 76ms][0m

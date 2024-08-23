@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server rootURL="http://teamcity.runner.htb:8111" uuid="1f80beba-00dc-4a33-8fa7-0675ef535ee0">
+  <version number="994" />
+  <git nativeOperationsEnabled="true" />
+  <connected-servers />
+  <jdk-packages />
+  <encryption-settings encryption-key="DEFAULT" encryption-strategy="DEFAULT" />
+  <domain-isolation protection-enabled="true" />
+  <artifacts maxArtifactSize="314572800" maxArtifactsNumber="1000" artifact-paths="system/artifacts" />
+  <permissions perProjectPermissions="true" />
+  <email-verification enabled="false" />
+  <build-settings executionTimeout="0" />
+  <db-compact enabled="true">
+    <scheduler cron="0 0 3 * * ?" />
+  </db-compact>
+  <vcs-settings modification-check-interval="60" quiet-period="60" />
+  <comment-transformation>
+    <transformation-pattern search="\[([^\[]+)\]\(((https?://|s?ftp://|file://|mailto:)[\w`~@#$%^&amp;*\-=|/{}()\[\];:'?\.\+!,\\]+)\)" replace="&lt;a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; title=&quot;Click to open this link in a new window&quot; href=&quot;$2&quot;&gt;$1&lt;/a&gt;" description="Links with text transformation" />
+    <transformation-pattern search="\[([^\[]+)\]\(((https?://|s?ftp://|file://|mailto:)[\w`~@#$%^&amp;*\-=|/{}()\[\];:'?\.\+!,\\]+)\)" replace="&lt;a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; title=&quot;Click to open this link in a new window&quot; href=&quot;$2&quot;&gt;$1&lt;/a&gt;" description="Links with text transformation" />
+    <transformation-pattern search="((https?://|s?ftp://|file://|mailto:)[\w`~@#$%^&amp;*\-=|/{}()\[\];:'?\.\+!,\\]+(?&lt;=[^\.,:;&quot;'`\)\]}]))" replace="&lt;a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; title=&quot;Click to open this link in a new window&quot; href=&quot;$1&quot;&gt;$1&lt;/a&gt;" description="Links transformation" />
+    <transformation-pattern search="(&#xD;?&#xA;|&#xD;)" replace="&lt;br/&gt;" description="Line feed transformation" />
+  </comment-transformation>
+</server>
+

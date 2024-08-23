@@ -1,0 +1,4 @@
+INT_ID, EXT_ID, MAIN
+_Root, _Root, 1
+project1, AllProjects, 1
+project1, MProjects, 0

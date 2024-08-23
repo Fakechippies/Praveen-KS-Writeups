@@ -1,0 +1,14 @@
+ID, TASK_TYPE, DESCRIPTION, STAGE, NODE_ID, CREATED
+1, global_settings, "Persist global settings", 5, MAIN_SERVER, 1709117210840
+2, project_configs, "project \'M-Projects\' was created", 5, MAIN_SERVER, 1709150142661
+3, project_configs, "Storing 1 events into the multi-node events table", 5, MAIN_SERVER, 1709150154203
+4, project_configs, "project settings were updated", 5, MAIN_SERVER, 1709150190355
+5, project_configs, "project settings were updated", 5, MAIN_SERVER, 1709150190374
+6, project_configs, "Storing 1 events into the multi-node events table", 5, MAIN_SERVER, 1709150202213
+7, project_configs, "New SSH key uploaded", 5, MAIN_SERVER, 1709150204199
+8, project_configs, "Storing 1 events into the multi-node events table", 5, MAIN_SERVER, 1709150214215
+9, global_settings, "Persist global settings", 5, MAIN_SERVER, 1709150320603
+10, global_settings, "Persist authentication configuration", 5, MAIN_SERVER, 1709150320609
+11, global_settings, "Persist global settings", 5, MAIN_SERVER, 1709150320634
+12, global_settings, "Persist authentication configuration", 5, MAIN_SERVER, 1709150320637
+13, global_settings, "Updating backup settings", 2, MAIN_SERVER, 1724427088467

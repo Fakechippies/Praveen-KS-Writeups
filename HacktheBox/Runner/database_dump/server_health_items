@@ -1,0 +1,3 @@
+ID, REPORT_ID, CATEGORY_ID, ITEM_ID
+1, NotConfiguredRootUrlReport, not_configured_root_url, not_configured_root_url
+2, NewVersionAvailable, new_tc_version, 147512
