@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Tue Aug 27 19:45:31 2024 as: nmap -sC -sV -A -T5 -p 22,80 -o aggressiveScan.txt 10.10.64.124
+Nmap scan report for 10.10.64.124
+Host is up (0.16s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 76:26:67:a6:b0:08:0e:ed:34:58:5b:4e:77:45:92:57 (RSA)
+|   256 52:3a:ad:26:7f:6e:3f:23:f9:e4:ef:e8:5a:c8:42:5c (ECDSA)
+|_  256 71:df:6e:81:f0:80:79:71:a8:da:2e:1e:56:c4:de:bb (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 27 19:45:44 2024 -- 1 IP address (1 host up) scanned in 12.40 seconds
