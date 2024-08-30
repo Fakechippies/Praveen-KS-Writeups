@@ -1,0 +1,7 @@
+[2K.hta                    [Status: 403, Size: 275, Words: 20, Lines: 10, Duration: 178ms][0m
+[2K.htpasswd               [Status: 403, Size: 275, Words: 20, Lines: 10, Duration: 183ms][0m
+[2K                        [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 3732ms][0m
+[2K.htaccess               [Status: 403, Size: 275, Words: 20, Lines: 10, Duration: 4850ms][0m
+[2Kcss                     [Status: 301, Size: 306, Words: 20, Lines: 10, Duration: 263ms][0m
+[2Kindex.php               [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 195ms][0m
+[2Kserver-status           [Status: 403, Size: 275, Words: 20, Lines: 10, Duration: 168ms][0m
