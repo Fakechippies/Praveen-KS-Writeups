@@ -1,0 +1,10 @@
+[2K.htpasswd               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 4892ms][0m
+[2K.hta                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 4899ms][0m
+[2K.htaccess               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 5960ms][0m
+[2K                        [Status: 200, Size: 1948, Words: 238, Lines: 48, Duration: 5959ms][0m
+[2K~webmaster              [Status: 301, Size: 315, Words: 20, Lines: 10, Duration: 6968ms][0m
+[2Kindex.php               [Status: 200, Size: 1948, Words: 238, Lines: 48, Duration: 154ms][0m
+[2Kjavascript              [Status: 301, Size: 315, Words: 20, Lines: 10, Duration: 152ms][0m
+[2Kphpmyadmin              [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 155ms][0m
+[2Kserver-status           [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 154ms][0m
+[2Kstatic                  [Status: 301, Size: 311, Words: 20, Lines: 10, Duration: 152ms][0m

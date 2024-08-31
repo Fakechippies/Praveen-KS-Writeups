@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Sat Aug 31 21:04:27 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80 -o aggressiveScan.txt 10.10.191.210
+Nmap scan report for 10.10.191.210
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 0a:78:14:04:2c:df:25:fb:4e:a2:14:34:80:0b:85:39 (RSA)
+|   256 8d:56:01:ca:55:de:e1:7c:64:04:ce:e6:f1:a5:c7:ac (ECDSA)
+|_  256 1f:c1:be:3f:9c:e7:8e:24:33:34:a6:44:af:68:4c:3c (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Did not follow redirect to http://olympus.thm
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug 31 21:04:40 2024 -- 1 IP address (1 host up) scanned in 12.81 seconds
