@@ -1,0 +1,6 @@
+/.hta                [33m (Status: 403)[0m [Size: 199]
+/.htpasswd           [33m (Status: 403)[0m [Size: 199]
+/assets              [36m (Status: 301)[0m [Size: 235][34m [--> http://10.10.171.67/assets/][0m
+/.htaccess           [33m (Status: 403)[0m [Size: 199]
+/cgi-bin/            [33m (Status: 403)[0m [Size: 199]
+/index.html          [32m (Status: 200)[0m [Size: 57985]

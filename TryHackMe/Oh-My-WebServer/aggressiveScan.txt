@@ -1,0 +1,19 @@
+# Nmap 7.95 scan initiated Tue Sep  3 19:52:48 2024 as: nmap -sC -sV -A -T5 -Pn -n -p 22,80 -o aggressiveScan.txt 10.10.171.67
+Nmap scan report for 10.10.171.67
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 e0:d1:88:76:2a:93:79:d3:91:04:6d:25:16:0e:56:d4 (RSA)
+|   256 91:18:5c:2c:5e:f8:99:3c:9a:1f:04:24:30:0e:aa:9b (ECDSA)
+|_  256 d1:63:2a:36:dd:94:cf:3c:57:3e:8a:e8:85:00:ca:f6 (ED25519)
+80/tcp open  http    Apache httpd 2.4.49 ((Unix))
+|_http-title: Consult - Business Consultancy Agency Template | Home
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.49 (Unix)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep  3 19:53:00 2024 -- 1 IP address (1 host up) scanned in 12.82 seconds
