@@ -1,0 +1,46 @@
+403      GET        9l       28w      278c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        9l       31w      275c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+301      GET        9l       28w      315c http://10.10.134.219/custom => http://10.10.134.219/custom/
+
+200      GET        0l        0w    22327c http://10.10.134.219/images/the-father.jpg
+
+200      GET       72l      148w     1752c http://10.10.134.219/
+
+301      GET        9l       28w      314c http://10.10.134.219/fonts => http://10.10.134.219/fonts/
+
+200      GET      409l     1056w     7674c http://10.10.134.219/custom/css/style.css
+
+301      GET        9l       28w      315c http://10.10.134.219/images => http://10.10.134.219/images/
+
+200      GET       72l      148w     1752c http://10.10.134.219/index.html
+
+200      GET       40l       74w     1433c http://10.10.134.219/custom/js/mobile.js
+
+200      GET        1l       15w     8204c http://10.10.134.219/custom/js/users.bak
+
+200      GET      182l      992w    65241c http://10.10.134.219/fonts/leckerlione/leckerlione-regular-webfont.eot
+
+200      GET       24l      167w    10827c http://10.10.134.219/images/icons.jpg
+
+200      GET        3l       45w     1640c http://10.10.134.219/images/mobile-collapse.png
+
+200      GET      150l      871w    73893c http://10.10.134.219/fonts/leckerlione/leckerlione-regular-webfont.woff
+
+200      GET      130l      665w    46485c http://10.10.134.219/images/cutting-mustache.jpg
+
+200      GET      180l      863w    62948c http://10.10.134.219/images/mustache1.jpg
+
+200      GET        5l       48w     1755c http://10.10.134.219/images/icons/icon-facebook-hover.jpg
+
+200      GET      369l     1623w   106688c http://10.10.134.219/images/grew-a-mustache.jpg
+
+200      GET      159l     1000w    88773c http://10.10.134.219/images/mustache3.jpg
+
+200      GET      447l     3714w   216173c http://10.10.134.219/images/the-beacon.jpg
+
+200      GET        2l        4w       28c http://10.10.134.219/robots.txt
+
+200      GET      226l      582w     3407c http://10.10.134.219/custom/css/mobile.css
+

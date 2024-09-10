@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Tue Sep 10 20:34:17 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80,8765 -o aggressiveScan.txt 10.10.134.219
+Nmap scan report for 10.10.134.219
+Host is up (0.22s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 58:1b:0c:0f:fa:cf:05:be:4c:c0:7a:f1:f1:88:61:1c (RSA)
+|   256 3c:fc:e8:a3:7e:03:9a:30:2c:77:e0:0a:1c:e4:52:e6 (ECDSA)
+|_  256 9d:59:c6:c7:79:c5:54:c4:1d:aa:e4:d1:84:71:01:92 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Mustacchio | Home
+| http-robots.txt: 1 disallowed entry 
+|_/
+8765/tcp open  http    nginx 1.10.3 (Ubuntu)
+|_http-server-header: nginx/1.10.3 (Ubuntu)
+|_http-title: Mustacchio | Login
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 10 20:34:35 2024 -- 1 IP address (1 host up) scanned in 17.65 seconds
