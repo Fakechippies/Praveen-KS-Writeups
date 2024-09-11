@@ -1,0 +1,1382 @@
+404      GET       10l       15w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+301      GET       10l       16w      171c http://10.10.170.102/js => http://10.10.170.102/js/
+
+200      GET        1l        1w       36c http://10.10.170.102/api/access
+
+301      GET       10l       16w      173c http://10.10.170.102/img => http://10.10.170.102/img/
+
+200      GET       32l       59w      724c http://10.10.170.102/secret
+
+500      GET        7l       15w      202c http://10.10.170.102/js/havejob
+
+500      GET        7l       15w      202c http://10.10.170.102/img/phpform
+
+500      GET        7l       15w      202c http://10.10.170.102/CFDOCS
+
+500      GET        7l       15w      202c http://10.10.170.102/js/japanese
+
+500      GET        7l       15w      202c http://10.10.170.102/img/safe
+
+500      GET        7l       15w      202c http://10.10.170.102/C
+
+500      GET        7l       15w      202c http://10.10.170.102/js/juegos
+
+500      GET        7l       15w      202c http://10.10.170.102/js/keys
+
+500      GET        7l       15w      202c http://10.10.170.102/js/m1
+
+500      GET        7l       15w      202c http://10.10.170.102/img/sendmessage
+
+500      GET        7l       15w      202c http://10.10.170.102/Counter
+
+500      GET        7l       15w      202c http://10.10.170.102/LogFiles
+
+500      GET        7l       15w      202c http://10.10.170.102/War
+
+500      GET        7l       15w      202c http://10.10.170.102/js/mag
+
+500      GET        7l       15w      202c http://10.10.170.102/img/styleedit
+
+500      GET        7l       15w      202c http://10.10.170.102/img/visitors
+
+500      GET        7l       15w      202c http://10.10.170.102/img/webshop
+
+500      GET        7l       15w      202c http://10.10.170.102/img/tos
+
+500      GET        7l       15w      202c http://10.10.170.102/img/xinha
+
+500      GET        7l       15w      202c http://10.10.170.102/img/testforum
+
+500      GET        7l       15w      202c http://10.10.170.102/Sites
+
+500      GET        7l       15w      202c http://10.10.170.102/TEMPLATE
+
+500      GET        7l       15w      202c http://10.10.170.102/js/mailers
+
+500      GET        7l       15w      202c http://10.10.170.102/img/CRM
+
+500      GET        7l       15w      202c http://10.10.170.102/js/myasg
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Lib
+
+500      GET        7l       15w      202c http://10.10.170.102/addon-modules
+
+500      GET        7l       15w      202c http://10.10.170.102/amfphp
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Sitefinity
+
+500      GET        7l       15w      202c http://10.10.170.102/anketa
+
+500      GET        7l       15w      202c http://10.10.170.102/img/NeatUpload
+
+500      GET        7l       15w      202c http://10.10.170.102/img/_downloads
+
+500      GET        7l       15w      202c http://10.10.170.102/asset
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ping
+
+500      GET        7l       15w      202c http://10.10.170.102/beauty
+
+500      GET        7l       15w      202c http://10.10.170.102/benutzer
+
+500      GET        7l       15w      202c http://10.10.170.102/bikespeak
+
+500      GET        7l       15w      202c http://10.10.170.102/blogsearch
+
+500      GET        7l       15w      202c http://10.10.170.102/js/pre_includes
+
+500      GET        7l       15w      202c http://10.10.170.102/claim-profile
+
+500      GET        7l       15w      202c http://10.10.170.102/ccs
+
+500      GET        7l       15w      202c http://10.10.170.102/img/boletin
+
+500      GET        7l       15w      202c http://10.10.170.102/img/cake
+
+500      GET        7l       15w      202c http://10.10.170.102/js/prova
+
+500      GET        7l       15w      202c http://10.10.170.102/ical
+
+500      GET        7l       15w      202c http://10.10.170.102/js/recruit
+
+500      GET        7l       15w      202c http://10.10.170.102/js/statistic
+
+500      GET        7l       15w      202c http://10.10.170.102/img/college
+
+500      GET        7l       15w      202c http://10.10.170.102/js/service_dateien
+
+500      GET        7l       15w      202c http://10.10.170.102/js/searchpro
+
+500      GET        7l       15w      202c http://10.10.170.102/js/sistema
+
+500      GET        7l       15w      202c http://10.10.170.102/img/creative
+
+500      GET        7l       15w      202c http://10.10.170.102/cev
+
+500      GET        7l       15w      202c http://10.10.170.102/js/tcpayment
+
+500      GET        7l       15w      202c http://10.10.170.102/memberships
+
+500      GET        7l       15w      202c http://10.10.170.102/fd
+
+500      GET        7l       15w      202c http://10.10.170.102/firma
+
+500      GET        7l       15w      202c http://10.10.170.102/img/dt
+
+500      GET        7l       15w      202c http://10.10.170.102/flex
+
+500      GET        7l       15w      202c http://10.10.170.102/img/errorlog
+
+500      GET        7l       15w      202c http://10.10.170.102/js/upfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/js/thema
+
+500      GET        7l       15w      202c http://10.10.170.102/js/testarea
+
+500      GET        7l       15w      202c http://10.10.170.102/js/validation
+
+200      GET      387l     2378w   181068c http://10.10.170.102/img/glitch.jpg
+
+200      GET       32l       59w      724c http://10.10.170.102/
+
+500      GET        7l       15w      202c http://10.10.170.102/js/vspfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/floatbox
+
+500      GET        7l       15w      202c http://10.10.170.102/img/foren
+
+500      GET        7l       15w      202c http://10.10.170.102/funciones
+
+500      GET        7l       15w      202c http://10.10.170.102/germany
+
+500      GET        7l       15w      202c http://10.10.170.102/galerias
+
+500      GET        7l       15w      202c http://10.10.170.102/js/wartung
+
+500      GET        7l       15w      202c http://10.10.170.102/js/voucher
+
+500      GET        7l       15w      202c http://10.10.170.102/img/htsdata
+
+500      GET        7l       15w      202c http://10.10.170.102/ie7
+
+500      GET        7l       15w      202c http://10.10.170.102/js/vbseo
+
+500      GET        7l       15w      202c http://10.10.170.102/imagecache
+
+500      GET        7l       15w      202c http://10.10.170.102/img/notice
+
+500      GET        7l       15w      202c http://10.10.170.102/img/microsites
+
+500      GET        7l       15w      202c http://10.10.170.102/js/wcsstore
+
+500      GET        7l       15w      202c http://10.10.170.102/img/my_account
+
+500      GET        7l       15w      202c http://10.10.170.102/jsky
+
+500      GET        7l       15w      202c http://10.10.170.102/mbd
+
+500      GET        7l       15w      202c http://10.10.170.102/nieuwsbrief
+
+500      GET        7l       15w      202c http://10.10.170.102/img/providers
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ContactUs
+
+500      GET        7l       15w      202c http://10.10.170.102/img/read
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Folder
+
+500      GET        7l       15w      202c http://10.10.170.102/nwshp
+
+500      GET        7l       15w      202c http://10.10.170.102/img/requests
+
+500      GET        7l       15w      202c http://10.10.170.102/js/US
+
+500      GET        7l       15w      202c http://10.10.170.102/img/search2
+
+500      GET        7l       15w      202c http://10.10.170.102/img/scj
+
+500      GET        7l       15w      202c http://10.10.170.102/photoreport
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Movies
+
+500      GET        7l       15w      202c http://10.10.170.102/img/topsites
+
+500      GET        7l       15w      202c http://10.10.170.102/img/shoutbox
+
+500      GET        7l       15w      202c http://10.10.170.102/politics
+
+500      GET        7l       15w      202c http://10.10.170.102/poisk
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Icons
+
+500      GET        7l       15w      202c http://10.10.170.102/img/webdev
+
+500      GET        7l       15w      202c http://10.10.170.102/img/tell-a-friend
+
+500      GET        7l       15w      202c http://10.10.170.102/img/webEdition
+
+500      GET        7l       15w      202c http://10.10.170.102/img/votes
+
+500      GET        7l       15w      202c http://10.10.170.102/js/dropbox
+
+500      GET        7l       15w      202c http://10.10.170.102/img/meeting
+
+500      GET        7l       15w      202c http://10.10.170.102/js/memberlist
+
+500      GET        7l       15w      202c http://10.10.170.102/videosearch
+
+500      GET        7l       15w      202c http://10.10.170.102/js/gt
+
+500      GET        7l       15w      202c http://10.10.170.102/img/posters
+
+500      GET        7l       15w      202c http://10.10.170.102/tom
+
+500      GET        7l       15w      202c http://10.10.170.102/tp-images
+
+500      GET        7l       15w      202c http://10.10.170.102/js/investors
+
+500      GET        7l       15w      202c http://10.10.170.102/access-logs
+
+500      GET        7l       15w      202c http://10.10.170.102/CHANGELOG
+
+500      GET        7l       15w      202c http://10.10.170.102/js/linux
+
+500      GET        7l       15w      202c http://10.10.170.102/js/microsoft
+
+500      GET        7l       15w      202c http://10.10.170.102/_content
+
+500      GET        7l       15w      202c http://10.10.170.102/_upload
+
+500      GET        7l       15w      202c http://10.10.170.102/img/vc
+
+500      GET        7l       15w      202c http://10.10.170.102/img/apfeed
+
+500      GET        7l       15w      202c http://10.10.170.102/js/mysqladmin
+
+500      GET        7l       15w      202c http://10.10.170.102/js/oa
+
+500      GET        7l       15w      202c http://10.10.170.102/Coremetrics
+
+500      GET        7l       15w      202c http://10.10.170.102/CMSHelp
+
+500      GET        7l       15w      202c http://10.10.170.102/yp
+
+500      GET        7l       15w      202c http://10.10.170.102/budget
+
+500      GET        7l       15w      202c http://10.10.170.102/Link
+
+500      GET        7l       15w      202c http://10.10.170.102/Transcripts
+
+500      GET        7l       15w      202c http://10.10.170.102/att
+
+500      GET        7l       15w      202c http://10.10.170.102/js/norobots
+
+500      GET        7l       15w      202c http://10.10.170.102/img/adminsite
+
+500      GET        7l       15w      202c http://10.10.170.102/colorbox
+
+500      GET        7l       15w      202c http://10.10.170.102/cached
+
+500      GET        7l       15w      202c http://10.10.170.102/js/cgi-src
+
+500      GET        7l       15w      202c http://10.10.170.102/uploadedImages
+
+500      GET        7l       15w      202c http://10.10.170.102/utenti
+
+500      GET        7l       15w      202c http://10.10.170.102/wb
+
+500      GET        7l       15w      202c http://10.10.170.102/validate
+
+500      GET        7l       15w      202c http://10.10.170.102/js/enterprise
+
+500      GET        7l       15w      202c http://10.10.170.102/img/alex
+
+500      GET        7l       15w      202c http://10.10.170.102/js/documentos
+
+500      GET        7l       15w      202c http://10.10.170.102/LogonForm
+
+500      GET        7l       15w      202c http://10.10.170.102/js/forum_old
+
+500      GET        7l       15w      202c http://10.10.170.102/js/email_images
+
+500      GET        7l       15w      202c http://10.10.170.102/OrderItemDisplay
+
+500      GET        7l       15w      202c http://10.10.170.102/img/dlg
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ff
+
+500      GET        7l       15w      202c http://10.10.170.102/Blogs
+
+500      GET        7l       15w      202c http://10.10.170.102/js/fw
+
+500      GET        7l       15w      202c http://10.10.170.102/Functions
+
+500      GET        7l       15w      202c http://10.10.170.102/js/itinerary
+
+500      GET        7l       15w      202c http://10.10.170.102/js/hardware
+
+500      GET        7l       15w      202c http://10.10.170.102/HTMLEditor
+
+500      GET        7l       15w      202c http://10.10.170.102/img/article_tmpl
+
+500      GET        7l       15w      202c http://10.10.170.102/js/logon
+
+500      GET        7l       15w      202c http://10.10.170.102/img/headlines
+
+500      GET        7l       15w      202c http://10.10.170.102/js/letter
+
+500      GET        7l       15w      202c http://10.10.170.102/S
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ico
+
+500      GET        7l       15w      202c http://10.10.170.102/commons
+
+500      GET        7l       15w      202c http://10.10.170.102/SSI
+
+500      GET        7l       15w      202c http://10.10.170.102/img/materials
+
+500      GET        7l       15w      202c http://10.10.170.102/PublishingImages
+
+500      GET        7l       15w      202c http://10.10.170.102/js/mockups
+
+500      GET        7l       15w      202c http://10.10.170.102/js/workshops
+
+500      GET        7l       15w      202c http://10.10.170.102/Profiles
+
+500      GET        7l       15w      202c http://10.10.170.102/img/amministrazione
+
+500      GET        7l       15w      202c http://10.10.170.102/Pluginlab
+
+500      GET        7l       15w      202c http://10.10.170.102/Plug
+
+500      GET        7l       15w      202c http://10.10.170.102/Settings
+
+500      GET        7l       15w      202c http://10.10.170.102/Sounds
+
+500      GET        7l       15w      202c http://10.10.170.102/img/blog2
+
+500      GET        7l       15w      202c http://10.10.170.102/js/NL
+
+500      GET        7l       15w      202c http://10.10.170.102/js/PassPort
+
+500      GET        7l       15w      202c http://10.10.170.102/img/businesses
+
+500      GET        7l       15w      202c http://10.10.170.102/img/call
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Protected
+
+500      GET        7l       15w      202c http://10.10.170.102/WEB_INF
+
+500      GET        7l       15w      202c http://10.10.170.102/WAP
+
+500      GET        7l       15w      202c http://10.10.170.102/topusers
+
+500      GET        7l       15w      202c http://10.10.170.102/Weather
+
+500      GET        7l       15w      202c http://10.10.170.102/img/conferences
+
+500      GET        7l       15w      202c http://10.10.170.102/js/brokers
+
+500      GET        7l       15w      202c http://10.10.170.102/js/bridges
+
+500      GET        7l       15w      202c http://10.10.170.102/task
+
+500      GET        7l       15w      202c http://10.10.170.102/img/18
+
+500      GET        7l       15w      202c http://10.10.170.102/rssfeeds
+
+500      GET        7l       15w      202c http://10.10.170.102/sweepstakes
+
+500      GET        7l       15w      202c http://10.10.170.102/img/yabb
+
+500      GET        7l       15w      202c http://10.10.170.102/rb
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Utils
+
+500      GET        7l       15w      202c http://10.10.170.102/img/respond
+
+500      GET        7l       15w      202c http://10.10.170.102/js/next
+
+500      GET        7l       15w      202c http://10.10.170.102/js/attach
+
+500      GET        7l       15w      202c http://10.10.170.102/superadmin
+
+500      GET        7l       15w      202c http://10.10.170.102/redirection
+
+500      GET        7l       15w      202c http://10.10.170.102/sponsoredlinks
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Register
+
+500      GET        7l       15w      202c http://10.10.170.102/img/CMSPages
+
+500      GET        7l       15w      202c http://10.10.170.102/img/products_id
+
+500      GET        7l       15w      202c http://10.10.170.102/schedules
+
+500      GET        7l       15w      202c http://10.10.170.102/img/04
+
+500      GET        7l       15w      202c http://10.10.170.102/img/BLANK
+
+500      GET        7l       15w      202c http://10.10.170.102/img/xtFramework
+
+500      GET        7l       15w      202c http://10.10.170.102/regulamin
+
+500      GET        7l       15w      202c http://10.10.170.102/js/bios
+
+500      GET        7l       15w      202c http://10.10.170.102/access_stats
+
+500      GET        7l       15w      202c http://10.10.170.102/js/certificates
+
+500      GET        7l       15w      202c http://10.10.170.102/afisha
+
+500      GET        7l       15w      202c http://10.10.170.102/img/facebox
+
+500      GET        7l       15w      202c http://10.10.170.102/img/enquete
+
+500      GET        7l       15w      202c http://10.10.170.102/akamai
+
+500      GET        7l       15w      202c http://10.10.170.102/blogsearch_feeds
+
+500      GET        7l       15w      202c http://10.10.170.102/img/forgot
+
+500      GET        7l       15w      202c http://10.10.170.102/img/honeypot
+
+500      GET        7l       15w      202c http://10.10.170.102/img/hl
+
+500      GET        7l       15w      202c http://10.10.170.102/bin_install
+
+500      GET        7l       15w      202c http://10.10.170.102/benefits
+
+500      GET        7l       15w      202c http://10.10.170.102/camera
+
+500      GET        7l       15w      202c http://10.10.170.102/js/developers
+
+500      GET        7l       15w      202c http://10.10.170.102/img/inside
+
+500      GET        7l       15w      202c http://10.10.170.102/img/vacancy
+
+500      GET        7l       15w      202c http://10.10.170.102/img/lang-es
+
+500      GET        7l       15w      202c http://10.10.170.102/img/london
+
+500      GET        7l       15w      202c http://10.10.170.102/js/empresas
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ed
+
+500      GET        7l       15w      202c http://10.10.170.102/img/mp3s
+
+500      GET        7l       15w      202c http://10.10.170.102/js/enlaces
+
+500      GET        7l       15w      202c http://10.10.170.102/tipafriend
+
+500      GET        7l       15w      202c http://10.10.170.102/img/merchants
+
+500      GET        7l       15w      202c http://10.10.170.102/cursos
+
+500      GET        7l       15w      202c http://10.10.170.102/descriptions
+
+500      GET        7l       15w      202c http://10.10.170.102/disappear
+
+500      GET        7l       15w      202c http://10.10.170.102/david
+
+500      GET        7l       15w      202c http://10.10.170.102/img/notebook
+
+500      GET        7l       15w      202c http://10.10.170.102/div
+
+500      GET        7l       15w      202c http://10.10.170.102/elearning
+
+500      GET        7l       15w      202c http://10.10.170.102/js/fl
+
+500      GET        7l       15w      202c http://10.10.170.102/js/optispider
+
+500      GET        7l       15w      202c http://10.10.170.102/img/osc
+
+500      GET        7l       15w      202c http://10.10.170.102/exclusive
+
+500      GET        7l       15w      202c http://10.10.170.102/img/package
+
+500      GET        7l       15w      202c http://10.10.170.102/farben
+
+500      GET        7l       15w      202c http://10.10.170.102/extern_js
+
+500      GET        7l       15w      202c http://10.10.170.102/img/phpdig
+
+500      GET        7l       15w      202c http://10.10.170.102/gate
+
+500      GET        7l       15w      202c http://10.10.170.102/img/poker
+
+500      GET        7l       15w      202c http://10.10.170.102/img/portalcp
+
+500      GET        7l       15w      202c http://10.10.170.102/googlesite
+
+500      GET        7l       15w      202c http://10.10.170.102/grouper
+
+500      GET        7l       15w      202c http://10.10.170.102/htbin
+
+500      GET        7l       15w      202c http://10.10.170.102/js/fragments
+
+500      GET        7l       15w      202c http://10.10.170.102/img/priv
+
+500      GET        7l       15w      202c http://10.10.170.102/idx
+
+500      GET        7l       15w      202c http://10.10.170.102/images-old
+
+500      GET        7l       15w      202c http://10.10.170.102/ep
+
+500      GET        7l       15w      202c http://10.10.170.102/js/full
+
+500      GET        7l       15w      202c http://10.10.170.102/images_new
+
+500      GET        7l       15w      202c http://10.10.170.102/img/productimages
+
+500      GET        7l       15w      202c http://10.10.170.102/img/purchases
+
+500      GET        7l       15w      202c http://10.10.170.102/js/globals
+
+500      GET        7l       15w      202c http://10.10.170.102/imprint
+
+500      GET        7l       15w      202c http://10.10.170.102/js/gv_faq
+
+500      GET        7l       15w      202c http://10.10.170.102/js/gwt
+
+500      GET        7l       15w      202c http://10.10.170.102/ims
+
+500      GET        7l       15w      202c http://10.10.170.102/invitations
+
+500      GET        7l       15w      202c http://10.10.170.102/hwdvideos
+
+500      GET        7l       15w      202c http://10.10.170.102/john
+
+500      GET        7l       15w      202c http://10.10.170.102/img/active
+
+500      GET        7l       15w      202c http://10.10.170.102/folder2
+
+500      GET        7l       15w      202c http://10.10.170.102/instructor
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Basket
+
+500      GET        7l       15w      202c http://10.10.170.102/js/hws
+
+500      GET        7l       15w      202c http://10.10.170.102/img/adult
+
+500      GET        7l       15w      202c http://10.10.170.102/froogle_
+
+500      GET        7l       15w      202c http://10.10.170.102/img/registry
+
+500      GET        7l       15w      202c http://10.10.170.102/lc
+
+500      GET        7l       15w      202c http://10.10.170.102/img/regions
+
+500      GET        7l       15w      202c http://10.10.170.102/ka
+
+500      GET        7l       15w      202c http://10.10.170.102/listen
+
+500      GET        7l       15w      202c http://10.10.170.102/img/rentals
+
+500      GET        7l       15w      202c http://10.10.170.102/img/reminder
+
+500      GET        7l       15w      202c http://10.10.170.102/img/calcs
+
+500      GET        7l       15w      202c http://10.10.170.102/js/knowledge
+
+500      GET        7l       15w      202c http://10.10.170.102/js/imgres
+
+500      GET        7l       15w      202c http://10.10.170.102/monsterbook
+
+500      GET        7l       15w      202c http://10.10.170.102/mlm
+
+500      GET        7l       15w      202c http://10.10.170.102/js/image_captcha
+
+500      GET        7l       15w      202c http://10.10.170.102/js/kosik
+
+500      GET        7l       15w      202c http://10.10.170.102/img/response
+
+500      GET        7l       15w      202c http://10.10.170.102/mexico
+
+500      GET        7l       15w      202c http://10.10.170.102/oldpages
+
+500      GET        7l       15w      202c http://10.10.170.102/p7tp
+
+500      GET        7l       15w      202c http://10.10.170.102/newsline_auto
+
+500      GET        7l       15w      202c http://10.10.170.102/newsline_dom
+
+500      GET        7l       15w      202c http://10.10.170.102/img/sess
+
+500      GET        7l       15w      202c http://10.10.170.102/js/metrics
+
+500      GET        7l       15w      202c http://10.10.170.102/js/meteo
+
+500      GET        7l       15w      202c http://10.10.170.102/js/logoff
+
+500      GET        7l       15w      202c http://10.10.170.102/padfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/js/lytebox
+
+500      GET        7l       15w      202c http://10.10.170.102/img/sifr
+
+500      GET        7l       15w      202c http://10.10.170.102/pos
+
+500      GET        7l       15w      202c http://10.10.170.102/js/mofcart
+
+500      GET        7l       15w      202c http://10.10.170.102/img/styleguide
+
+500      GET        7l       15w      202c http://10.10.170.102/img/state
+
+500      GET        7l       15w      202c http://10.10.170.102/js/zencart
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Management
+
+500      GET        7l       15w      202c http://10.10.170.102/js/nggallery
+
+500      GET        7l       15w      202c http://10.10.170.102/img/tagcloud
+
+500      GET        7l       15w      202c http://10.10.170.102/img/taobao
+
+500      GET        7l       15w      202c http://10.10.170.102/privatedir
+
+500      GET        7l       15w      202c http://10.10.170.102/privateassets
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ofertas
+
+500      GET        7l       15w      202c http://10.10.170.102/proton
+
+500      GET        7l       15w      202c http://10.10.170.102/mv
+
+500      GET        7l       15w      202c http://10.10.170.102/pt-br
+
+500      GET        7l       15w      202c http://10.10.170.102/ratgeber
+
+500      GET        7l       15w      202c http://10.10.170.102/img/unternehmen
+
+500      GET        7l       15w      202c http://10.10.170.102/img/v5
+
+500      GET        7l       15w      202c http://10.10.170.102/real-estate
+
+500      GET        7l       15w      202c http://10.10.170.102/img/wip
+
+500      GET        7l       15w      202c http://10.10.170.102/real
+
+500      GET        7l       15w      202c http://10.10.170.102/retailer
+
+500      GET        7l       15w      202c http://10.10.170.102/img/yabbfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/js/phocadownload
+
+500      GET        7l       15w      202c http://10.10.170.102/img/privmsg
+
+500      GET        7l       15w      202c http://10.10.170.102/js/commande
+
+500      GET        7l       15w      202c http://10.10.170.102/js/culture
+
+500      GET        7l       15w      202c http://10.10.170.102/myprofile
+
+500      GET        7l       15w      202c http://10.10.170.102/img/25
+
+500      GET        7l       15w      202c http://10.10.170.102/img/06
+
+500      GET        7l       15w      202c http://10.10.170.102/js/photoimages
+
+500      GET        7l       15w      202c http://10.10.170.102/js/pommo
+
+500      GET        7l       15w      202c http://10.10.170.102/img/26
+
+500      GET        7l       15w      202c http://10.10.170.102/js/jokes
+
+500      GET        7l       15w      202c http://10.10.170.102/proc
+
+500      GET        7l       15w      202c http://10.10.170.102/rma
+
+500      GET        7l       15w      202c http://10.10.170.102/js/req
+
+500      GET        7l       15w      202c http://10.10.170.102/img/00
+
+500      GET        7l       15w      202c http://10.10.170.102/img/200
+
+500      GET        7l       15w      202c http://10.10.170.102/shared-content
+
+500      GET        7l       15w      202c http://10.10.170.102/select
+
+500      GET        7l       15w      202c http://10.10.170.102/sqladmin
+
+500      GET        7l       15w      202c http://10.10.170.102/statics
+
+500      GET        7l       15w      202c http://10.10.170.102/js/rewards
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ringtones
+
+500      GET        7l       15w      202c http://10.10.170.102/img/AJAX
+
+500      GET        7l       15w      202c http://10.10.170.102/submissions
+
+500      GET        7l       15w      202c http://10.10.170.102/js/memberfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/img/pphlogger
+
+500      GET        7l       15w      202c http://10.10.170.102/img/time
+
+500      GET        7l       15w      202c http://10.10.170.102/client_files
+
+500      GET        7l       15w      202c http://10.10.170.102/js/modeles
+
+500      GET        7l       15w      202c http://10.10.170.102/img/scroller
+
+500      GET        7l       15w      202c http://10.10.170.102/qq
+
+500      GET        7l       15w      202c http://10.10.170.102/rw
+
+500      GET        7l       15w      202c http://10.10.170.102/img/App_code
+
+500      GET        7l       15w      202c http://10.10.170.102/swfobject
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Java
+
+500      GET        7l       15w      202c http://10.10.170.102/tender
+
+500      GET        7l       15w      202c http://10.10.170.102/testshop
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Project
+
+500      GET        7l       15w      202c http://10.10.170.102/js/setprefs
+
+500      GET        7l       15w      202c http://10.10.170.102/js/rotate
+
+500      GET        7l       15w      202c http://10.10.170.102/img/US
+
+500      GET        7l       15w      202c http://10.10.170.102/uds
+
+500      GET        7l       15w      202c http://10.10.170.102/tm
+
+500      GET        7l       15w      202c http://10.10.170.102/userdata
+
+500      GET        7l       15w      202c http://10.10.170.102/js/site2
+
+500      GET        7l       15w      202c http://10.10.170.102/vault
+
+500      GET        7l       15w      202c http://10.10.170.102/venues
+
+500      GET        7l       15w      202c http://10.10.170.102/vm
+
+500      GET        7l       15w      202c http://10.10.170.102/vision
+
+500      GET        7l       15w      202c http://10.10.170.102/js/plaintext
+
+500      GET        7l       15w      202c http://10.10.170.102/js/site_images
+
+500      GET        7l       15w      202c http://10.10.170.102/js/site_admin
+
+500      GET        7l       15w      202c http://10.10.170.102/img/addurl
+
+500      GET        7l       15w      202c http://10.10.170.102/img/accueil
+
+500      GET        7l       15w      202c http://10.10.170.102/vmchk
+
+500      GET        7l       15w      202c http://10.10.170.102/img/address
+
+500      GET        7l       15w      202c http://10.10.170.102/watermark
+
+500      GET        7l       15w      202c http://10.10.170.102/js/spb
+
+500      GET        7l       15w      202c http://10.10.170.102/img/annunci
+
+500      GET        7l       15w      202c http://10.10.170.102/webforms
+
+500      GET        7l       15w      202c http://10.10.170.102/js/specs
+
+500      GET        7l       15w      202c http://10.10.170.102/js/tagadelic
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ag
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ticker
+
+500      GET        7l       15w      202c http://10.10.170.102/js/texts
+
+500      GET        7l       15w      202c http://10.10.170.102/webtop
+
+500      GET        7l       15w      202c http://10.10.170.102/img/autostop
+
+500      GET        7l       15w      202c http://10.10.170.102/whitepapers
+
+500      GET        7l       15w      202c http://10.10.170.102/img/cache_files
+
+500      GET        7l       15w      202c http://10.10.170.102/zForumFFFFFF
+
+500      GET        7l       15w      202c http://10.10.170.102/img/callcenter
+
+500      GET        7l       15w      202c http://10.10.170.102/js/thirdparty
+
+500      GET        7l       15w      202c http://10.10.170.102/Agent
+
+500      GET        7l       15w      202c http://10.10.170.102/mu-plugins
+
+500      GET        7l       15w      202c http://10.10.170.102/windowfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/js/v-web
+
+500      GET        7l       15w      202c http://10.10.170.102/wp-filez
+
+500      GET        7l       15w      202c http://10.10.170.102/img/cdn
+
+500      GET        7l       15w      202c http://10.10.170.102/Board
+
+500      GET        7l       15w      202c http://10.10.170.102/js/tradetracker
+
+500      GET        7l       15w      202c http://10.10.170.102/CMSMessages
+
+500      GET        7l       15w      202c http://10.10.170.102/img/comics
+
+500      GET        7l       15w      202c http://10.10.170.102/img/compte
+
+500      GET        7l       15w      202c http://10.10.170.102/js/versions
+
+500      GET        7l       15w      202c http://10.10.170.102/js/version
+
+500      GET        7l       15w      202c http://10.10.170.102/img/memberlist
+
+500      GET        7l       15w      202c http://10.10.170.102/js/wireless
+
+500      GET        7l       15w      202c http://10.10.170.102/js/xyz
+
+500      GET        7l       15w      202c http://10.10.170.102/js/word
+
+500      GET        7l       15w      202c http://10.10.170.102/Resume
+
+500      GET        7l       15w      202c http://10.10.170.102/img/helper
+
+500      GET        7l       15w      202c http://10.10.170.102/_javascript
+
+500      GET        7l       15w      202c http://10.10.170.102/img/newdesign
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Customers
+
+500      GET        7l       15w      202c http://10.10.170.102/WS
+
+500      GET        7l       15w      202c http://10.10.170.102/Static
+
+500      GET        7l       15w      202c http://10.10.170.102/js/DownFiles
+
+500      GET        7l       15w      202c http://10.10.170.102/SiteFiles
+
+500      GET        7l       15w      202c http://10.10.170.102/Standard
+
+500      GET        7l       15w      202c http://10.10.170.102/img/hits
+
+500      GET        7l       15w      202c http://10.10.170.102/img/holding
+
+500      GET        7l       15w      202c http://10.10.170.102/Tests
+
+500      GET        7l       15w      202c http://10.10.170.102/Stylesheets
+
+500      GET        7l       15w      202c http://10.10.170.102/Storage
+
+500      GET        7l       15w      202c http://10.10.170.102/js/anime
+
+500      GET        7l       15w      202c http://10.10.170.102/img/cart2
+
+500      GET        7l       15w      202c http://10.10.170.102/Tutorials
+
+500      GET        7l       15w      202c http://10.10.170.102/administrador
+
+500      GET        7l       15w      202c http://10.10.170.102/VIP
+
+500      GET        7l       15w      202c http://10.10.170.102/js/PSD
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Projects
+
+500      GET        7l       15w      202c http://10.10.170.102/admintools
+
+500      GET        7l       15w      202c http://10.10.170.102/img/imagelib
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ibp
+
+500      GET        7l       15w      202c http://10.10.170.102/img/industries
+
+500      GET        7l       15w      202c http://10.10.170.102/js/QuickSand
+
+500      GET        7l       15w      202c http://10.10.170.102/aktuelles
+
+500      GET        7l       15w      202c http://10.10.170.102/adsystem
+
+500      GET        7l       15w      202c http://10.10.170.102/adtrack
+
+500      GET        7l       15w      202c http://10.10.170.102/android
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ipad
+
+500      GET        7l       15w      202c http://10.10.170.102/answer
+
+500      GET        7l       15w      202c http://10.10.170.102/bi
+
+500      GET        7l       15w      202c http://10.10.170.102/b2c
+
+500      GET        7l       15w      202c http://10.10.170.102/boston
+
+500      GET        7l       15w      202c http://10.10.170.102/img/machform
+
+500      GET        7l       15w      202c http://10.10.170.102/cadastro
+
+500      GET        7l       15w      202c http://10.10.170.102/buddy
+
+500      GET        7l       15w      202c http://10.10.170.102/js/XML-RPC
+
+500      GET        7l       15w      202c http://10.10.170.102/img/va
+
+500      GET        7l       15w      202c http://10.10.170.102/img/mag
+
+500      GET        7l       15w      202c http://10.10.170.102/js/adimages
+
+500      GET        7l       15w      202c http://10.10.170.102/js/accessibility
+
+500      GET        7l       15w      202c http://10.10.170.102/casestudies
+
+500      GET        7l       15w      202c http://10.10.170.102/js/anbieter
+
+500      GET        7l       15w      202c http://10.10.170.102/seo_sitemap
+
+500      GET        7l       15w      202c http://10.10.170.102/js/analysis
+
+500      GET        7l       15w      202c http://10.10.170.102/at3
+
+500      GET        7l       15w      202c http://10.10.170.102/js/dbase
+
+500      GET        7l       15w      202c http://10.10.170.102/js/webroot
+
+500      GET        7l       15w      202c http://10.10.170.102/js/anmeldung
+
+500      GET        7l       15w      202c http://10.10.170.102/celebrity
+
+500      GET        7l       15w      202c http://10.10.170.102/img/norobots
+
+500      GET        7l       15w      202c http://10.10.170.102/img/slide
+
+500      GET        7l       15w      202c http://10.10.170.102/e107_install
+
+500      GET        7l       15w      202c http://10.10.170.102/js/eWebEditor
+
+500      GET        7l       15w      202c http://10.10.170.102/js/cookies
+
+500      GET        7l       15w      202c http://10.10.170.102/img/statistic
+
+500      GET        7l       15w      202c http://10.10.170.102/engineering
+
+500      GET        7l       15w      202c http://10.10.170.102/green
+
+500      GET        7l       15w      202c http://10.10.170.102/js/italian
+
+500      GET        7l       15w      202c http://10.10.170.102/js/jslib
+
+500      GET        7l       15w      202c http://10.10.170.102/MovieTimes
+
+500      GET        7l       15w      202c http://10.10.170.102/img/21
+
+500      GET        7l       15w      202c http://10.10.170.102/img/29
+
+500      GET        7l       15w      202c http://10.10.170.102/img/31
+
+500      GET        7l       15w      202c http://10.10.170.102/img/workshops
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Folder
+
+500      GET        7l       15w      202c http://10.10.170.102/htmleditor
+
+500      GET        7l       15w      202c http://10.10.170.102/img/GuestBook
+
+500      GET        7l       15w      202c http://10.10.170.102/ib
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Movies
+
+500      GET        7l       15w      202c http://10.10.170.102/lo
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Icons
+
+500      GET        7l       15w      202c http://10.10.170.102/na
+
+500      GET        7l       15w      202c http://10.10.170.102/mgmt
+
+500      GET        7l       15w      202c http://10.10.170.102/img/apple
+
+500      GET        7l       15w      202c http://10.10.170.102/nieuws
+
+500      GET        7l       15w      202c http://10.10.170.102/js/phpthumb
+
+500      GET        7l       15w      202c http://10.10.170.102/img/mm_track
+
+500      GET        7l       15w      202c http://10.10.170.102/water
+
+500      GET        7l       15w      202c http://10.10.170.102/wp-custom
+
+500      GET        7l       15w      202c http://10.10.170.102/js/sxd
+
+500      GET        7l       15w      202c http://10.10.170.102/img/newscomp
+
+500      GET        7l       15w      202c http://10.10.170.102/js/sso
+
+500      GET        7l       15w      202c http://10.10.170.102/js/tb
+
+500      GET        7l       15w      202c http://10.10.170.102/xs_mod
+
+500      GET        7l       15w      202c http://10.10.170.102/img/next
+
+500      GET        7l       15w      202c http://10.10.170.102/img/no_cache
+
+500      GET        7l       15w      202c http://10.10.170.102/js/templtes_c
+
+500      GET        7l       15w      202c http://10.10.170.102/img/optispider
+
+500      GET        7l       15w      202c http://10.10.170.102/js/termsofuse
+
+500      GET        7l       15w      202c http://10.10.170.102/~joe
+
+500      GET        7l       15w      202c http://10.10.170.102/js/these
+
+500      GET        7l       15w      202c http://10.10.170.102/js/torrent
+
+500      GET        7l       15w      202c http://10.10.170.102/js/vkontakte
+
+500      GET        7l       15w      202c http://10.10.170.102/img/originals
+
+500      GET        7l       15w      202c http://10.10.170.102/BBS
+
+500      GET        7l       15w      202c http://10.10.170.102/CD
+
+500      GET        7l       15w      202c http://10.10.170.102/img/png
+
+500      GET        7l       15w      202c http://10.10.170.102/img/pb
+
+500      GET        7l       15w      202c http://10.10.170.102/img/productalert
+
+500      GET        7l       15w      202c http://10.10.170.102/img/professional
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ranking
+
+500      GET        7l       15w      202c http://10.10.170.102/Charts
+
+500      GET        7l       15w      202c http://10.10.170.102/js/wordtracker
+
+500      GET        7l       15w      202c http://10.10.170.102/DEMO
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Internal
+
+500      GET        7l       15w      202c http://10.10.170.102/Online
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Merchant
+
+500      GET        7l       15w      202c http://10.10.170.102/People
+
+500      GET        7l       15w      202c http://10.10.170.102/PPC
+
+500      GET        7l       15w      202c http://10.10.170.102/Redirect
+
+500      GET        7l       15w      202c http://10.10.170.102/ProductImages
+
+500      GET        7l       15w      202c http://10.10.170.102/Waps
+
+500      GET        7l       15w      202c http://10.10.170.102/js/audios
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Edit
+
+500      GET        7l       15w      202c http://10.10.170.102/img/tube
+
+500      GET        7l       15w      202c http://10.10.170.102/img/havejob
+
+500      GET        7l       15w      202c http://10.10.170.102/_src
+
+500      GET        7l       15w      202c http://10.10.170.102/img/vbpinstall
+
+500      GET        7l       15w      202c http://10.10.170.102/img/workflow
+
+500      GET        7l       15w      202c http://10.10.170.102/js/compile
+
+500      GET        7l       15w      202c http://10.10.170.102/js/depts
+
+500      GET        7l       15w      202c http://10.10.170.102/img/12all
+
+500      GET        7l       15w      202c http://10.10.170.102/img/403
+
+500      GET        7l       15w      202c http://10.10.170.102/js/dev1
+
+500      GET        7l       15w      202c http://10.10.170.102/logstats
+
+500      GET        7l       15w      202c http://10.10.170.102/gateways
+
+500      GET        7l       15w      202c http://10.10.170.102/js/28
+
+500      GET        7l       15w      202c http://10.10.170.102/js/exhibitions
+
+500      GET        7l       15w      202c http://10.10.170.102/js/dude
+
+500      GET        7l       15w      202c http://10.10.170.102/img/MakeProcessSoft
+
+500      GET        7l       15w      202c http://10.10.170.102/img/DataBackUp
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Shopping
+
+500      GET        7l       15w      202c http://10.10.170.102/asia
+
+500      GET        7l       15w      202c http://10.10.170.102/img/accounting
+
+500      GET        7l       15w      202c http://10.10.170.102/asp_client
+
+500      GET        7l       15w      202c http://10.10.170.102/js/autocomplete
+
+500      GET        7l       15w      202c http://10.10.170.102/js/fireworks
+
+500      GET        7l       15w      202c http://10.10.170.102/img/mailers
+
+500      GET        7l       15w      202c http://10.10.170.102/js/_db
+
+500      GET        7l       15w      202c http://10.10.170.102/img/mockup
+
+500      GET        7l       15w      202c http://10.10.170.102/buyers
+
+500      GET        7l       15w      202c http://10.10.170.102/img/adwords
+
+500      GET        7l       15w      202c http://10.10.170.102/cancel
+
+500      GET        7l       15w      202c http://10.10.170.102/articlerss
+
+500      GET        7l       15w      202c http://10.10.170.102/case
+
+500      GET        7l       15w      202c http://10.10.170.102/img/an
+
+500      GET        7l       15w      202c http://10.10.170.102/img/astats
+
+500      GET        7l       15w      202c http://10.10.170.102/js/girls
+
+500      GET        7l       15w      202c http://10.10.170.102/backtocs
+
+500      GET        7l       15w      202c http://10.10.170.102/terms-conditions
+
+500      GET        7l       15w      202c http://10.10.170.102/bkp
+
+500      GET        7l       15w      202c http://10.10.170.102/careerfocus
+
+500      GET        7l       15w      202c http://10.10.170.102/countdown
+
+500      GET        7l       15w      202c http://10.10.170.102/img/dmiadm
+
+500      GET        7l       15w      202c http://10.10.170.102/js/myfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/competition
+
+500      GET        7l       15w      202c http://10.10.170.102/js/mysite
+
+500      GET        7l       15w      202c http://10.10.170.102/img/erreurs
+
+500      GET        7l       15w      202c http://10.10.170.102/js/ne
+
+500      GET        7l       15w      202c http://10.10.170.102/js/generic
+
+500      GET        7l       15w      202c http://10.10.170.102/img/vspfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/Print
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Fonts
+
+500      GET        7l       15w      202c http://10.10.170.102/js/fra
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Down
+
+500      GET        7l       15w      202c http://10.10.170.102/img/admintemplates
+
+500      GET        7l       15w      202c http://10.10.170.102/xls
+
+500      GET        7l       15w      202c http://10.10.170.102/js/Development
+
+500      GET        7l       15w      202c http://10.10.170.102/img/groupcp
+
+500      GET        7l       15w      202c http://10.10.170.102/img/fsrscripts
+
+500      GET        7l       15w      202c http://10.10.170.102/depot
+
+500      GET        7l       15w      202c http://10.10.170.102/img/goodies
+
+500      GET        7l       15w      202c http://10.10.170.102/deleted
+
+500      GET        7l       15w      202c http://10.10.170.102/EventSearch
+
+500      GET        7l       15w      202c http://10.10.170.102/js/hoteles
+
+500      GET        7l       15w      202c http://10.10.170.102/FilmSearch
+
+500      GET        7l       15w      202c http://10.10.170.102/js/List
+
+500      GET        7l       15w      202c http://10.10.170.102/js/graphic
+
+500      GET        7l       15w      202c http://10.10.170.102/js/phorm
+
+500      GET        7l       15w      202c http://10.10.170.102/js/photography
+
+500      GET        7l       15w      202c http://10.10.170.102/img/literature
+
+500      GET        7l       15w      202c http://10.10.170.102/diendan
+
+500      GET        7l       15w      202c http://10.10.170.102/js/phpscripts
+
+500      GET        7l       15w      202c http://10.10.170.102/img/locales
+
+500      GET        7l       15w      202c http://10.10.170.102/js/pops
+
+500      GET        7l       15w      202c http://10.10.170.102/img/il
+
+500      GET        7l       15w      202c http://10.10.170.102/img/interview
+
+500      GET        7l       15w      202c http://10.10.170.102/img/jokes
+
+500      GET        7l       15w      202c http://10.10.170.102/deu
+
+500      GET        7l       15w      202c http://10.10.170.102/js/place
+
+500      GET        7l       15w      202c http://10.10.170.102/img/wbtextbox
+
+500      GET        7l       15w      202c http://10.10.170.102/ft
+
+500      GET        7l       15w      202c http://10.10.170.102/js/privacy_policy
+
+500      GET        7l       15w      202c http://10.10.170.102/digits
+
+500      GET        7l       15w      202c http://10.10.170.102/js/infusions
+
+500      GET        7l       15w      202c http://10.10.170.102/dns
+
+500      GET        7l       15w      202c http://10.10.170.102/eblasts
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ls
+
+500      GET        7l       15w      202c http://10.10.170.102/img/voucher
+
+500      GET        7l       15w      202c http://10.10.170.102/empfehlen
+
+500      GET        7l       15w      202c http://10.10.170.102/empfehlung
+
+500      GET        7l       15w      202c http://10.10.170.102/img/log-in
+
+500      GET        7l       15w      202c http://10.10.170.102/img/memberfiles
+
+500      GET        7l       15w      202c http://10.10.170.102/img/microsite
+
+500      GET        7l       15w      202c http://10.10.170.102/img/military
+
+500      GET        7l       15w      202c http://10.10.170.102/img/Out-Of-Date
+
+500      GET        7l       15w      202c http://10.10.170.102/liens
+
+500      GET        7l       15w      202c http://10.10.170.102/kim
+
+500      GET        7l       15w      202c http://10.10.170.102/cases
+
+500      GET        7l       15w      202c http://10.10.170.102/img/mr
+
+500      GET        7l       15w      202c http://10.10.170.102/p7tm
+
+500      GET        7l       15w      202c http://10.10.170.102/periodic
+
+500      GET        7l       15w      202c http://10.10.170.102/js/config-old
+
+500      GET        7l       15w      202c http://10.10.170.102/expo
+
+500      GET        7l       15w      202c http://10.10.170.102/favicon
+
+500      GET        7l       15w      202c http://10.10.170.102/js/quest
+
+500      GET        7l       15w      202c http://10.10.170.102/js/redaktion
+
+500      GET        7l       15w      202c http://10.10.170.102/img/ccc
+
+500      GET        7l       15w      202c http://10.10.170.102/records
+
+500      GET        7l       15w      202c http://10.10.170.102/img/menumachine
+
+500      GET        7l       15w      202c http://10.10.170.102/rw_common
+
+500      GET        7l       15w      202c http://10.10.170.102/img/correo
+
+500      GET        7l       15w      202c http://10.10.170.102/js/distribution
+
+500      GET        7l       15w      202c http://10.10.170.102/testpages
+
+500      GET        7l       15w      202c http://10.10.170.102/js/elqNow
+
+500      GET        7l       15w      202c http://10.10.170.102/img/fp
+
+500      GET        7l       15w      202c http://10.10.170.102/subcategory
+
+500      GET        7l       15w      202c http://10.10.170.102/coremetrics
+
+500      GET        7l       15w      202c http://10.10.170.102/img/oscommerce
+
+500      GET        7l       15w      202c http://10.10.170.102/js/prototype
+
+500      GET        7l       15w      202c http://10.10.170.102/img/landingpage
+
+500      GET        7l       15w      202c http://10.10.170.102/img/hardware
+
+500      GET        7l       15w      202c http://10.10.170.102/img/letter
+
+500      GET        7l       15w      202c http://10.10.170.102/js/showpost
+
+500      GET        7l       15w      202c http://10.10.170.102/img/interviews
+
+500      GET        7l       15w      202c http://10.10.170.102/feed2js
+
+500      GET        7l       15w      202c http://10.10.170.102/img/panier
+
+500      GET        7l       15w      202c http://10.10.170.102/js/publication
+
+500      GET        7l       15w      202c http://10.10.170.102/img/parks
+
+500      GET        7l       15w      202c http://10.10.170.102/forgot_password
+
+500      GET        7l       15w      202c http://10.10.170.102/img/perso
+
+500      GET        7l       15w      202c http://10.10.170.102/mycalendar_mod
+
+500      GET        7l       15w      202c http://10.10.170.102/reputation
+
+500      GET        7l       15w      202c http://10.10.170.102/gcc
+
+500      GET        7l       15w      202c http://10.10.170.102/img/plaintext
+
+500      GET        7l       15w      202c http://10.10.170.102/gd
+
+500      GET        7l       15w      202c http://10.10.170.102/grants
+
+500      GET        7l       15w      202c http://10.10.170.102/js/sendstudio
+
+500      GET        7l       15w      202c http://10.10.170.102/img/productExports
+
+500      GET        7l       15w      202c http://10.10.170.102/hc
+
+500      GET        7l       15w      202c http://10.10.170.102/hcp
+
+500      GET        7l       15w      202c http://10.10.170.102/js/sign-up
+
+500      GET        7l       15w      202c http://10.10.170.102/js/simg
+
+500      GET        7l       15w      202c http://10.10.170.102/healthcare
+
+500      GET        7l       15w      202c http://10.10.170.102/you
+
+500      GET        7l       15w      202c http://10.10.170.102/webkatalog
+
+500      GET        7l       15w      202c http://10.10.170.102/js/site-map
+
+500      GET        7l       15w      202c http://10.10.170.102/js/scheduled
+
+500      GET        7l       15w      202c http://10.10.170.102/img/playlist
+
+500      GET        7l       15w      202c http://10.10.170.102/img/reserve
+
+500      GET        7l       15w      202c http://10.10.170.102/js/sync
+
+500      GET        7l       15w      202c http://10.10.170.102/horoscope
+
+500      GET        7l       15w      202c http://10.10.170.102/js/svc
+
+500      GET        7l       15w      202c http://10.10.170.102/js/syndicate
+
+500      GET        7l       15w      202c http://10.10.170.102/js/teachers
+
+200      GET       32l       59w      724c http://10.10.170.102/Secret
+
