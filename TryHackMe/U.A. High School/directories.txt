@@ -1,0 +1,22 @@
+403      GET        9l       28w      275c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        9l       31w      272c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET       63l      287w     2573c http://10.10.1.31/admissions.html
+
+200      GET       61l      225w     1988c http://10.10.1.31/index.html
+
+200      GET       52l      320w     2542c http://10.10.1.31/about.html
+
+301      GET        9l       28w      309c http://10.10.1.31/assets => http://10.10.1.31/assets/
+
+200      GET       61l      225w     1988c http://10.10.1.31/
+
+200      GET       71l      205w     2056c http://10.10.1.31/contact.html
+
+200      GET       87l      261w     2580c http://10.10.1.31/courses.html
+
+200      GET        0l        0w        0c http://10.10.1.31/assets/index.php
+
+301      GET        9l       28w      316c http://10.10.1.31/assets/images => http://10.10.1.31/assets/images/
+
