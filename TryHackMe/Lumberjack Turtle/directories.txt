@@ -1,0 +1,8 @@
+404      GET        1l        2w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET        1l       19w       87c http://10.10.12.249/
+
+200      GET        1l        6w       29c http://10.10.12.249/~logs
+
+500      GET        1l        1w       73c http://10.10.12.249/error
+

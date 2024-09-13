@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Fri Sep 13 21:39:32 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80 -o aggressiveScan.txt 10.10.12.249
+Nmap scan report for 10.10.12.249
+Host is up (0.17s latency).
+
+PORT   STATE SERVICE     VERSION
+22/tcp open  ssh         OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 6a:a1:2d:13:6c:8f:3a:2d:e3:ed:84:f4:c7:bf:20:32 (RSA)
+|   256 1d:ac:5b:d6:7c:0c:7b:5b:d4:fe:e8:fc:a1:6a:df:7a (ECDSA)
+|_  256 13:ee:51:78:41:7e:3f:54:3b:9a:24:9b:06:e2:d5:14 (ED25519)
+80/tcp open  nagios-nsca Nagios NSCA
+|_http-title: Site doesn't have a title (text/plain;charset=UTF-8).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep 13 21:39:45 2024 -- 1 IP address (1 host up) scanned in 12.45 seconds
