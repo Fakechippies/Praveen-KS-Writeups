@@ -1,0 +1,8 @@
+403      GET        9l       28w      276c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        9l       31w      273c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET      373l      977w    11366c http://10.10.43.61/
+
+200      GET      373l      977w    11366c http://10.10.43.61/index.html
+
