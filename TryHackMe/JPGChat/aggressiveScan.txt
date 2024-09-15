@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Sun Sep 15 18:42:56 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,3000 -o aggressiveScan.txt 10.10.210.229
+Nmap scan report for 10.10.210.229
+Host is up (0.18s latency).
+
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 fe:cc:3e:20:3f:a2:f8:09:6f:2c:a3:af:fa:32:9c:94 (RSA)
+|   256 e8:18:0c:ad:d0:63:5f:9d:bd:b7:84:b8:ab:7e:d1:97 (ECDSA)
+|_  256 82:1d:6b:ab:2d:04:d5:0b:7a:9b:ee:f4:64:b5:7f:64 (ED25519)
+3000/tcp open  tcpwrapped
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 15 18:43:02 2024 -- 1 IP address (1 host up) scanned in 6.12 seconds
