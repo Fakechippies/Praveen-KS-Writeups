@@ -1,0 +1,16 @@
+404      GET        1l        4w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        0l        0w        0c http://magician:8080/country
+
+500      GET        1l        3w      105c http://magician:8080/error
+
+200      GET        1l        1w        2c http://magician:8080/files
+
+404      GET        0l        0w        0c http://magician:8080/thumbs.db
+
+405      GET        0l        0w        0c http://magician:8080/upload
+
+404      GET        0l        0w        0c http://magician:8080/wwwboard
+
+404      GET        0l        0w        0c http://magician:8080/wwwlog
+

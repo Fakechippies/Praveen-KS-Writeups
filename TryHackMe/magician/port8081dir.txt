@@ -1,0 +1,26 @@
+404      GET        7l       13w      178c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET        7l       23w    23080c http://magician:8081/favicon.ico
+
+200      GET        1l        2w       48c http://magician:8081/css/app.4867b5d8.css
+
+200      GET        2l      104w     5498c http://magician:8081/js/app.2af72f5c.js
+
+403      GET        7l       11w      178c http://magician:8081/js/
+
+403      GET        7l       11w      178c http://magician:8081/css/
+
+301      GET        7l       13w      194c http://magician:8081/css => http://magician:8081/css/
+
+200      GET        8l     4990w   290103c http://magician:8081/js/chunk-vendors.2102ce45.js
+
+301      GET        7l       13w      194c http://magician:8081/img => http://magician:8081/img/
+
+200      GET        1l       47w     1105c http://magician:8081/index.html
+
+200      GET        5l     5950w   378093c http://magician:8081/css/chunk-vendors.0c3b3d0c.css
+
+200      GET        1l       47w     1105c http://magician:8081/
+
+301      GET        7l       13w      194c http://magician:8081/js => http://magician:8081/js/
+
