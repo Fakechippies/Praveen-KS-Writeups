@@ -1,0 +1,22 @@
+404      GET        9l       31w      274c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+403      GET        9l       28w      277c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET       15l       74w     6143c http://10.10.172.71/icons/ubuntu-logo.png
+
+200      GET      375l      968w    11321c http://10.10.172.71/
+
+301      GET        9l       28w      312c http://10.10.172.71/admin => http://10.10.172.71/admin/
+
+301      GET        9l       28w      310c http://10.10.172.71/etc => http://10.10.172.71/etc/
+
+200      GET      375l      968w    11321c http://10.10.172.71/index.html
+
+200      GET       69l       92w      771c http://10.10.172.71/admin/styles.css
+
+200      GET        6l       27w      258c http://10.10.172.71/etc/squid/squid.conf
+
+200      GET        1l        1w       52c http://10.10.172.71/etc/squid/passwd
+
+200      GET      139l      325w     5771c http://10.10.172.71/admin/index.html
+
