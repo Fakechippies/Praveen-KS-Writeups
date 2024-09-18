@@ -1,0 +1,40 @@
+403      GET        9l       28w      278c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        9l       31w      275c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET       15l       90w     4958c http://10.10.185.114/images/demo/348x261.png
+
+200      GET       22l       56w      642c http://10.10.185.114/layout/scripts/jquery.backtotop.js
+
+200      GET      368l     1285w    18989c http://10.10.185.114/pages/sidebar-left.html
+
+200      GET       11l      113w     6017c http://10.10.185.114/images/demo/348x420.png
+
+200      GET      458l     1521w    20976c http://10.10.185.114/layout/styles/layout.css
+
+200      GET       86l      610w    36802c http://10.10.185.114/images/demo/backgrounds/01.png
+
+200      GET      320l     1270w    19188c http://10.10.185.114/index.html
+
+200      GET      312l     1113w    16591c http://10.10.185.114/pages/full-width.html
+
+200      GET      232l      727w    13209c http://10.10.185.114/pages/gallery.html
+
+200      GET      368l     1285w    18991c http://10.10.185.114/pages/sidebar-right.html
+
+200      GET     1247l     6682w    90584c http://10.10.185.114/pages/font-icons.html
+
+200      GET        0l        0w        0c http://10.10.185.114/images/demo/backgrounds/
+
+200      GET        0l        0w        0c http://10.10.185.114/images/
+
+200      GET      320l     1270w    19188c http://10.10.185.114/
+
+200      GET        0l        0w        0c http://10.10.185.114/images/demo/
+
+200      GET        0l        0w        0c http://10.10.185.114/layout/styles/
+
+301      GET        9l       28w      320c http://10.10.185.114/images/demo => http://10.10.185.114/images/demo/
+
+301      GET        9l       28w      332c http://10.10.185.114/images/demo/backgrounds => http://10.10.185.114/images/demo/backgrounds/
+
