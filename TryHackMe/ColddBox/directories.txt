@@ -1,0 +1,478 @@
+403      GET        9l       28w      277c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        9l       31w      274c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-content/themes/twentyfifteen/
+
+200      GET       43l       43w     1045c http://10.10.83.103/wp-includes/wlwmanifest.xml
+
+200      GET      915l     1623w    13627c http://10.10.83.103/wp-content/themes/twentyfifteen/css/ie.css
+
+200      GET      209l      871w    27519c http://10.10.83.103/wp-content/themes/twentyfifteen/genericons/genericons.css
+
+200      GET        9l       74w     2432c http://10.10.83.103/wp-content/themes/twentyfifteen/js/html5.js
+
+200      GET        1l      116w     9675c http://10.10.83.103/wp-includes/js/quicktags.min.js
+
+200      GET      282l      812w     6609c http://10.10.83.103/wp-includes/js/wp-pointer.js
+
+200      GET        1l       21w     3267c http://10.10.83.103/wp-includes/js/tw-sack.min.js
+
+200      GET        1l       35w     3639c http://10.10.83.103/wp-includes/js/wp-pointer.min.js
+
+200      GET       47l      144w     1227c http://10.10.83.103/wp-includes/js/comment-reply.js
+
+200      GET        1l       58w     2950c http://10.10.83.103/wp-includes/js/json2.min.js
+
+200      GET        1l       22w     2141c http://10.10.83.103/wp-includes/js/customize-preview.min.js
+
+200      GET        1l        9w      981c http://10.10.83.103/wp-includes/js/wp-util.min.js
+
+200      GET        1l       70w    11266c http://10.10.83.103/wp-includes/js/media-audiovideo.min.js
+
+200      GET      129l      391w     3477c http://10.10.83.103/wp-includes/js/customize-preview-widgets.js
+
+200      GET      365l     1201w    11145c http://10.10.83.103/wp-includes/js/admin-bar.js
+
+200      GET        1l        4w      324c http://10.10.83.103/wp-includes/js/zxcvbn-async.min.js
+
+200      GET      193l      503w     4971c http://10.10.83.103/wp-includes/js/tw-sack.js
+
+200      GET        1l       40w     1821c http://10.10.83.103/wp-includes/js/utils.min.js
+
+200      GET        1l       32w     3010c http://10.10.83.103/wp-includes/js/wp-backbone.min.js
+
+200      GET        1l       53w    11209c http://10.10.83.103/wp-includes/js/media-grid.min.js
+
+200      GET        1l        9w     1116c http://10.10.83.103/wp-includes/js/hoverIntent.min.js
+
+200      GET      161l      506w     4060c http://10.10.83.103/wp-includes/js/customize-preview.js
+
+200      GET        1l        4w      571c http://10.10.83.103/wp-includes/js/wp-list-revisions.min.js
+
+200      GET       19l       49w      435c http://10.10.83.103/wp-includes/js/wpdialog.js
+
+200      GET        1l      101w    10683c http://10.10.83.103/wp-includes/js/mce-view.min.js
+
+200      GET      469l     1546w    11169c http://10.10.83.103/wp-includes/js/wp-lists.js
+
+200      GET      115l      597w     4940c http://10.10.83.103/wp-includes/js/hoverIntent.js
+
+200      GET        1l        6w      757c http://10.10.83.103/wp-includes/js/comment-reply.min.js
+
+200      GET        1l       82w     6797c http://10.10.83.103/wp-includes/js/customize-base.min.js
+
+200      GET        1l       60w     6828c http://10.10.83.103/wp-includes/js/admin-bar.min.js
+
+200      GET        1l       17w     1657c http://10.10.83.103/wp-includes/js/wp-auth-check.min.js
+
+200      GET        1l       19w     3113c http://10.10.83.103/wp-includes/js/customize-loader.min.js
+
+200      GET        1l       46w     7302c http://10.10.83.103/wp-includes/js/wp-lists.min.js
+
+200      GET      231l      488w     5472c http://10.10.83.103/wp-includes/js/customize-views.js
+
+200      GET        1l       65w     5494c http://10.10.83.103/wp-includes/js/heartbeat.min.js
+
+200      GET      683l     2690w    19870c http://10.10.83.103/wp-includes/js/quicktags.js
+
+200      GET        1l      333w    14424c http://10.10.83.103/wp-includes/js/underscore.min.js
+
+200      GET        1l        1w      237c http://10.10.83.103/wp-includes/js/wpdialog.min.js
+
+200      GET        1l       77w     5697c http://10.10.83.103/wp-includes/js/autosave.min.js
+
+200      GET      386l     1541w    10414c http://10.10.83.103/wp-includes/js/wp-backbone.js
+
+200      GET       18l       48w      502c http://10.10.83.103/wp-includes/js/zxcvbn-async.js
+
+200      GET      750l     2755w    20089c http://10.10.83.103/wp-includes/js/heartbeat.js
+
+200      GET        1l       31w     2067c http://10.10.83.103/wp-includes/js/wp-ajax-response.min.js
+
+200      GET      112l      376w     3085c http://10.10.83.103/wp-includes/js/wp-auth-check.js
+
+200      GET        1l        8w     1643c http://10.10.83.103/wp-includes/js/customize-preview-widgets.min.js
+
+200      GET       24l      131w      914c http://10.10.83.103/wp-includes/js/wp-list-revisions.js
+
+200      GET        1l       19w     2974c http://10.10.83.103/wp-includes/js/customize-views.min.js
+
+200      GET        1l       31w     2589c http://10.10.83.103/wp-includes/js/shortcode.min.js
+
+200      GET       64l      423w     3116c http://10.10.83.103/wp-includes/js/wp-ajax-response.js
+
+200      GET      633l     2032w    16797c http://10.10.83.103/wp-includes/js/wplink.js
+
+200      GET      112l      476w     3413c http://10.10.83.103/wp-includes/js/wp-util.js
+
+200      GET        1l       59w     9331c http://10.10.83.103/wp-includes/js/wplink.min.js
+
+200      GET      255l      845w     6601c http://10.10.83.103/wp-includes/js/customize-loader.js
+
+200      GET      624l     2212w    15895c http://10.10.83.103/wp-includes/js/customize-base.js
+
+200      GET        1l      145w    16663c http://10.10.83.103/wp-includes/js/colorpicker.min.js
+
+200      GET        1l      280w    19253c http://10.10.83.103/wp-includes/js/backbone.min.js
+
+200      GET      197l      785w     4515c http://10.10.83.103/wp-includes/js/utils.js
+
+200      GET      734l     2204w    20644c http://10.10.83.103/wp-includes/js/media-grid.js
+
+200      GET      247l      550w     5877c http://10.10.83.103/wp-includes/js/customize-models.js
+
+200      GET      896l     2953w    23083c http://10.10.83.103/wp-includes/js/mce-view.js
+
+200      GET      356l     1620w    10459c http://10.10.83.103/wp-includes/js/shortcode.js
+
+200      GET        1l       81w    10868c http://10.10.83.103/wp-includes/js/media-editor.min.js
+
+200      GET        1l      106w    12316c http://10.10.83.103/wp-includes/js/media-models.min.js
+
+200      GET      591l     2110w    16102c http://10.10.83.103/wp-includes/js/autosave.js
+
+200      GET     1114l     3849w    30135c http://10.10.83.103/wp-includes/js/media-editor.js
+
+200      GET      831l     2103w    20469c http://10.10.83.103/wp-includes/js/media-audiovideo.js
+
+200      GET      316l      717w     6976c http://10.10.83.103/wp-includes/js/jquery/suggest.js
+
+200      GET       11l       40w     1179c http://10.10.83.103/wp-includes/js/jquery/jquery.ui.touch-punch.js
+
+200      GET        2l      204w     7200c http://10.10.83.103/wp-includes/js/jquery/jquery-migrate.min.js
+
+200      GET       99l      321w     3730c http://10.10.83.103/wp-includes/js/jquery/jquery.table-hotkeys.js
+
+200      GET        1l       26w     2295c http://10.10.83.103/wp-includes/js/jquery/jquery.table-hotkeys.min.js
+
+200      GET      707l     2637w    29083c http://10.10.83.103/wp-includes/js/colorpicker.js
+
+200      GET      134l      515w     5612c http://10.10.83.103/wp-includes/js/jquery/jquery.hotkeys.js
+
+200      GET       31l       99w      783c http://10.10.83.103/wp-includes/js/jquery/jquery.serialize-object.js
+
+200      GET        1l       38w     2963c http://10.10.83.103/wp-includes/js/jquery/suggest.min.js
+
+200      GET        1l       13w     1793c http://10.10.83.103/wp-includes/js/jquery/jquery.hotkeys.min.js
+
+200      GET        2l       81w     9295c http://10.10.83.103/wp-includes/js/jquery/jquery.color.min.js
+
+200      GET        1l      584w    31700c http://10.10.83.103/wp-includes/js/masonry.min.js
+
+200      GET       36l       93w     3457c http://10.10.83.103/wp-includes/js/jquery/jquery.schedule.js
+
+200      GET       11l       62w     1836c http://10.10.83.103/wp-includes/js/jquery/jquery.masonry.min.js
+
+200      GET       11l      123w     3785c http://10.10.83.103/wp-includes/js/jquery/jquery.query.js
+
+200      GET        1l       11w     3457c http://10.10.83.103/wp-includes/js/customize-models.min.js
+
+200      GET        5l     1413w    95807c http://10.10.83.103/wp-includes/js/jquery/jquery.js
+
+200      GET        1l        8w      369c http://10.10.83.103/wp-includes/js/crop/marqueeHoriz.gif
+
+200      GET      165l      407w     2949c http://10.10.83.103/wp-includes/js/crop/cropper.css
+
+200      GET        4l      190w    10231c http://10.10.83.103/wp-includes/js/swfobject.js
+
+200      GET       11l      284w    14720c http://10.10.83.103/wp-includes/js/jquery/jquery.form.min.js
+
+200      GET      521l     2371w    17142c http://10.10.83.103/wp-includes/js/jquery/jquery-migrate.js
+
+200      GET       29l       45w     2124c http://10.10.83.103/wp-includes/js/jcrop/jquery.Jcrop.min.css
+
+200      GET     1456l     5447w    40642c http://10.10.83.103/wp-includes/js/media-models.js
+
+200      GET      480l     2197w    17413c http://10.10.83.103/wp-includes/js/json2.js
+
+200      GET       22l      260w    15893c http://10.10.83.103/wp-includes/js/jcrop/jquery.Jcrop.min.js
+
+200      GET       32l      222w     1540c http://10.10.83.103/wp-includes/js/swfupload/license.txt
+
+200      GET     1193l     4448w    41719c http://10.10.83.103/wp-includes/js/jquery/jquery.form.js
+
+200      GET        1l       98w     8867c http://10.10.83.103/wp-includes/js/swfupload/handlers.min.js
+
+200      GET       44l      247w    23915c http://10.10.83.103/wp-includes/js/swfupload/swfupload.swf
+
+200      GET      376l     1214w    12655c http://10.10.83.103/wp-includes/js/swfupload/handlers.js
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-ajax-response.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/bookmark.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/capabilities.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/revision.php
+
+200      GET        3l      576w    91866c http://10.10.83.103/wp-includes/js/media-views.min.js
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/update.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/bookmark-template.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-customize-control.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pluggable-deprecated.php
+
+200      GET      980l     3897w    37691c http://10.10.83.103/wp-includes/js/swfupload/swfupload.js
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class.wp-dependencies.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-IXR.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/media.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/cache.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class.wp-scripts.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/meta.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/query.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/session.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pluggable.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/post-thumbnail-template.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-embed.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/general-template.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/load.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/default-widgets.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/author-template.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-json.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/ms-default-constants.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/nav-menu-template.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-customize-panel.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed-atom-comments.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed-rss2.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/widgets.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-error.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/shortcodes.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/template-loader.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/option.php
+
+200      GET     7795l    23575w   215208c http://10.10.83.103/wp-includes/js/media-views.js
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/taxonomy.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/link-template.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed-atom.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/cron.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/functions.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/category.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/wp-db.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/l10n.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-walker.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/post.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/wp-diff.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/post-formats.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/functions.wp-scripts.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class.wp-styles.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/script-loader.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/default-constants.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/post-template.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/locale.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/compat.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/user.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-image-editor-gd.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/default-filters.php
+
+200      GET       20l       81w     6583c http://10.10.83.103/wp-includes/images/uploader-icons-2x.png
+
+200      GET        6l       34w     2808c http://10.10.83.103/wp-includes/images/uploader-icons.png
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/comment.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-xmlrpc-server.php
+
+200      GET       63l      481w    14348c http://10.10.83.103/wp-includes/images/spinner-2x.gif
+
+200      GET        4l       10w      551c http://10.10.83.103/wp-includes/images/toggle-arrow.png
+
+200      GET        2l        2w       47c http://10.10.83.103/wp-includes/images/blank.gif
+
+200      GET        9l       29w     3508c http://10.10.83.103/wp-includes/images/arrow-pointer-blue-2x.png
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/nav-menu.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/template.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/media-template.php
+
+200      GET        1l        4w      299c http://10.10.83.103/wp-includes/images/smilies/icon_mad.gif
+
+200      GET        1l        6w      280c http://10.10.83.103/wp-includes/images/smilies/icon_wink.gif
+
+200      GET        2l        7w      277c http://10.10.83.103/wp-includes/images/smilies/icon_arrow.gif
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/kses.php
+
+200      GET        1l        5w      273c http://10.10.83.103/wp-includes/images/smilies/icon_smile.gif
+
+200      GET        2l        9w      484c http://10.10.83.103/wp-includes/images/smilies/icon_mrgreen.gif
+
+200      GET        1l        4w      277c http://10.10.83.103/wp-includes/images/smilies/icon_eek.gif
+
+200      GET       10l       33w      722c http://10.10.83.103/wp-includes/images/smilies/icon_rolleyes.gif
+
+200      GET        2l        6w      278c http://10.10.83.103/wp-includes/images/smilies/icon_sad.gif
+
+200      GET        3l        7w      276c http://10.10.83.103/wp-includes/images/smilies/icon_cool.gif
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/theme.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/ms-deprecated.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-admin-bar.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-phpass.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/ms-default-filters.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-pop3.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed-rss.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-feed.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-customize-section.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-simplepie.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-smtp.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed-rss2-comments.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/ms-settings.php
+
+200      GET       65l      187w     2547c http://10.10.83.103/wp-login.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/feed-rdf.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-editor.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/ms-load.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-image-editor-imagick.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-phpmailer.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-customize-widgets.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/registration-functions.php
+
+200      GET        1l        6w       42c http://10.10.83.103/xmlrpc.php
+
+200      GET       26l       94w      727c http://10.10.83.103/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js
+
+200      GET        9l       14w      447c http://10.10.83.103/wp-includes/js/jcrop/Jcrop.gif
+
+200      GET     3785l     4535w   244983c http://10.10.83.103/wp-includes/certificates/ca-bundle.crt
+
+200      GET        0l        0w    92356c http://10.10.83.103/wp-content/themes/twentyfifteen/style.css
+
+200      GET      126l      465w     6847c http://10.10.83.103/
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-content/
+
+301      GET        9l       28w      313c http://10.10.83.103/hidden => http://10.10.83.103/hidden/
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-content/themes/
+
+200      GET       47l      294w   698728c http://10.10.83.103/wp-includes/js/zxcvbn.min.js
+
+200      GET        6l       18w      485c http://10.10.83.103/wp-includes/images/smilies/icon_lol.gif
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/functions.wp-styles.php
+
+200      GET        3l        7w      298c http://10.10.83.103/wp-includes/images/smilies/icon_surprised.gif
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/rss.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/date.php
+
+500      GET        0l        0w        0c http://10.10.83.103/wp-includes/class-wp-http-ixr-client.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pomo/mo.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pomo/translations.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pomo/entry.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pomo/streams.php
+
+200      GET        0l        0w        0c http://10.10.83.103/wp-includes/pomo/po.php
+
+200      GET        3l        8w      343c http://10.10.83.103/wp-includes/images/xit.gif
+
+200      GET        2l        6w      275c http://10.10.83.103/wp-includes/images/smilies/icon_razz.gif
+
+200      GET        3l        5w       83c http://10.10.83.103/wp-includes/images/down_arrow.gif
+
+200      GET        5l       16w     1569c http://10.10.83.103/wp-includes/images/arrow-pointer-blue.png
+
+200      GET       10l       23w      689c http://10.10.83.103/wp-includes/images/smilies/icon_cry.gif
+
+301      GET        9l       28w      329c http://10.10.83.103/wp-includes/js/tinymce => http://10.10.83.103/wp-includes/js/tinymce/
+
+200      GET        7l       23w     1188c http://10.10.83.103/wp-includes/images/wlw/wp-icon.png
+
+200      GET        9l       30w     2485c http://10.10.83.103/wp-includes/images/wlw/wp-comments.png
+
+200      GET       15l       62w     4111c http://10.10.83.103/wp-includes/images/wlw/wp-watermark.png
+
+301      GET        9l       28w      330c http://10.10.83.103/wp-includes/js/plupload => http://10.10.83.103/wp-includes/js/plupload/
+
+301      GET        9l       28w      335c http://10.10.83.103/wp-includes/js/imgareaselect => http://10.10.83.103/wp-includes/js/imgareaselect/
+
+301      GET        9l       28w      324c http://10.10.83.103/wp-includes/fonts => http://10.10.83.103/wp-includes/fonts/
+
+301      GET        9l       28w      323c http://10.10.83.103/wp-includes/Text => http://10.10.83.103/wp-includes/Text/
+
+301      GET        9l       28w      331c http://10.10.83.103/wp-includes/theme-compat => http://10.10.83.103/wp-includes/theme-compat/
+
+301      GET        9l       28w      322c http://10.10.83.103/wp-includes/css => http://10.10.83.103/wp-includes/css/
+
