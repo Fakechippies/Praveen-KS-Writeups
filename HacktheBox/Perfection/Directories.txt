@@ -1,0 +1,24 @@
+404      GET       21l       37w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET        6l       12w      142c http://10.129.229.121/css/lato.css
+
+200      GET       32l      220w    13738c http://10.129.229.121/images/checklist.jpg
+
+200      GET      142l      444w     5191c http://10.129.229.121/weighted-grade
+
+200      GET      103l      387w     3827c http://10.129.229.121/about
+
+200      GET        6l       12w      173c http://10.129.229.121/css/montserrat.css
+
+200      GET       11l       52w     3860c http://10.129.229.121/images/lightning.png
+
+200      GET      235l      442w    23427c http://10.129.229.121/css/w3.css
+
+200      GET        4l       66w    31000c http://10.129.229.121/css/font-awesome.min.css
+
+200      GET      101l      390w     3842c http://10.129.229.121/
+
+200      GET       51l      214w    14842c http://10.129.229.121/images/susan.jpg
+
+200      GET      176l     1024w    79295c http://10.129.229.121/images/tina.jpg
+
