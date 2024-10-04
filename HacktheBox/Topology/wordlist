@@ -1,0 +1,14 @@
+\input
+\include
+\lstinputlisting
+\usepackage
+\verbatiminput
+\newread
+\open
+\read
+\write
+\close
+\immediate
+\documentclass
+\input
+\url
