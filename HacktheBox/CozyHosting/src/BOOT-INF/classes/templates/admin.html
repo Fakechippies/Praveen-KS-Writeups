@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard - Cozy Cloud</title>
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/admin.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: NiceAdmin
+    * Updated: Mar 09 2023 with Bootstrap v5.2.3
+    * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+<header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+        <a href="index" class="logo d-flex align-items-center">
+            <img style="max-height: 80px;" src="assets/img/logo.png" alt="">
+            <span class="d-none d-lg-block">Cozy Cloud</span>
+        </a>
+    </div>
+
+    <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+
+            <li class="nav-item dropdown">
+
+                <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                    <i class="bi bi-bell"></i>
+                    <span class="badge bg-primary badge-number">1</span>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications" style="width: 240px;">
+                    <li class="notification-item">
+                        <i class="bi bi-exclamation-circle text-warning"></i>
+                        <div>
+                            <h4>Keep your hosts patched!</h4>
+                            <p>3 hosts require your attention.</p>
+                            <p>30 min. ago</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="nav-item dropdown pe-3">
+          <span class="nav-link nav-profile d-flex align-items-center pe-0">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block ps-2">K. Anderson</span>
+          </span>
+            </li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<main id="main" class="main" style="margin-left: 0">
+
+    <div class="pagetitle">
+        <h1>Admin Dashboard</h1>
+    </div>
+
+    <section class="section dashboard">
+        <div class="row">
+
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card recent-sales overflow-auto">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+
+                                <table class="table table-borderless datatable">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Host</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Cost</th>
+                                        <th scope="col">Status</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2457</a></th>
+                                        <td>suspicious mcnulty</td>
+                                        <td><a href="#" class="text-primary">Static content</a></td>
+                                        <td>$64</td>
+                                        <td><span class="badge bg-success">Patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2147</a></th>
+                                        <td>boring mahavira</td>
+                                        <td><a href="#" class="text-primary">API server</a></td>
+                                        <td>$47</td>
+                                        <td><span class="badge bg-warning">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2049</a></th>
+                                        <td>stoic varahamihira</td>
+                                        <td><a href="#" class="text-primary">Metrics backend</a></td>
+                                        <td>$147</td>
+                                        <td><span class="badge bg-success">Patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2644</a></th>
+                                        <td>tender mirzakhani</td>
+                                        <td><a href="#" class="text-primar">Website</a></td>
+                                        <td>$67</td>
+                                        <td><span class="badge bg-danger">Not patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2644</a></th>
+                                        <td>sleepy mcclintock</td>
+                                        <td><a href="#" class="text-primary">Administrator panel</a></td>
+                                        <td>$165</td>
+                                        <td><span class="badge bg-success">Patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2644</a></th>
+                                        <td>cranky mcnulty</td>
+                                        <td><a href="#" class="text-primary">Test runner</a></td>
+                                        <td>$82</td>
+                                        <td><span class="badge bg-danger">Not patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2644</a></th>
+                                        <td>goofy kalam</td>
+                                        <td><a href="#" class="text-primary">CI/CD</a></td>
+                                        <td>$99</td>
+                                        <td><span class="badge bg-success">Patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2644</a></th>
+                                        <td>reverent archimedes</td>
+                                        <td><a href="#" class="text-primary">Test pipeline</a></td>
+                                        <td>$24</td>
+                                        <td><span class="badge bg-success">Patched</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><a href="#">#2644</a></th>
+                                        <td>awesome lalande</td>
+                                        <td><a href="#" class="text-primary">Dev environment</a></td>
+                                        <td>$53</td>
+                                        <td><span class="badge bg-danger">Not patched</span></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+
+
+                <div class="card">
+
+                    <div class="card-body pb-0">
+                        <h5 class="card-title">Running software <span>| Today</span></h5>
+
+                        <div id="trafficChart" style="min-height: 406px;" class="echart"></div>
+
+                        <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  echarts.init(document.querySelector("#trafficChart")).setOption({
+                    tooltip: {
+                      trigger: 'item'
+                    },
+                    legend: {
+                      top: '5%',
+                      left: 'center'
+                    },
+                    series: [{
+                      name: 'Access From',
+                      type: 'pie',
+                      radius: ['40%', '70%'],
+                      avoidLabelOverlap: false,
+                      label: {
+                        show: false,
+                        position: 'center'
+                      },
+                      emphasis: {
+                        label: {
+                          show: true,
+                          fontSize: '18',
+                          fontWeight: 'bold'
+                        }
+                      },
+                      labelLine: {
+                        show: false
+                      },
+                      data: [{
+                          value: 1048,
+                          name: 'Pending scan'
+                        },
+                        {
+                          value: 735,
+                          name: 'Up to date'
+                        },
+                        {
+                          value: 520,
+                          name: 'Pending update'
+                        },
+                        {
+                          value: 520,
+                          name: 'Security update is required'
+                        }
+                      ]
+                    }]
+                  });
+                });
+
+                        </script>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Include host into automatic patching</h5>
+                        <div class="alert alert-info  alert-dismissible fade show" role="alert">
+                            <h4 class="alert-heading">Please note</h4>
+                            <p>For Cozy Scanner to connect the private key that you received upon registration should be
+                                included in your host's .ssh/authorised_keys file.</p>
+                        </div>
+                        <div th:if="${param.error}" class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <h4 class="alert-heading">The host was not added!</h4>
+                            <p th:text="${param.error}"></p>
+                        </div>
+
+                        <form th:action="@{/executessh}" method="post">
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label">Connection settings</label>
+                                <div class="col-sm-10">
+                                    <div class="form-floating mb-3">
+                                        <input name="host" class="form-control" id="host" placeholder="example.com">
+                                        <label for="host">Hostname</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input name="username" class="form-control" id="username" placeholder="user">
+                                        <label for="username">Username</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="reset" class="btn btn-secondary">Reset</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="copyright">
+        &copy; Copyright <strong><span>Cozy Cloud</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+</footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/echarts/echarts.min.js"></script>
+<script src="assets/js/admin.js"></script>
+
+</body>
+
+</html>
