@@ -1,0 +1,104 @@
+# Nmap 7.95 scan initiated Wed Oct 16 21:23:34 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80,1883,5672,8161,36575,61613,61614,61616 -o aggressiveScan.txt 10.10.11.243
+Nmap scan report for 10.10.11.243
+Host is up (0.23s latency).
+
+PORT      STATE SERVICE    VERSION
+22/tcp    open  ssh        OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 3e:ea:45:4b:c5:d1:6d:6f:e2:d4:d1:3b:0a:3d:a9:4f (ECDSA)
+|_  256 64:cc:75:de:4a:e6:a5:b4:73:eb:3f:1b:cf:b4:e3:94 (ED25519)
+80/tcp    open  http       nginx 1.18.0 (Ubuntu)
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  basic realm=ActiveMQRealm
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Error 401 Unauthorized
+1883/tcp  open  mqtt
+| mqtt-subscribe: 
+|   Topics and their most recent payloads: 
+|_    ActiveMQ/Advisory/Consumer/Topic/#: 
+5672/tcp  open  amqp?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GetRequest, HTTPOptions, RPCCheck, RTSPRequest, SSLSessionReq, TerminalServerCookie: 
+|     AMQP
+|     AMQP
+|     amqp:decode-error
+|_    7Connection from client using unsupported AMQP attempted
+|_amqp-info: ERROR: AQMP:handshake expected header (1) frame, but was 65
+8161/tcp  open  http       Jetty 9.4.39.v20210325
+|_http-server-header: Jetty(9.4.39.v20210325)
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  basic realm=ActiveMQRealm
+|_http-title: Error 401 Unauthorized
+36575/tcp open  tcpwrapped
+61613/tcp open  stomp      Apache ActiveMQ
+| fingerprint-strings: 
+|   HELP4STOMP: 
+|     ERROR
+|     content-type:text/plain
+|     message:Unknown STOMP action: HELP
+|     org.apache.activemq.transport.stomp.ProtocolException: Unknown STOMP action: HELP
+|     org.apache.activemq.transport.stomp.ProtocolConverter.onStompCommand(ProtocolConverter.java:258)
+|     org.apache.activemq.transport.stomp.StompTransportFilter.onCommand(StompTransportFilter.java:85)
+|     org.apache.activemq.transport.TransportSupport.doConsume(TransportSupport.java:83)
+|     org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:233)
+|     org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+|_    java.lang.Thread.run(Thread.java:750)
+61614/tcp open  http       Jetty 9.4.39.v20210325
+|_http-server-header: Jetty(9.4.39.v20210325)
+|_http-title: Site doesn't have a title.
+| http-methods: 
+|_  Potentially risky methods: TRACE
+61616/tcp open  apachemq   ActiveMQ OpenWire transport 5.15.15
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5672-TCP:V=7.95%I=7%D=10/16%Time=670FE18A%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10
+SF:\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x0
+SF:1\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20cl
+SF:ient\x20using\x20unsupported\x20AMQP\x20attempted")%r(HTTPOptions,89,"A
+SF:MQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa
+SF:1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x
+SF:02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20using\x
+SF:20unsupported\x20AMQP\x20attempted")%r(RTSPRequest,89,"AMQP\x03\x01\0\0
+SF:AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0
+SF:`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:
+SF:decode-error\xa17Connection\x20from\x20client\x20using\x20unsupported\x
+SF:20AMQP\x20attempted")%r(RPCCheck,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0
+SF:\0\x19\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x
+SF:02\0\0\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17C
+SF:onnection\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempte
+SF:d")%r(DNSVersionBindReqTCP,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19
+SF:\x02\0\0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0
+SF:\0\0S\x18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connect
+SF:ion\x20from\x20client\x20using\x20unsupported\x20AMQP\x20attempted")%r(
+SF:DNSStatusRequestTCP,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\
+SF:0\0\0S\x10\xc0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x
+SF:18\xc0S\x01\0S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20
+SF:from\x20client\x20using\x20unsupported\x20AMQP\x20attempted")%r(SSLSess
+SF:ionReq,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc
+SF:0\x0c\x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0
+SF:S\x1d\xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20clien
+SF:t\x20using\x20unsupported\x20AMQP\x20attempted")%r(TerminalServerCookie
+SF:,89,"AMQP\x03\x01\0\0AMQP\0\x01\0\0\0\0\0\x19\x02\0\0\0\0S\x10\xc0\x0c\
+SF:x04\xa1\0@p\0\x02\0\0`\x7f\xff\0\0\0`\x02\0\0\0\0S\x18\xc0S\x01\0S\x1d\
+SF:xc0M\x02\xa3\x11amqp:decode-error\xa17Connection\x20from\x20client\x20u
+SF:sing\x20unsupported\x20AMQP\x20attempted");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port61613-TCP:V=7.95%I=7%D=10/16%Time=670FE184%P=x86_64-pc-linux-gnu%r(
+SF:HELP4STOMP,27F,"ERROR\ncontent-type:text/plain\nmessage:Unknown\x20STOM
+SF:P\x20action:\x20HELP\n\norg\.apache\.activemq\.transport\.stomp\.Protoc
+SF:olException:\x20Unknown\x20STOMP\x20action:\x20HELP\n\tat\x20org\.apach
+SF:e\.activemq\.transport\.stomp\.ProtocolConverter\.onStompCommand\(Proto
+SF:colConverter\.java:258\)\n\tat\x20org\.apache\.activemq\.transport\.sto
+SF:mp\.StompTransportFilter\.onCommand\(StompTransportFilter\.java:85\)\n\
+SF:tat\x20org\.apache\.activemq\.transport\.TransportSupport\.doConsume\(T
+SF:ransportSupport\.java:83\)\n\tat\x20org\.apache\.activemq\.transport\.t
+SF:cp\.TcpTransport\.doRun\(TcpTransport\.java:233\)\n\tat\x20org\.apache\
+SF:.activemq\.transport\.tcp\.TcpTransport\.run\(TcpTransport\.java:215\)\
+SF:n\tat\x20java\.lang\.Thread\.run\(Thread\.java:750\)\n\0\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 16 21:24:21 2024 -- 1 IP address (1 host up) scanned in 47.62 seconds
