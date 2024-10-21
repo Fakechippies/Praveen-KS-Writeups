@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Mon Oct 21 18:32:19 2024 as: nmap -p- --min-rate=10000 -Pn -n -o allPortScan.txt 10.129.1.180
+Nmap scan report for 10.129.1.180
+Host is up (0.17s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+50051/tcp open  unknown
+
+# Nmap done at Mon Oct 21 18:33:21 2024 -- 1 IP address (1 host up) scanned in 62.30 seconds
