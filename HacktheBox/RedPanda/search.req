@@ -1,0 +1,16 @@
+POST /search HTTP/1.1
+Host: 10.129.1.11:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 18
+Origin: http://10.129.1.11:8080
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://10.129.1.11:8080/
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+name=FUZZ

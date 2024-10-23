@@ -1,0 +1,16 @@
+404      GET        1l        2w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+405      GET        1l        3w      117c http://10.129.1.11:8080/search
+
+500      GET        1l        1w       86c http://10.129.1.11:8080/error
+
+200      GET      275l      763w     7549c http://10.129.1.11:8080/css/panda.css
+
+200      GET       22l       41w      295c http://10.129.1.11:8080/css/main.css
+
+200      GET       55l      119w     1543c http://10.129.1.11:8080/
+
+200      GET       54l      102w      822c http://10.129.1.11:8080/css/stats.css
+
+200      GET       32l       97w      987c http://10.129.1.11:8080/stats
+
