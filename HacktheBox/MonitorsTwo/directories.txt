@@ -1,0 +1,326 @@
+403      GET        9l       28w      276c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+404      GET        9l       31w      273c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET      233l      535w     7186c http://10.10.11.211/include/themes/modern/main.js
+
+200      GET       43l      251w     2751c http://10.10.11.211/include/themes/modern/jquery.multiselect.css
+
+200      GET        4l       21w     1996c http://10.10.11.211/include/themes/modern/images/favicon.ico
+
+200      GET       11l       40w     1292c http://10.10.11.211/include/js/jquery.ui.touch.punch.js
+
+200      GET       79l      224w     2102c http://10.10.11.211/include/themes/modern/pace.css
+
+200      GET      239l      413w     4719c http://10.10.11.211/include/themes/modern/jquery.colorpicker.css
+
+200      GET      224l      527w     4343c http://10.10.11.211/include/themes/modern/billboard.css
+
+200      GET       91l      532w     3693c http://10.10.11.211/include/js/jquery.cookie.js
+
+200      GET      204l      557w     5019c http://10.10.11.211/include/js/jquery.hotkeys.js
+
+200      GET      307l      738w     8244c http://10.10.11.211/include/realtime.js
+
+200      GET      168l      385w     3532c http://10.10.11.211/include/js/screenfull.js
+
+200      GET       51l      258w     9818c http://10.10.11.211/include/themes/modern/images/cacti_logo.gif
+
+200      GET      196l      798w     6437c http://10.10.11.211/include/vendor/csrf/csrf-magic.js
+
+200      GET      287l     1028w    10341c http://10.10.11.211/include/js/jquery.multiselect.filter.js
+
+200      GET        4l       31w      402c http://10.10.11.211/include/themes/modern/jquery.multiselect.filter.css
+
+200      GET       30l      187w     1945c http://10.10.11.211/include/themes/modern/jquery.timepicker.css
+
+200      GET      251l      641w     6200c http://10.10.11.211/include/themes/modern/jquery.zoom.css
+
+200      GET      986l     3059w    25868c http://10.10.11.211/include/js/pace.js
+
+200      GET      272l      862w    13844c http://10.10.11.211/index.php
+
+200      GET      678l     2620w    24383c http://10.10.11.211/include/js/js.storage.js
+
+200      GET     1062l     2765w    30829c http://10.10.11.211/include/themes/modern/default/style.css
+
+200      GET      675l     2948w    28606c http://10.10.11.211/include/js/jquery.tablednd.js
+
+200      GET     1556l     2596w    37848c http://10.10.11.211/include/vendor/flag-icon-css/css/flag-icon.css
+
+200      GET     1312l     3487w    36651c http://10.10.11.211/include/themes/modern/jquery-ui.css
+
+200      GET     2685l     5572w    52555c http://10.10.11.211/include/themes/modern/main.css
+
+200      GET     2291l     8530w    78474c http://10.10.11.211/include/js/jquery.timepicker.js
+
+200      GET     1265l     5950w    45803c http://10.10.11.211/include/js/jquery.tablesorter.pager.js
+
+200      GET     1182l     4659w    52015c http://10.10.11.211/include/js/jquery.zoom.js
+
+200      GET     3271l    10562w   100355c http://10.10.11.211/include/js/jquery.colorpicker.js
+
+200      GET     2925l    16228w   108045c http://10.10.11.211/include/js/jquery.tablesorter.js
+
+200      GET     3054l    11599w   123446c http://10.10.11.211/include/js/jquery.sparkline.js
+
+200      GET        5l     1694w   125419c http://10.10.11.211/include/js/dygraph-combined.js
+
+200      GET     4629l    10902w   127570c http://10.10.11.211/include/layout.js
+
+200      GET     4589l     7799w    73168c http://10.10.11.211/include/fa/css/all.css
+
+200      GET     1930l     7651w    72940c http://10.10.11.211/include/js/jquery.multiselect.js
+
+200      GET        0l        0w   658664c http://10.10.11.211/include/js/billboard.js
+
+200      GET        0l        0w   428787c http://10.10.11.211/include/js/Chart.js
+
+200      GET        0l        0w   520714c http://10.10.11.211/include/js/jquery-ui.js
+
+200      GET        0l        0w   287630c http://10.10.11.211/include/js/jquery.js
+
+200      GET        0l        0w   126337c http://10.10.11.211/include/js/jquery.tablesorter.widgets.js
+
+200      GET        0l        0w   307794c http://10.10.11.211/include/js/jstree.js
+
+200      GET        0l        0w   559931c http://10.10.11.211/include/js/d3.js
+
+200      GET      272l      862w    13844c http://10.10.11.211/
+
+200      GET      114l      854w     8800c http://10.10.11.211/docs/How-To-Determine-Template-Version.html
+
+200      GET       48l      188w     2133c http://10.10.11.211/docs/apache_template_config.html
+
+200      GET       52l      427w     3787c http://10.10.11.211/docs/Device-Templates.html
+
+200      GET       35l      332w     2566c http://10.10.11.211/docs/Tree-Rules.html
+
+200      GET      117l     1397w    11935c http://10.10.11.211/docs/Settings-General.html
+
+200      GET       47l      639w     4919c http://10.10.11.211/docs/User-Group-Management.html
+
+200      GET       38l      398w     3293c http://10.10.11.211/docs/Contributing.html
+
+200      GET      133l      925w     6867c http://10.10.11.211/docs/CDEFs.html
+
+200      GET       28l      130w     1327c http://10.10.11.211/docs/External-Links.html
+
+200      GET      134l     1016w     8597c http://10.10.11.211/docs/How-To-Setup-Remote-Pollers.html
+
+200      GET      137l      842w     8354c http://10.10.11.211/docs/Upgrading-Cacti-Under-Windows.html
+
+200      GET       85l      939w     7675c http://10.10.11.211/docs/Plugin-Development.html
+
+200      GET      125l      608w     5035c http://10.10.11.211/docs/Data-Sources.html
+
+200      GET       83l      825w     6614c http://10.10.11.211/docs/Reports-Admin.html
+
+200      GET      424l     1210w    16006c http://10.10.11.211/docs/Cacti-Github.css
+
+200      GET      350l     2539w    22835c http://10.10.11.211/docs/Standards-Documentation.html
+
+200      GET      150l     1976w    14257c http://10.10.11.211/docs/Boost.html
+
+200      GET      278l      781w    17040c http://10.10.11.211/docs/images/logo.svg
+
+200      GET      217l     1586w    15938c http://10.10.11.211/docs/How-To-Data-Queries.html
+
+200      GET      368l     2039w    20779c http://10.10.11.211/docs/Install-Under-CentOS_LAMP.html
+
+200      GET     1147l     7033w    57782c http://10.10.11.211/docs/Command-Line-Scripts.html
+
+200      GET      279l     2491w    15171c http://10.10.11.211/LICENSE
+
+200      GET       22l       66w      817c http://10.10.11.211/docs/Aggregates.html
+
+200      GET       21l       70w      845c http://10.10.11.211/docs/Settings-Users-Groups-Domains.html
+
+200      GET      600l     4000w    77302c http://10.10.11.211/docs/Export-Template.html
+
+200      GET      210l     1069w    13434c http://10.10.11.211/docs/Table-of-Contents.html
+
+200      GET      112l      881w     7465c http://10.10.11.211/docs/Upgrading-Cacti.html
+
+200      GET     1237l     7220w    76183c http://10.10.11.211/docs/RRDtool-Specific-Features.html
+
+200      GET      711l     7279w    85724c http://10.10.11.211/docs/How-To-Script-Data-Queries.html
+
+200      GET       64l      995w     8069c http://10.10.11.211/docs/Data-Collectors.html
+
+200      GET       35l      417w     2968c http://10.10.11.211/docs/Data-Debug.html
+
+200      GET      272l      862w    13846c http://10.10.11.211/install/install.php
+
+200      GET       81l      987w     7746c http://10.10.11.211/docs/Spikekill.html
+
+200      GET       72l      997w     7578c http://10.10.11.211/docs/Settings-Mail-Reporting-DNS.html
+
+200      GET       87l     1233w    10491c http://10.10.11.211/docs/Navigating-The-User-Interface.html
+
+200      GET       78l      839w     6934c http://10.10.11.211/docs/Settings-Paths.html
+
+200      GET       73l      809w     6586c http://10.10.11.211/docs/Settings-Visual.html
+
+200      GET       83l     1343w    10795c http://10.10.11.211/docs/Settings-Poller.html
+
+200      GET      148l     1894w    14497c http://10.10.11.211/docs/How-To-Existing-SNMP-Data-Queries.html
+
+200      GET      333l     2221w    17884c http://10.10.11.211/docs/Variables.html
+
+200      GET      149l     2595w    21002c http://10.10.11.211/docs/User-Management.html
+
+200      GET      160l     1339w    13469c http://10.10.11.211/docs/Standards-SQL.html
+
+200      GET      166l     2095w    17958c http://10.10.11.211/docs/Debugging.html
+
+200      GET      185l     1707w    13104c http://10.10.11.211/docs/Requirements.html
+
+200      GET      139l     1868w    13175c http://10.10.11.211/docs/Standards-Patch-Creation.html
+
+200      GET      201l     1837w    14312c http://10.10.11.211/docs/Spine.html
+
+200      GET      173l     2677w    19765c http://10.10.11.211/docs/Settings-Auth-LDAP.html
+
+200      GET      261l     2508w    19279c http://10.10.11.211/docs/syslog-plugin.html
+
+200      GET      408l     3307w    37387c http://10.10.11.211/docs/How-To-New-SNMP-Data-Queries.html
+
+200      GET      442l     2207w    22508c http://10.10.11.211/docs/Install-Under-CentOS_LEMP.html
+
+200      GET      255l     2343w    23120c http://10.10.11.211/docs/General-Installing-Instructions.html
+
+200      GET      248l     1976w    18317c http://10.10.11.211/docs/Plugin-Creating-Plugins.html
+
+200      GET      180l     1981w    18824c http://10.10.11.211/docs/PHP-Script-Server.html
+
+200      GET      246l     2898w    21551c http://10.10.11.211/docs/Frequently-Asked-Questions.html
+
+200      GET       25l      144w     1369c http://10.10.11.211/docs/Reports-Preview.html
+
+200      GET       41l      208w     2220c http://10.10.11.211/docs/Cacti-SSL-Configuration.html
+
+200      GET       24l      250w     2153c http://10.10.11.211/docs/Known-Issues.html
+
+200      GET       27l      197w     1747c http://10.10.11.211/docs/GPRINTs.html
+
+200      GET       29l      299w     2308c http://10.10.11.211/docs/Colors.html
+
+200      GET       28l      159w     1579c http://10.10.11.211/docs/SNMP-Options.html
+
+200      GET       29l      264w     2106c http://10.10.11.211/docs/Device-Rules.html
+
+200      GET       30l      287w     2282c http://10.10.11.211/docs/Import-Template.html
+
+200      GET       28l      228w     2044c http://10.10.11.211/docs/Reports-Other-Options.html
+
+200      GET       24l      144w     1299c http://10.10.11.211/docs/Reports-Events.html
+
+200      GET       32l      237w     1953c http://10.10.11.211/docs/Discovered-Devices.html
+
+200      GET      232l     2311w    19114c http://10.10.11.211/docs/How-To-Create-Data-Input-Method.html
+
+200      GET      315l     2414w    23098c http://10.10.11.211/docs/Installing-Under-Windows.html
+
+200      GET       31l      216w     1841c http://10.10.11.211/docs/Sites.html
+
+200      GET       33l      255w     2222c http://10.10.11.211/docs/Settings-Domains.html
+
+200      GET       29l      220w     1869c http://10.10.11.211/docs/Graphs.html
+
+200      GET       30l      168w     1621c http://10.10.11.211/docs/Plugin-Guidelines.html
+
+200      GET      352l     4921w    36465c http://10.10.11.211/docs/Templates.html
+
+200      GET       40l      439w     3588c http://10.10.11.211/docs/Settings-Auth-Basic.html
+
+200      GET       36l      346w     2815c http://10.10.11.211/docs/Graph-Rules.html
+
+200      GET       40l      350w     3014c http://10.10.11.211/docs/Settings-Auth-Local.html
+
+200      GET       64l      319w     2710c http://10.10.11.211/docs/Automation-Networks.html
+
+200      GET       41l      527w     4162c http://10.10.11.211/docs/Settings-Spikes.html
+
+200      GET       44l      489w     4147c http://10.10.11.211/docs/Settings-Auth.html
+
+200      GET       43l      524w     4536c http://10.10.11.211/docs/Settings.html
+
+200      GET       74l      576w     4622c http://10.10.11.211/docs/Trees.html
+
+200      GET       82l      520w     4779c http://10.10.11.211/docs/Installing-Under-Ubuntu-Debian.html
+
+200      GET       37l      461w     3412c http://10.10.11.211/docs/VDEFs.html
+
+200      GET       29l      272w     2472c http://10.10.11.211/docs/Color-Templates.html
+
+200      GET       63l      457w     3612c http://10.10.11.211/docs/Data-Profiles.html
+
+200      GET       71l      553w     4927c http://10.10.11.211/docs/Plugins.html
+
+200      GET       34l      552w     4433c http://10.10.11.211/docs/Graph-Overview.html
+
+200      GET       48l      666w     4943c http://10.10.11.211/docs/Contributing-Translations.html
+
+200      GET       55l      565w     4667c http://10.10.11.211/docs/Cacti-Log.html
+
+200      GET      297l     3452w    29684c http://10.10.11.211/docs/How-to-Graph-Your-Network.html
+
+200      GET      356l     3224w    35550c http://10.10.11.211/docs/Standards-Code-Formatting.html
+
+200      GET       87l      850w     7411c http://10.10.11.211/docs/Settings-Device-Defaults.html
+
+200      GET       84l      933w     7754c http://10.10.11.211/docs/How-To-Work-With-Templates.html
+
+200      GET       94l     1081w     8631c http://10.10.11.211/docs/Devices.html
+
+200      GET      113l     1379w    10009c http://10.10.11.211/docs/Principles-of-Operation.html
+
+200      GET       82l      789w     6249c http://10.10.11.211/docs/Reports-User.html
+
+200      GET       44l      730w     5358c http://10.10.11.211/docs/Settings-Performance.html
+
+200      GET      146l     1504w    11280c http://10.10.11.211/docs/Data-Input-Methods.html
+
+200      GET       38l      374w     2765c http://10.10.11.211/docs/User-Domains.html
+
+200      GET      200l     1246w    11008c http://10.10.11.211/docs/Standards-FileSystem-Layout.html
+
+200      GET       74l      987w     8587c http://10.10.11.211/docs/Aggregate-Templates.html
+
+200      GET      110l      744w     6513c http://10.10.11.211/docs/Upgrading-Cacti-Under-FreeBSD.html
+
+200      GET      118l     1059w     9916c http://10.10.11.211/docs/Standards-PHP-Spec-Constructs.html
+
+200      GET       74l      762w     6052c http://10.10.11.211/docs/Reports-Items.html
+
+200      GET       88l      956w     6719c http://10.10.11.211/docs/Data-Source-Templates.html
+
+200      GET       67l      685w     5437c http://10.10.11.211/docs/Settings-Data.html
+
+200      GET       94l      748w     5923c http://10.10.11.211/docs/Viewing-Graphs.html
+
+200      GET      511l     5363w    42831c http://10.10.11.211/docs/Data-Queries.html
+
+200      GET        0l        0w     6685c http://10.10.11.211/docs/System-Utilities.html
+
+200      GET        0l        0w     8593c http://10.10.11.211/docs/Standards-Security.html
+
+200      GET        0l        0w    11871c http://10.10.11.211/docs/Plugin-Reference.html
+
+200      GET        0l        0w    12796c http://10.10.11.211/docs/Graph-Templates.html
+
+200      GET        0l        0w     7432c http://10.10.11.211/docs/How-To-SSH-Tunnels.html
+
+200      GET        0l        0w    76511c http://10.10.11.211/docs/Plugin-Hook-API-Ref.html
+
+200      GET        0l        0w     6308c http://10.10.11.211/docs/RRDproxy.html
+
+200      GET        0l        0w   225494c http://10.10.11.211/docs/Version-Specific-Release-Notes.html
+
+200      GET        0l        0w     6263c http://10.10.11.211/docs/Graph-a-Single-SNMP-OID.html
+
+200      GET      210l     1086w    13878c http://10.10.11.211/docs/
+
+200      GET      210l     1086w    13878c http://10.10.11.211/docs/index.php
+
