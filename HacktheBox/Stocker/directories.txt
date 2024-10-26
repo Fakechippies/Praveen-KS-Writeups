@@ -1,0 +1,54 @@
+404      GET        7l       12w      162c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+
+200      GET       81l      475w    40738c http://stocker.htb/fonts/inter-v12-latin-500.woff
+
+200      GET       40l      241w    18399c http://stocker.htb/img/webp/people1.webp
+
+200      GET       12l       62w     3907c http://stocker.htb/img/webp/interior37.webp
+
+200      GET       39l      197w    15603c http://stocker.htb/img/webp/people23.webp
+
+200      GET       20l      129w     9226c http://stocker.htb/img/apple-touch-icon.png
+
+200      GET        4l       10w      696c http://stocker.htb/img/favicon-16x16.png
+
+200      GET        6l       21w     1354c http://stocker.htb/img/favicon-32x32.png
+
+200      GET       91l      507w    41060c http://stocker.htb/fonts/inter-v12-latin-700.woff
+
+200      GET      122l      561w    41547c http://stocker.htb/img/webp/people2.webp
+
+200      GET       78l      424w    31843c http://stocker.htb/fonts/inter-v12-latin-500.woff2
+
+200      GET       56l      418w    32043c http://stocker.htb/fonts/inter-v12-latin-700.woff2
+
+200      GET       97l      503w    40143c http://stocker.htb/fonts/inter-v12-latin-300.woff
+
+200      GET       55l      383w    31373c http://stocker.htb/fonts/inter-v12-latin-300.woff2
+
+200      GET        1l      268w    13800c http://stocker.htb/js/aos.js
+
+200      GET      176l     1153w    89907c http://stocker.htb/img/webp/interior29.webp
+
+200      GET        6l      546w    42350c http://stocker.htb/css/theme.min.css
+
+403      GET        7l       10w      162c http://stocker.htb/css/
+
+403      GET        7l       10w      162c http://stocker.htb/img/
+
+200      GET        7l     1222w    79742c http://stocker.htb/js/bootstrap.bundle.min.js
+
+403      GET        7l       10w      162c http://stocker.htb/fonts/
+
+403      GET        7l       10w      162c http://stocker.htb/js/
+
+403      GET        7l       10w      162c http://stocker.htb/img/webp/
+
+200      GET        1l        4w     2174c http://stocker.htb/favicon.ico
+
+200      GET      321l     1360w    15463c http://stocker.htb/index.html
+
+200      GET     2059l    12963w   984134c http://stocker.htb/img/angoose.png
+
+200      GET      321l     1360w    15463c http://stocker.htb/
+
