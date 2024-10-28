@@ -1,0 +1,47 @@
+feroxbuster -u https://ssa.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r -k
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ https://ssa.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 🔓  Insecure              │ true
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        5l       31w      207c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET       77l      554w     5584c https://ssa.htb/about
+200      GET       69l      261w     3543c https://ssa.htb/contact
+200      GET       23l       44w      668c https://ssa.htb/static/scripts.js
+200      GET        1l       10w    41992c https://ssa.htb/static/favicon.ico
+200      GET        6l      374w    21258c https://ssa.htb/static/popper.min.js
+200      GET        7l     1031w    78130c https://ssa.htb/static/bootstrap.bundle.min.js
+200      GET        3l     1297w    89477c https://ssa.htb/static/jquery.min.js
+200      GET     1346l     6662w    63667c https://ssa.htb/static/bootstrap-icons.css
+200      GET       83l      249w     4392c https://ssa.htb/login
+200      GET       83l      249w     4392c https://ssa.htb/login?next=%2Fadmin
+200      GET     2019l    10020w    95610c https://ssa.htb/static/bootstrap-icons2.css
+200      GET      304l     1591w   115308c https://ssa.htb/static/eagl2.png
+200      GET    12292l    23040w   222220c https://ssa.htb/static/styles.css
+200      GET      155l      691w     9043c https://ssa.htb/guide
+200      GET       54l       61w     3187c https://ssa.htb/pgp
+200      GET      155l      691w     9043c https://ssa.htb/guide/encrypt
+200      GET      155l      691w     9043c https://ssa.htb/guide/verify
+200      GET       83l      249w     4392c https://ssa.htb/login?next=%2Flogout
+405      GET        5l       20w      153c https://ssa.htb/process
+200      GET    10161l    60431w  4580604c https://ssa.htb/static/circleLogo2.png
+200      GET      124l      634w     8161c https://ssa.htb/
+200      GET       83l      249w     4392c https://ssa.htb/login?next=%2Fview
+[####################] - 11s     4635/4635    0s      found:22      errors:0
+[####################] - 10s     4614/4614    472/s   https://ssa.htb/                                                                                                    

