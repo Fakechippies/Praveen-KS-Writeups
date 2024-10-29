@@ -1,0 +1,71 @@
+feroxbuster -u http://jupiter.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://jupiter.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        7l       12w      162c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+403      GET        7l       10w      162c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET        6l       26w     2932c http://jupiter.htb/img/icons/si-3.png
+200      GET        5l       37w     4168c http://jupiter.htb/img/icons/si-1.png
+200      GET      268l      628w    11913c http://jupiter.htb/portfolio.html
+200      GET        5l       79w     2505c http://jupiter.htb/css/slicknav.min.css
+200      GET      182l      306w     4202c http://jupiter.htb/js/main.js
+200      GET        7l       35w     3598c http://jupiter.htb/img/icons/si-4.png
+200      GET      351l      795w     6948c http://jupiter.htb/css/magnific-popup.css
+200      GET        6l       27w     3521c http://jupiter.htb/img/icons/si-2.png
+200      GET      251l      759w    11969c http://jupiter.htb/services.html
+200      GET      266l      701w    12613c http://jupiter.htb/about.html
+200      GET      225l      536w    10141c http://jupiter.htb/contact.html
+200      GET        6l       77w     3351c http://jupiter.htb/css/owl.carousel.min.css
+200      GET      399l     1181w    19680c http://jupiter.htb/index.html
+200      GET       63l      491w    46294c http://jupiter.htb/img/team/team-1.jpg
+200      GET        4l      212w    20216c http://jupiter.htb/js/jquery.magnific-popup.min.js
+200      GET        9l      394w    24103c http://jupiter.htb/js/masonry.pkgd.min.js
+200      GET      584l     1619w    20977c http://jupiter.htb/js/jquery.slicknav.js
+200      GET        4l       66w    31000c http://jupiter.htb/css/font-awesome.min.css
+200      GET     2174l     4138w    38852c http://jupiter.htb/css/style.css
+200      GET       86l      411w    41833c http://jupiter.htb/img/logo/logo-jupiter.png
+200      GET       79l      431w    32802c http://jupiter.htb/img/team/team-3.jpg
+200      GET      158l      582w    49359c http://jupiter.htb/img/team/team-4.jpg
+200      GET     1159l     2347w    25252c http://jupiter.htb/css/elegant-icons.css
+200      GET        6l      685w    60132c http://jupiter.htb/js/bootstrap.min.js
+200      GET        7l      277w    44342c http://jupiter.htb/js/owl.carousel.min.js
+200      GET      371l     1767w   151469c http://jupiter.htb/img/callto-bg.jpg
+200      GET        2l     1283w    86927c http://jupiter.htb/js/jquery-3.3.1.min.js
+200      GET      118l      859w    75695c http://jupiter.htb/img/team/team-2.jpg
+200      GET       18l      930w    89031c http://jupiter.htb/js/mixitup.min.js
+200      GET      449l     2746w   227845c http://jupiter.htb/img/hero/juno.jpg
+200      GET        6l     2099w   160357c http://jupiter.htb/css/bootstrap.min.css
+200      GET      584l     2604w   274076c http://jupiter.htb/img/team-bg.jpg
+200      GET     1532l     9164w   702346c http://jupiter.htb/img/hero/jupiter-01.jpg
+200      GET     6999l    31058w  2920253c http://jupiter.htb/img/hero/jupiter-02.png
+200      GET      399l     1181w    19680c http://jupiter.htb/
+[####################] - 12s    55411/55411   0s      found:35      errors:2064
+[####################] - 6s      4614/4614    793/s   http://jupiter.htb/
+[####################] - 5s      4614/4614    932/s   http://jupiter.htb/css/
+[####################] - 5s      4614/4614    882/s   http://jupiter.htb/fonts/
+[####################] - 5s      4614/4614    938/s   http://jupiter.htb/img/
+[####################] - 5s      4614/4614    962/s   http://jupiter.htb/js/
+[####################] - 5s      4614/4614    956/s   http://jupiter.htb/img/about/
+[####################] - 5s      4614/4614    941/s   http://jupiter.htb/img/blog/
+[####################] - 5s      4614/4614    930/s   http://jupiter.htb/img/icons/
+[####################] - 5s      4614/4614    905/s   http://jupiter.htb/img/logo/
+[####################] - 4s      4614/4614    1059/s  http://jupiter.htb/img/portfolio/
+[####################] - 4s      4614/4614    1210/s  http://jupiter.htb/img/team/
+[####################] - 4s      4614/4614    1273/s  http://jupiter.htb/img/work/                                                                                        
