@@ -1,0 +1,37 @@
+feroxbuster -u http://clicker.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://clicker.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+403      GET        9l       28w      276c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+404      GET        9l       31w      273c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET      114l      266w     3221c http://clicker.htb/login.php
+200      GET      114l      266w     3253c http://clicker.htb/register.php
+200      GET       50l       98w      733c http://clicker.htb/assets/cover.css
+200      GET        7l     1966w   155758c http://clicker.htb/assets/css/bootstrap.min.css
+200      GET     5668l    32838w  2838184c http://clicker.htb/assets/background.png
+200      GET      107l      277w     2984c http://clicker.htb/index.php
+200      GET      107l      277w     2984c http://clicker.htb/
+200      GET      127l      319w     3343c http://clicker.htb/info.php
+[####################] - 31s    23079/23079   0s      found:8       errors:1408
+[####################] - 26s     4614/4614    176/s   http://clicker.htb/
+[####################] - 20s     4614/4614    231/s   http://clicker.htb/assets/
+[####################] - 22s     4614/4614    213/s   http://clicker.htb/exports/
+[####################] - 20s     4614/4614    233/s   http://clicker.htb/assets/css/
+[####################] - 15s     4614/4614    311/s   http://clicker.htb/assets/js/                                                                                       
