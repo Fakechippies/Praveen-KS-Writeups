@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Thu Oct 31 23:08:09 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,5000 -o aggressiveScan.txt 10.10.11.38
+Nmap scan report for 10.10.11.38
+Host is up (0.087s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 b6:fc:20:ae:9d:1d:45:1d:0b:ce:d9:d0:20:f2:6f:dc (RSA)
+|   256 f1:ae:1c:3e:1d:ea:55:44:6c:2f:f2:56:8d:62:3c:2b (ECDSA)
+|_  256 94:42:1b:78:f2:51:87:07:3e:97:26:c9:a2:5c:0a:26 (ED25519)
+5000/tcp open  http    Werkzeug httpd 3.0.3 (Python 3.9.5)
+|_http-server-header: Werkzeug/3.0.3 Python/3.9.5
+|_http-title: Chemistry - Home
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 31 23:08:23 2024 -- 1 IP address (1 host up) scanned in 13.40 seconds

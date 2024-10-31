@@ -1,0 +1,31 @@
+feroxbuster -u http://10.10.11.38:5000 -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://10.10.11.38:5000
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        5l       31w      207c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET      126l      277w     2312c http://10.10.11.38:5000/static/styles.css
+200      GET       29l       57w      926c http://10.10.11.38:5000/login
+200      GET       29l       57w      931c http://10.10.11.38:5000/register
+200      GET       22l       61w      719c http://10.10.11.38:5000/
+200      GET       29l       57w      926c http://10.10.11.38:5000/login?next=%2Fdashboard
+200      GET       29l       57w      926c http://10.10.11.38:5000/login?next=%2Flogout
+405      GET        5l       20w      153c http://10.10.11.38:5000/upload
+[####################] - 6s      4618/4618    0s      found:7       errors:0
+[####################] - 6s      4614/4614    786/s   http://10.10.11.38:5000/                                                                                            

