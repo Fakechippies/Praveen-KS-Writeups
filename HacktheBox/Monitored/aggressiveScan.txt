@@ -1,0 +1,28 @@
+# Nmap 7.95 scan initiated Sat Nov  2 17:55:08 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80,389,443,5667 -o aggressiveScan.txt 10.10.11.248
+Nmap scan report for 10.10.11.248
+Host is up (0.14s latency).
+
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 61:e2:e7:b4:1b:5d:46:dc:3b:2f:91:38:e6:6d:c5:ff (RSA)
+|   256 29:73:c5:a5:8d:aa:3f:60:a9:4a:a3:e5:9f:67:5c:93 (ECDSA)
+|_  256 6d:7a:f9:eb:8e:45:c2:02:6a:d5:8d:4d:b3:a3:37:6f (ED25519)
+80/tcp   open  http       Apache httpd 2.4.56
+|_http-title: Did not follow redirect to https://nagios.monitored.htb/
+|_http-server-header: Apache/2.4.56 (Debian)
+389/tcp  open  ldap       OpenLDAP 2.2.X - 2.3.X
+443/tcp  open  ssl/http   Apache httpd 2.4.56 ((Debian))
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: Apache/2.4.56 (Debian)
+| ssl-cert: Subject: commonName=nagios.monitored.htb/organizationName=Monitored/stateOrProvinceName=Dorset/countryName=UK
+| Not valid before: 2023-11-11T21:46:55
+|_Not valid after:  2297-08-25T21:46:55
+| tls-alpn: 
+|_  http/1.1
+|_http-title: Nagios XI
+5667/tcp open  tcpwrapped
+Service Info: Host: nagios.monitored.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  2 17:55:31 2024 -- 1 IP address (1 host up) scanned in 23.00 seconds

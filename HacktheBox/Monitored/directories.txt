@@ -1,0 +1,45 @@
+feroxbuster -u https://nagios.monitored.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r -k
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ https://nagios.monitored.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 🔓  Insecure              │ true
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+403      GET        9l       28w      286c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+404      GET        9l       31w      283c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET        5l       12w     1073c https://nagios.monitored.htb/nagiosxi/images/favicon.ico
+200      GET       40l      234w    14576c https://nagios.monitored.htb/nagiosxi/images/apple-touch-icon.png
+200      GET      118l      617w    37941c https://nagios.monitored.htb/nagiosxi/images/apple-touch-icon-precomposed.png
+200      GET      272l     1974w    16128c https://nagios.monitored.htb/nagiosxi/includes/css/themes/modern.css
+200      GET      177l      116w    17339c https://nagios.monitored.htb/nagiosxi/images/favicon-32x32.png
+200      GET      196l      217w    27444c https://nagios.monitored.htb/nagiosxi/images/nagios_logo_white_transbg.png
+200      GET      132l      618w    32639c https://nagios.monitored.htb/nagiosxi/includes/js/core.js
+200      GET     1186l     8534w    70367c https://nagios.monitored.htb/nagiosxi/includes/css/base.css
+200      GET        2l     1294w    89500c https://nagios.monitored.htb/nagiosxi/includes/js/jquery/jquery-3.6.0.min.js
+200      GET        6l     1474w   123729c https://nagios.monitored.htb/nagiosxi/includes/css/bootstrap.3.min.css
+200      GET      467l     2000w    26737c https://nagios.monitored.htb/nagiosxi/login.php?redirect=/nagiosxi/index.php%3f&noauth=1
+200      GET       75l      208w     3245c https://nagios.monitored.htb/
+200      GET      299l     1662w    19586c https://nagios.monitored.htb/nagiosxi/about/main.php
+200      GET      309l     1404w    18495c https://nagios.monitored.htb/nagiosxi/about/
+200      GET       75l      208w     3245c https://nagios.monitored.htb/index.php
+401      GET       14l       54w      468c https://nagios.monitored.htb/nagios
+[####################] - 7s     18574/18574   0s      found:16      errors:10525
+[####################] - 7s      4614/4614    707/s   https://nagios.monitored.htb/
+[####################] - 4s      4614/4614    1110/s  https://nagios.monitored.htb/nagiosxi/about/
+[####################] - 4s      4614/4614    1128/s  https://nagios.monitored.htb/cgi-bin/
+[####################] - 2s      4614/4614    2252/s  https://nagios.monitored.htb/javascript/                                                                            
