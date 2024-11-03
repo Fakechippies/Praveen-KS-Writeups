@@ -1,0 +1,51 @@
+feroxbuster -u http://app.microblog.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://app.microblog.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        7l       11w      153c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+404      GET        1l        3w       16c http://app.microblog.htb/admin.php
+200      GET      154l      843w   168397c http://app.microblog.htb/brain.ico
+404      GET        1l        3w       16c http://app.microblog.htb/login/login/index.php
+200      GET       59l      167w     2475c http://app.microblog.htb/login/
+200      GET     1308l     8063w   731222c http://app.microblog.htb/brain.png
+200      GET       83l      306w     3976c http://app.microblog.htb/
+404      GET        1l        3w       16c http://app.microblog.htb/login/admin.php
+404      GET        1l        3w       16c http://app.microblog.htb/register/register/index.php
+200      GET       60l      218w     3029c http://app.microblog.htb/register/
+404      GET        1l        3w       16c http://app.microblog.htb/register/admin.php
+404      GET        1l        3w       16c http://app.microblog.htb/info.php
+200      GET       83l      306w     3976c http://app.microblog.htb/index.php
+404      GET        1l        3w       16c http://app.microblog.htb/phpinfo.php
+404      GET        1l        3w       16c http://app.microblog.htb/login/info.php
+200      GET       59l      167w     2475c http://app.microblog.htb/login/index.php
+200      GET       60l      218w     3029c http://app.microblog.htb/register/index.php
+404      GET        1l        3w       16c http://app.microblog.htb/register/info.php
+404      GET        1l        3w       16c http://app.microblog.htb/login/phpinfo.php
+404      GET        1l        3w       16c http://app.microblog.htb/register/phpinfo.php
+404      GET        1l        3w       16c http://app.microblog.htb/xmlrpc.php
+404      GET        1l        3w       16c http://app.microblog.htb/xmlrpc_server.php
+404      GET        1l        3w       16c http://app.microblog.htb/login/xmlrpc_server.php
+404      GET        1l        3w       16c http://app.microblog.htb/login/xmlrpc.php
+404      GET        1l        3w       16c http://app.microblog.htb/register/xmlrpc_server.php
+404      GET        1l        3w       16c http://app.microblog.htb/register/xmlrpc.php
+[####################] - 5s     13879/13879   0s      found:25      errors:0
+[####################] - 3s      4614/4614    1344/s  http://app.microblog.htb/
+[####################] - 2s      4614/4614    2165/s  http://app.microblog.htb/login/
+[####################] - 2s      4614/4614    2159/s  http://app.microblog.htb/register/                                                                                  

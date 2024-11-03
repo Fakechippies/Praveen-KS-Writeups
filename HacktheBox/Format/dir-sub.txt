@@ -1,0 +1,42 @@
+feroxbuster -u http://sunny.microblog.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://sunny.microblog.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        7l       11w      153c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+404      GET        1l        3w       16c http://sunny.microblog.htb/admin.php
+403      GET        7l        9w      153c http://sunny.microblog.htb/images/
+200      GET      154l      843w   168397c http://sunny.microblog.htb/images/brain.ico
+200      GET       42l      434w     3732c http://sunny.microblog.htb/
+404      GET        1l        3w       16c http://sunny.microblog.htb/images/admin.php
+403      GET        7l        9w      153c http://sunny.microblog.htb/content/
+404      GET        1l        3w       16c http://sunny.microblog.htb/info.php
+200      GET       42l      434w     3732c http://sunny.microblog.htb/index.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/images/index.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/images/info.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/phpinfo.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/images/phpinfo.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/xmlrpc.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/xmlrpc_server.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/images/xmlrpc.php
+404      GET        1l        3w       16c http://sunny.microblog.htb/images/xmlrpc_server.php
+[####################] - 5s     13847/13847   0s      found:16      errors:0
+[####################] - 3s      4614/4614    1373/s  http://sunny.microblog.htb/
+[####################] - 2s      4614/4614    2148/s  http://sunny.microblog.htb/images/
+[####################] - 2s      4614/4614    2202/s  http://sunny.microblog.htb/content/                                                                                 
