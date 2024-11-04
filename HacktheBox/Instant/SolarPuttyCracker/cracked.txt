@@ -1,0 +1,37 @@
+{
+    "Sessions": [
+        {
+            "Id": "066894ee-635c-4578-86d0-d36d4838115b",
+            "Ip": "10.10.11.37",
+            "Port": 22,
+            "ConnectionType": 1,
+            "SessionName": "Instant",
+            "Authentication": 0,
+            "CredentialsID": "452ed919-530e-419b-b721-da76cbe8ed04",
+            "AuthenticateScript": "00000000-0000-0000-0000-000000000000",
+            "LastTimeOpen": "0001-01-01T00:00:00",
+            "OpenCounter": 1,
+            "SerialLine": null,
+            "Speed": 0,
+            "Color": "#FF176998",
+            "TelnetConnectionWaitSeconds": 1,
+            "LoggingEnabled": false,
+            "RemoteDirectory": ""
+        }
+    ],
+    "Credentials": [
+        {
+            "Id": "452ed919-530e-419b-b721-da76cbe8ed04",
+            "CredentialsName": "instant-root",
+            "Username": "root",
+            "Password": "12**24nzC!r0c%q12",
+            "PrivateKeyPath": "",
+            "Passphrase": "",
+            "PrivateKeyContent": null
+        }
+    ],
+    "AuthScript": [],
+    "Groups": [],
+    "Tunnels": [],
+    "LogsFolderDestination": "C:\\ProgramData\\SolarWinds\\Logs\\Solar-PuTTY\\SessionLogs"
+}

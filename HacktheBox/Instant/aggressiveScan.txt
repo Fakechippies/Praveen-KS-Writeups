@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Mon Nov  4 23:51:50 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80 -o aggressiveScan.txt 10.10.11.37
+Nmap scan report for 10.10.11.37
+Host is up (0.087s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 31:83:eb:9f:15:f8:40:a5:04:9c:cb:3f:f6:ec:49:76 (ECDSA)
+|_  256 6f:66:03:47:0e:8a:e0:03:97:67:5b:41:cf:e2:c7:c7 (ED25519)
+80/tcp open  http    Apache httpd 2.4.58
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+|_http-title: Did not follow redirect to http://instant.htb/
+Service Info: Host: instant.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  4 23:52:04 2024 -- 1 IP address (1 host up) scanned in 13.49 seconds

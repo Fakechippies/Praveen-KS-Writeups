@@ -1,0 +1,46 @@
+feroxbuster -u http://instant.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://instant.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        9l       31w      273c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+403      GET        9l       28w      276c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET       73l      165w     2022c http://instant.htb/js/scripts.js
+200      GET       49l      241w    13102c http://instant.htb/img/logo.png
+200      GET      337l     1155w    16379c http://instant.htb/index.html
+200      GET      195l     1097w   116351c http://instant.htb/img/blog-2.jpg
+200      GET      245l     1305w   143898c http://instant.htb/img/blog-1.jpg
+200      GET        1l        4w       16c http://instant.htb/img/
+200      GET        1l        4w       16c http://instant.htb/css/
+200      GET        1l        4w       16c http://instant.htb/js/
+200      GET      434l     2599w   304154c http://instant.htb/img/blog-3.jpg
+200      GET     7852l    19986w   199577c http://instant.htb/css/default.css
+200      GET        1l        4w       16c http://instant.htb/downloads/
+200      GET        1l        4w       16c http://instant.htb/js/index.html
+200      GET        1l        4w       16c http://instant.htb/css/index.html
+200      GET        0l        0w  5415990c http://instant.htb/downloads/instant.apk
+200      GET      337l     1155w    16379c http://instant.htb/
+200      GET        1l        4w       16c http://instant.htb/downloads/index.html
+[####################] - 22s    27696/27696   0s      found:16      errors:5359
+[####################] - 15s     4614/4614    317/s   http://instant.htb/
+[####################] - 12s     4614/4614    390/s   http://instant.htb/js/
+[####################] - 18s     4614/4614    252/s   http://instant.htb/img/
+[####################] - 18s     4614/4614    252/s   http://instant.htb/css/
+[####################] - 19s     4614/4614    246/s   http://instant.htb/downloads/
+[####################] - 13s     4614/4614    347/s   http://instant.htb/javascript/                                                                                      

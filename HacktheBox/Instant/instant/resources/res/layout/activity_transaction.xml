@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="vertical"
+        android:id="@+id/logo_container"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/instant_logo"
+            android:contentDescription="Add Logo To Top"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/input_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_container">
+        <TextView
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Transfer Funds"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/wallet_id_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Enter Wallet ID"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints="Wallet ID"/>
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/amount_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Enter Amount To Send"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints="Amount"/>
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/pin_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Enter PIN"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints="PIN"/>
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/note_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Enter Reason For Transfer"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints="Reason"/>
+        <Button
+            android:textSize="14sp"
+            android:id="@+id/send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Send Now"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="120dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_container">
+        <TextView
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent Transaction"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/recent_transaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Received - 10000"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>

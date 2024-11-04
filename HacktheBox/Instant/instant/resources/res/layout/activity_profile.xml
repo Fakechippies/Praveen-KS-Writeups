@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="vertical"
+        android:id="@+id/profile_pic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="282dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="100dp"
+            android:src="@drawable/profile_icon"
+            android:contentDescription="Profile Picture Image"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_pic_layout">
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/username_display"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test : username"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/email_display"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test : email"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/wallet_bal_display"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test : balance"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/role_display"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test : role"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/make_txn_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"/>
+    </LinearLayout>
+</RelativeLayout>
