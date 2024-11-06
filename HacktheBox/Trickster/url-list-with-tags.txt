@@ -1,0 +1,1 @@
+https://gitea/james/prestashop/src/branch/main/app/config/parameters.php ['b0d3330f-11b4-4824-9aa7-d315daa463a2']

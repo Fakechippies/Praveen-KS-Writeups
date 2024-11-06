@@ -1,0 +1,37 @@
+rustscan -a 10.10.11.34 --ulimit 5000
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: http://discord.skerritt.blog         :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+Port scanning: Because every port has a story to tell.
+
+[~] The config file is expected to be at "/home/pks/.rustscan.toml"
+[~] Automatically increasing ulimit value to 5000.
+Open 10.10.11.34:22
+Open 10.10.11.34:80
+[~] Starting Script(s)
+[~] Starting Nmap 7.95 ( https://nmap.org ) at 2024-11-06 23:09 IST
+Initiating Ping Scan at 23:09
+Scanning 10.10.11.34 [2 ports]
+Completed Ping Scan at 23:09, 0.07s elapsed (1 total hosts)
+Initiating Connect Scan at 23:09
+Scanning trickster.htb (10.10.11.34) [2 ports]
+Discovered open port 22/tcp on 10.10.11.34
+Discovered open port 80/tcp on 10.10.11.34
+Completed Connect Scan at 23:09, 0.21s elapsed (2 total ports)
+Nmap scan report for trickster.htb (10.10.11.34)
+Host is up, received syn-ack (0.097s latency).
+Scanned at 2024-11-06 23:09:21 IST for 0s
+
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.31 seconds
+

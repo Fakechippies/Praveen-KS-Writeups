@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Wed Nov  6 23:11:20 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80 -o aggressiveScan.txt 10.10.11.34
+Nmap scan report for 10.10.11.34
+Host is up (0.082s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 8c:01:0e:7b:b4:da:b7:2f:bb:2f:d3:a3:8c:a6:6d:87 (ECDSA)
+|_  256 90:c6:f3:d8:3f:96:99:94:69:fe:d3:72:cb:fe:6c:c5 (ED25519)
+80/tcp open  http    Apache httpd 2.4.52
+|_http-title: Did not follow redirect to http://trickster.htb/
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+Service Info: Host: _; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov  6 23:11:33 2024 -- 1 IP address (1 host up) scanned in 13.33 seconds
