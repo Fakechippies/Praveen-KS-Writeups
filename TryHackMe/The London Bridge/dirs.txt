@@ -1,0 +1,10 @@
+.ssh
+uploads
+.profile
+.bash_history
+.bashrc
+static
+templates
+test
+123
+test123

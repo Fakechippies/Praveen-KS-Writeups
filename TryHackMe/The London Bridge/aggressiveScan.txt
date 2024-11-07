@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Thu Nov  7 21:34:23 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,8080 -o aggressiveScan.txt 10.10.120.165
+Nmap scan report for 10.10.120.165
+Host is up (0.17s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 58:c1:e4:79:ca:70:bc:3b:8d:b8:22:17:2f:62:1a:34 (RSA)
+|   256 2a:b4:1f:2c:72:35:7a:c3:7a:5c:7d:47:d6:d0:73:c8 (ECDSA)
+|_  256 1c:7e:d2:c9:dd:c2:e4:ac:11:7e:45:6a:2f:44:af:0f (ED25519)
+8080/tcp open  http    Gunicorn
+|_http-server-header: gunicorn
+|_http-title: Explore London
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov  7 21:34:35 2024 -- 1 IP address (1 host up) scanned in 12.12 seconds

@@ -1,0 +1,58 @@
+feroxbuster -u http://10.10.120.195 -w /usr/share/wordlists/dirb/common.txt -t 200 -r --scan-dir-listings
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://10.10.120.195
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 📂  Scan Dir Listings     │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        9l       32w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+403      GET       10l       30w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET       77l      129w     1523c http://10.10.120.195/login.php
+200      GET       18l       95w     8064c http://10.10.120.195/dvwa/images/RandomStorm.png
+200      GET       39l      244w    16182c http://10.10.120.195/dvwa/images/login_logo.png
+200      GET       20l       29w      240c http://10.10.120.195/dvwa/css/source.css
+200      GET       25l       36w      304c http://10.10.120.195/dvwa/css/help.css
+200      GET       27l      110w     9233c http://10.10.120.195/dvwa/images/logo.png
+200      GET        5l        9w      839c http://10.10.120.195/dvwa/images/spanner.png
+200      GET        4l       17w     1368c http://10.10.120.195/dvwa/images/lock.png
+200      GET        4l       10w      734c http://10.10.120.195/dvwa/images/warning.png
+200      GET        5l       14w      523c http://10.10.120.195/dvwa/images/dollar.png
+200      GET       22l      116w     2170c http://10.10.120.195/dvwa/images/
+200      GET        1l        5w       45c http://10.10.120.195/dvwa/includes/dvwaPage.inc.php
+200      GET        0l        0w        0c http://10.10.120.195/dvwa/includes/dvwaPhpIds.inc.php
+200      GET       39l       99w     1030c http://10.10.120.195/dvwa/js/dvwaPage.js
+200      GET       24l       62w      593c http://10.10.120.195/dvwa/js/add_event_listeners.js
+200      GET      266l      486w     4026c http://10.10.120.195/dvwa/css/main.css
+200      GET       59l      101w      842c http://10.10.120.195/dvwa/css/login.css
+200      GET       19l       93w     1503c http://10.10.120.195/dvwa/
+200      GET        0l        0w        0c http://10.10.120.195/config/config.inc.php
+404      GET        9l       34w      306c http://10.10.120.195/dvwa/js/Documents%20and%20Settings
+200      GET       19l       88w     1532c http://10.10.120.195/dvwa/css/
+200      GET       17l       69w     1167c http://10.10.120.195/config/
+404      GET        9l       34w      312c http://10.10.120.195/dvwa/includes/Documents%20and%20Settings
+200      GET       17l       70w     1176c http://10.10.120.195/dvwa/js/
+200      GET        2l        4w       26c http://10.10.120.195/robots.txt
+404      GET        9l       33w      297c http://10.10.120.195/dvwa/css/reports%20list
+[####################] - 62s     4706/4706    0s      found:26      errors:12094
+[####################] - 55s     4614/4614    84/s    http://10.10.120.195/
+[####################] - 56s     4614/4614    82/s    http://10.10.120.195/dvwa/css/
+[####################] - 54s     4614/4614    85/s    http://10.10.120.195/dvwa/images/
+[####################] - 56s     4614/4614    82/s    http://10.10.120.195/dvwa/
+[####################] - 58s     4614/4614    80/s    http://10.10.120.195/dvwa/includes/
+[####################] - 55s     4614/4614    83/s    http://10.10.120.195/dvwa/js/
+[####################] - 50s     4614/4614    93/s    http://10.10.120.195/config/                                                                                        
