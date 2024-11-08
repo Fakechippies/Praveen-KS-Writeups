@@ -1,0 +1,71 @@
+# Nmap 7.95 scan initiated Fri Nov  8 20:43:58 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,5581,5752,7331 -o aggressiveScan.txt 10.10.56.7
+Nmap scan report for 10.10.56.7
+Host is up (0.17s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 9f:d0:bb:c7:e2:ee:7f:91:fe:c2:6a:a6:bb:b2:e1:91 (RSA)
+|   256 06:4b:fe:c0:6e:e4:f4:7e:e1:db:1c:e7:79:9d:2b:1d (ECDSA)
+|_  256 0d:0e:ce:57:00:1a:e2:8d:d2:1b:2e:6d:92:3e:65:c4 (ED25519)
+5581/tcp open  ftp     vsftpd 3.0.3
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.17.94.2
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+5752/tcp open  unknown
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, LANDesk-RC, LPDString, RTSPRequest, SIPOptions, X11Probe: 
+|     Chapter 1: A Call for help
+|     Username: Password:
+|   Kerberos, LDAPBindReq, LDAPSearchReq, NCP, NULL, RPCCheck, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie: 
+|     Chapter 1: A Call for help
+|_    Username:
+7331/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5752-TCP:V=7.95%I=7%D=11/8%Time=672E2ABD%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,28,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20")
+SF:%r(GenericLines,32,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUs
+SF:ername:\x20Password:\x20")%r(GetRequest,32,"\n\tChapter\x201:\x20A\x20C
+SF:all\x20for\x20help\n\nUsername:\x20Password:\x20")%r(HTTPOptions,32,"\n
+SF:\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20Password:\x
+SF:20")%r(RTSPRequest,32,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\
+SF:nUsername:\x20Password:\x20")%r(RPCCheck,28,"\n\tChapter\x201:\x20A\x20
+SF:Call\x20for\x20help\n\nUsername:\x20")%r(DNSVersionBindReqTCP,32,"\n\tC
+SF:hapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20Password:\x20"
+SF:)%r(DNSStatusRequestTCP,32,"\n\tChapter\x201:\x20A\x20Call\x20for\x20he
+SF:lp\n\nUsername:\x20Password:\x20")%r(Help,32,"\n\tChapter\x201:\x20A\x2
+SF:0Call\x20for\x20help\n\nUsername:\x20Password:\x20")%r(SSLSessionReq,28
+SF:,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20")%r(Te
+SF:rminalServerCookie,28,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\
+SF:nUsername:\x20")%r(TLSSessionReq,28,"\n\tChapter\x201:\x20A\x20Call\x20
+SF:for\x20help\n\nUsername:\x20")%r(Kerberos,28,"\n\tChapter\x201:\x20A\x2
+SF:0Call\x20for\x20help\n\nUsername:\x20")%r(SMBProgNeg,28,"\n\tChapter\x2
+SF:01:\x20A\x20Call\x20for\x20help\n\nUsername:\x20")%r(X11Probe,32,"\n\tC
+SF:hapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20Password:\x20"
+SF:)%r(FourOhFourRequest,32,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help
+SF:\n\nUsername:\x20Password:\x20")%r(LPDString,32,"\n\tChapter\x201:\x20A
+SF:\x20Call\x20for\x20help\n\nUsername:\x20Password:\x20")%r(LDAPSearchReq
+SF:,28,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20")%r
+SF:(LDAPBindReq,28,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsern
+SF:ame:\x20")%r(SIPOptions,32,"\n\tChapter\x201:\x20A\x20Call\x20for\x20he
+SF:lp\n\nUsername:\x20Password:\x20")%r(LANDesk-RC,32,"\n\tChapter\x201:\x
+SF:20A\x20Call\x20for\x20help\n\nUsername:\x20Password:\x20")%r(TerminalSe
+SF:rver,28,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:\x20
+SF:")%r(NCP,28,"\n\tChapter\x201:\x20A\x20Call\x20for\x20help\n\nUsername:
+SF:\x20");
+Service Info: OSs: Linux, Unix; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  8 20:46:49 2024 -- 1 IP address (1 host up) scanned in 170.87 seconds

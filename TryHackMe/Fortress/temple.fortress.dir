@@ -1,0 +1,27 @@
+feroxbuster -u http://temple.fortress:7331 -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://temple.fortress:7331
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        9l       31w      279c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+403      GET        9l       28w      282c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET      375l      964w    10918c http://temple.fortress:7331/
+200      GET      375l      964w    10918c http://temple.fortress:7331/index.html
+[####################] - 17s     4619/4619    0s      found:2       errors:100
+[####################] - 16s     4614/4614    285/s   http://temple.fortress:7331/                                                                                        

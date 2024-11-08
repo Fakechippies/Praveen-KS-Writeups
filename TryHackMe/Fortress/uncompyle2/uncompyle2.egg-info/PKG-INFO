@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: uncompyle2
+Version: 1.1
+Summary: Python byte-code to source-code converter
+Home-page: http://github.com/wibiti/uncompyle
+Author: Hartmut Goebel
+Author-email: h.goebel@crazy-compilers.com
