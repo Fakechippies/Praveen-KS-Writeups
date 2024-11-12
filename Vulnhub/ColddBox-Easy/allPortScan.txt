@@ -1,0 +1,40 @@
+rustscan -a 192.168.122.248 --ulimit 5000
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: http://discord.skerritt.blog         :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+RustScan: Where scanning meets swagging. 😎
+
+[~] The config file is expected to be at "/home/pks/.rustscan.toml"
+[~] Automatically increasing ulimit value to 5000.
+Open 192.168.122.248:80
+Open 192.168.122.248:4512
+[~] Starting Script(s)
+[~] Starting Nmap 7.95 ( https://nmap.org ) at 2024-11-12 19:28 IST
+Initiating Ping Scan at 19:28
+Scanning 192.168.122.248 [2 ports]
+Completed Ping Scan at 19:28, 0.00s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 19:28
+Completed Parallel DNS resolution of 1 host. at 19:28, 6.54s elapsed
+DNS resolution of 1 IPs took 6.54s. Mode: Async [#: 2, OK: 0, NX: 1, DR: 0, SF: 0, TR: 3, CN: 0]
+Initiating Connect Scan at 19:28
+Scanning 192.168.122.248 [2 ports]
+Discovered open port 80/tcp on 192.168.122.248
+Discovered open port 4512/tcp on 192.168.122.248
+Completed Connect Scan at 19:28, 0.00s elapsed (2 total ports)
+Nmap scan report for 192.168.122.248
+Host is up, received syn-ack (0.00050s latency).
+Scanned at 2024-11-12 19:28:58 IST for 0s
+
+PORT     STATE SERVICE REASON
+80/tcp   open  http    syn-ack
+4512/tcp open  unknown syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 6.56 seconds
+
