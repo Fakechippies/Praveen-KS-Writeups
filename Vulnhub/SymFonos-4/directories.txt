@@ -1,0 +1,12 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 298]
+/.htaccess.php       [33m (Status: 403)[0m [Size: 302]
+/.htpasswd.php       [33m (Status: 403)[0m [Size: 302]
+/.htpasswd           [33m (Status: 403)[0m [Size: 298]
+/atlantis.php        [32m (Status: 200)[0m [Size: 1718]
+/css                 [36m (Status: 301)[0m [Size: 314][34m [--> http://192.168.122.63/css/][0m
+/javascript          [36m (Status: 301)[0m [Size: 321][34m [--> http://192.168.122.63/javascript/][0m
+/js                  [36m (Status: 301)[0m [Size: 313][34m [--> http://192.168.122.63/js/][0m
+/manual              [36m (Status: 301)[0m [Size: 317][34m [--> http://192.168.122.63/manual/][0m
+/robots.txt          [33m (Status: 403)[0m [Size: 299]
+/sea.php             [36m (Status: 302)[0m [Size: 0][34m [--> atlantis.php][0m
+/server-status       [33m (Status: 403)[0m [Size: 302]

