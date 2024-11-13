@@ -1,0 +1,30 @@
+feroxbuster -u http://sightless.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://sightless.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        7l       12w      162c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET      341l      620w     6252c http://sightless.htb/style.css
+403      GET        7l       10w      162c http://sightless.htb/images/
+200      GET      340l     2193w   190652c http://sightless.htb/images/logo.png
+200      GET      105l      389w     4993c http://sightless.htb/
+200      GET      105l      389w     4993c http://sightless.htb/index.html
+[####################] - 8s      9232/9232    0s      found:5       errors:4
+[####################] - 7s      4614/4614    638/s   http://sightless.htb/
+[####################] - 6s      4614/4614    783/s   http://sightless.htb/images/                                                                                        
