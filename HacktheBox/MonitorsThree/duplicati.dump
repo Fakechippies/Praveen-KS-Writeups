@@ -1,0 +1,146 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Backup" (
+    "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL DEFAULT '',
+    "Tags" TEXT NOT NULL,
+    "TargetURL" TEXT NOT NULL,
+    "DBPath" TEXT NOT NULL
+);
+INSERT INTO Backup VALUES(4,'Cacti 1.2.26 Backup','','','file:///source/opt/backups/cacti/','/config/CTADPNHLTC.sqlite');
+CREATE TABLE IF NOT EXISTS "Schedule" (
+    "ID" INTEGER PRIMARY KEY,
+    "Tags" TEXT NOT NULL,
+    "Time" INTEGER NOT NULL,
+    "Repeat" TEXT NOT NULL,
+    "LastRun" INTEGER NOT NULL,
+    "Rule" TEXT NOT NULL
+);
+INSERT INTO Schedule VALUES(1,'ID=4',1731754800,'1D',1731700072,'AllowedWeekDays=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday');
+CREATE TABLE IF NOT EXISTS "Source" (
+    "BackupID" INTEGER NOT NULL,
+    "Path" TEXT NOT NULL
+);
+INSERT INTO Source VALUES(4,'/source/var/www/html/cacti/');
+CREATE TABLE IF NOT EXISTS "Filter" (
+    "BackupID" INTEGER NOT NULL,
+    "Order" INTEGER NOT NULL,
+    "Include" INTEGER NOT NULL,
+    "Expression" TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS "Option" (
+    "BackupID" INTEGER NOT NULL,
+    "Filter" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Value" TEXT NOT NULL
+);
+INSERT INTO Option VALUES(4,'','encryption-module','');
+INSERT INTO Option VALUES(4,'','compression-module','zip');
+INSERT INTO Option VALUES(4,'','dblock-size','50mb');
+INSERT INTO Option VALUES(4,'','--no-encryption','true');
+INSERT INTO Option VALUES(-1,'','--asynchronous-upload-limit','50');
+INSERT INTO Option VALUES(-1,'','--asynchronous-concurrent-upload-limit','50');
+INSERT INTO Option VALUES(-2,'','startup-delay','0s');
+INSERT INTO Option VALUES(-2,'','max-download-speed','');
+INSERT INTO Option VALUES(-2,'','max-upload-speed','');
+INSERT INTO Option VALUES(-2,'','thread-priority','');
+INSERT INTO Option VALUES(-2,'','last-webserver-port','8200');
+INSERT INTO Option VALUES(-2,'','is-first-run','');
+INSERT INTO Option VALUES(-2,'','server-port-changed','True');
+INSERT INTO Option VALUES(-2,'','server-passphrase','Wb6e855L3sN9LTaCuwPXuautswTIQbekmMAr7BrK2Ho=');
+INSERT INTO Option VALUES(-2,'','server-passphrase-salt','xTfykWV1dATpFZvPhClEJLJzYA5A4L74hX7FK8XmY0I=');
+INSERT INTO Option VALUES(-2,'','server-passphrase-trayicon','c1f7aff1-3b0d-4c77-a6d2-fedb7b90e96d');
+INSERT INTO Option VALUES(-2,'','server-passphrase-trayicon-hash','NyB2ErjybXivGEHI9t4UE2zBTO4Az/hJNg1xF+Hgck8=');
+INSERT INTO Option VALUES(-2,'','last-update-check','638672969326864370');
+INSERT INTO Option VALUES(-2,'','update-check-interval','');
+INSERT INTO Option VALUES(-2,'','update-check-latest','');
+INSERT INTO Option VALUES(-2,'','unacked-error','False');
+INSERT INTO Option VALUES(-2,'','unacked-warning','False');
+INSERT INTO Option VALUES(-2,'','server-listen-interface','any');
+INSERT INTO Option VALUES(-2,'','server-ssl-certificate','');
+INSERT INTO Option VALUES(-2,'','has-fixed-invalid-backup-id','True');
+INSERT INTO Option VALUES(-2,'','update-channel','');
+INSERT INTO Option VALUES(-2,'','usage-reporter-level','');
+INSERT INTO Option VALUES(-2,'','has-asked-for-password-protection','true');
+INSERT INTO Option VALUES(-2,'','disable-tray-icon-login','false');
+INSERT INTO Option VALUES(-2,'','allowed-hostnames','*');
+CREATE TABLE IF NOT EXISTS "Metadata" (
+    "BackupID" INTEGER NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Value" TEXT NOT NULL
+);
+INSERT INTO Metadata VALUES(4,'LastBackupDate','20241115T194754Z');
+INSERT INTO Metadata VALUES(4,'BackupListCount','3');
+INSERT INTO Metadata VALUES(4,'TotalQuotaSpace','8350261248');
+INSERT INTO Metadata VALUES(4,'FreeQuotaSpace','2425966592');
+INSERT INTO Metadata VALUES(4,'AssignedQuotaSpace','-1');
+INSERT INTO Metadata VALUES(4,'TargetFilesSize','20165218');
+INSERT INTO Metadata VALUES(4,'TargetFilesCount','9');
+INSERT INTO Metadata VALUES(4,'TargetSizeString','19.23 MB');
+INSERT INTO Metadata VALUES(4,'SourceFilesSize','63070451');
+INSERT INTO Metadata VALUES(4,'SourceFilesCount','3873');
+INSERT INTO Metadata VALUES(4,'SourceSizeString','60.15 MB');
+INSERT INTO Metadata VALUES(4,'LastBackupStarted','20241115T194752Z');
+INSERT INTO Metadata VALUES(4,'LastBackupFinished','20241115T194802Z');
+INSERT INTO Metadata VALUES(4,'LastBackupDuration','00:00:09.4608000');
+INSERT INTO Metadata VALUES(4,'LastErrorDate','20240820T111518Z');
+INSERT INTO Metadata VALUES(4,'LastErrorMessage','Found 12 remote files that are not recorded in local storage, please run repair');
+INSERT INTO Metadata VALUES(4,'LastCompactDuration','00:00:00.0205290');
+INSERT INTO Metadata VALUES(4,'LastCompactStarted','20241115T194802Z');
+INSERT INTO Metadata VALUES(4,'LastCompactFinished','20241115T194802Z');
+CREATE TABLE IF NOT EXISTS "Log" (
+    "BackupID" INTEGER NOT NULL,
+    "Description" TEXT NOT NULL,
+    "Start" INTEGER NOT NULL,
+    "Finish" INTEGER NOT NULL,
+    "Result" TEXT NOT NULL,
+    "SuggestedIcon" TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS "ErrorLog" (
+    "BackupID" INTEGER,
+    "Message" TEXT NOT NULL,
+    "Exception" TEXT,
+    "Timestamp" INTEGER NOT NULL
+);
+INSERT INTO ErrorLog VALUES(4,'Failed while executing Backup "Cacti 1.2.26 Backup" (id: 4)',replace('Duplicati.Library.Interface.RemoteListVerificationException: Found 12 remote files that are not recorded in local storage, please run repair\n  at Duplicati.Library.Main.Operation.FilelistProcessor.VerifyRemoteList (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x00103] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.PreBackupVerify (Duplicati.Library.Main.BackendManager backend, System.String protectedfile) [0x0011d] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.RunAsync (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x01048] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at CoCoL.ChannelExtensions.WaitForTaskOrThrow (System.Threading.Tasks.Task task) [0x00050] in <9a758ff4db6c48d6b3d4d0e5c2adf6d1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.Run (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x00009] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller+<>c__DisplayClass14_0.<Backup>b__0 (Duplicati.Library.Main.BackupResults result) [0x0004b] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.RunAction[T] (T result, System.String[]& paths, Duplicati.Library.Utility.IFilter& filter, System.Action`1[T] method) [0x0036c] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.Backup (System.String[] inputsources, Duplicati.Library.Utility.IFilter filter) [0x00074] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Server.Runner.Run (Duplicati.Server.Runner+IRunnerData data, System.Boolean fromQueue) [0x00349] in <17916a3bd21d425da6aeece2c5428e16>:0 ','\n',char(10)),1723968513);
+INSERT INTO ErrorLog VALUES(-1,'Error in updater',replace('System.Net.WebException: Error: NameResolutionFailure\n  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x00044] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebOperation.Run () [0x0009a] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadBits (System.Net.WebRequest request, System.IO.Stream writeStream) [0x000e6] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00088] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)\n  at Duplicati.Library.AutoUpdater.UpdaterManager.CheckForUpdate (Duplicati.Library.AutoUpdater.ReleaseType channel) [0x000ee] in <a701dea807af493c8cb16ad2fe09f97c>:0 ','\n',char(10)),1723968579);
+INSERT INTO ErrorLog VALUES(-1,'Error in updater',replace('System.Net.WebException: Error: NameResolutionFailure\n  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x00044] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebOperation.Run () [0x0009a] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadBits (System.Net.WebRequest request, System.IO.Stream writeStream) [0x000e6] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00088] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)\n  at Duplicati.Library.AutoUpdater.UpdaterManager.CheckForUpdate (Duplicati.Library.AutoUpdater.ReleaseType channel) [0x000ee] in <a701dea807af493c8cb16ad2fe09f97c>:0 ','\n',char(10)),1723968587);
+INSERT INTO ErrorLog VALUES(4,'Failed while executing Backup "Cacti 1.2.26 Backup" (id: 4)',replace('Duplicati.Library.Interface.RemoteListVerificationException: Found 12 remote files that are not recorded in local storage, please run repair\n  at Duplicati.Library.Main.Operation.FilelistProcessor.VerifyRemoteList (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x00103] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.PreBackupVerify (Duplicati.Library.Main.BackendManager backend, System.String protectedfile) [0x0011d] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.RunAsync (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x01048] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at CoCoL.ChannelExtensions.WaitForTaskOrThrow (System.Threading.Tasks.Task task) [0x00050] in <9a758ff4db6c48d6b3d4d0e5c2adf6d1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.Run (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x00009] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller+<>c__DisplayClass14_0.<Backup>b__0 (Duplicati.Library.Main.BackupResults result) [0x0004b] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.RunAction[T] (T result, System.String[]& paths, Duplicati.Library.Utility.IFilter& filter, System.Action`1[T] method) [0x0036c] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.Backup (System.String[] inputsources, Duplicati.Library.Utility.IFilter filter) [0x00074] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Server.Runner.Run (Duplicati.Server.Runner+IRunnerData data, System.Boolean fromQueue) [0x00349] in <17916a3bd21d425da6aeece2c5428e16>:0 ','\n',char(10)),1724056113);
+INSERT INTO ErrorLog VALUES(4,'Failed while executing Backup "Cacti 1.2.26 Backup" (id: 4)',replace('Duplicati.Library.Interface.RemoteListVerificationException: Found 12 remote files that are not recorded in local storage, please run repair\n  at Duplicati.Library.Main.Operation.FilelistProcessor.VerifyRemoteList (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x00103] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.PreBackupVerify (Duplicati.Library.Main.BackendManager backend, System.String protectedfile) [0x0011d] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.RunAsync (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x01048] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at CoCoL.ChannelExtensions.WaitForTaskOrThrow (System.Threading.Tasks.Task task) [0x00050] in <9a758ff4db6c48d6b3d4d0e5c2adf6d1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.Run (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x00009] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller+<>c__DisplayClass14_0.<Backup>b__0 (Duplicati.Library.Main.BackupResults result) [0x0004b] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.RunAction[T] (T result, System.String[]& paths, Duplicati.Library.Utility.IFilter& filter, System.Action`1[T] method) [0x0036c] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.Backup (System.String[] inputsources, Duplicati.Library.Utility.IFilter filter) [0x00074] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Server.Runner.Run (Duplicati.Server.Runner+IRunnerData data, System.Boolean fromQueue) [0x00349] in <17916a3bd21d425da6aeece2c5428e16>:0 ','\n',char(10)),1724068580);
+INSERT INTO ErrorLog VALUES(4,'Failed while executing Backup "Cacti 1.2.26 Backup" (id: 4)',replace('Duplicati.Library.Interface.RemoteListVerificationException: Found 12 remote files that are not recorded in local storage, please run repair\n  at Duplicati.Library.Main.Operation.FilelistProcessor.VerifyRemoteList (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x00103] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.PreBackupVerify (Duplicati.Library.Main.BackendManager backend, System.String protectedfile) [0x0011d] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.RunAsync (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x01048] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at CoCoL.ChannelExtensions.WaitForTaskOrThrow (System.Threading.Tasks.Task task) [0x00050] in <9a758ff4db6c48d6b3d4d0e5c2adf6d1>:0 \n  at Duplicati.Library.Main.Operation.BackupHandler.Run (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x00009] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller+<>c__DisplayClass14_0.<Backup>b__0 (Duplicati.Library.Main.BackupResults result) [0x0004b] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.RunAction[T] (T result, System.String[]& paths, Duplicati.Library.Utility.IFilter& filter, System.Action`1[T] method) [0x0036c] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Library.Main.Controller.Backup (System.String[] inputsources, Duplicati.Library.Utility.IFilter filter) [0x00074] in <9b99db820df3422db0aa96d4648dc7b1>:0 \n  at Duplicati.Server.Runner.Run (Duplicati.Server.Runner+IRunnerData data, System.Boolean fromQueue) [0x00349] in <17916a3bd21d425da6aeece2c5428e16>:0 ','\n',char(10)),1724152518);
+INSERT INTO ErrorLog VALUES(-1,'Error in updater',replace('System.Net.WebException: Error: NameResolutionFailure\n  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x00044] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebOperation.Run () [0x0009a] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadBits (System.Net.WebRequest request, System.IO.Stream writeStream) [0x000e6] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00088] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)\n  at Duplicati.Library.AutoUpdater.UpdaterManager.CheckForUpdate (Duplicati.Library.AutoUpdater.ReleaseType channel) [0x000ee] in <a701dea807af493c8cb16ad2fe09f97c>:0 ','\n',char(10)),1731700140);
+INSERT INTO ErrorLog VALUES(-1,'Error in updater',replace('System.Net.WebException: Error: NameResolutionFailure\n  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x00044] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebOperation.Run () [0x0009a] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadBits (System.Net.WebRequest request, System.IO.Stream writeStream) [0x000e6] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00088] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <a8a996a78a804d888710c9e2575d78c8>:0 \n  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)\n  at Duplicati.Library.AutoUpdater.UpdaterManager.CheckForUpdate (Duplicati.Library.AutoUpdater.ReleaseType channel) [0x000ee] in <a701dea807af493c8cb16ad2fe09f97c>:0 ','\n',char(10)),1731700148);
+CREATE TABLE IF NOT EXISTS "Version" (
+    "ID" INTEGER PRIMARY KEY,
+    "Version" INTEGER NOT NULL
+);
+INSERT INTO Version VALUES(1,6);
+CREATE TABLE IF NOT EXISTS "Notification" (
+    "ID" INTEGER PRIMARY KEY,
+    "Type" TEXT NOT NULL,
+    "Title" TEXT NOT NULL,
+    "Message" TEXT NOT NULL, 
+    "Exception" TEXT NOT NULL, 
+    "BackupID" TEXT NULL,
+    "Action" TEXT NOT NULL,
+    "Timestamp" INTEGER NOT NULL,
+    "LogEntryID" TEXT NULL,
+    "MessageID" TEXT NULL,
+    "MessageLogTag" TEXT NULL
+);
+CREATE TABLE IF NOT EXISTS "UIStorage" (
+    "Scheme" TEXT NOT NULL, 
+    "Key" TEXT NOT NULL, 
+    "Value" TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS "TempFile" (
+    "ID" INTEGER PRIMARY KEY,
+    "Origin" TEXT NOT NULL, 
+    "Path" TEXT NOT NULL, 
+    "Timestamp" INTEGER NOT NULL,
+    "Expires" INTEGER NOT NULL
+);
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('Backup',15);
+COMMIT;

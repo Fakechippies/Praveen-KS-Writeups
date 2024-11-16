@@ -1,0 +1,75 @@
+feroxbuster -u http://monitorsthree.htb -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+                                                                                                                                                                          
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://monitorsthree.htb
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET        7l       12w      162c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET        1l      235w    12063c http://monitorsthree.htb/images/review.svg
+200      GET       19l       62w     3695c http://monitorsthree.htb/images/services/04.png
+200      GET        6l       34w     2166c http://monitorsthree.htb/images/services/02.png
+200      GET       11l       15w      188c http://monitorsthree.htb/css/plugins.css
+200      GET       38l      117w     2813c http://monitorsthree.htb/js/plugins.js
+200      GET        5l       30w     1616c http://monitorsthree.htb/images/services/01.png
+200      GET       24l       99w      770c http://monitorsthree.htb/js/smoothscroll.js
+200      GET       71l      130w     1872c http://monitorsthree.htb/js/custom.js
+200      GET        9l       43w     3028c http://monitorsthree.htb/images/services/03.png
+200      GET       96l      239w     4252c http://monitorsthree.htb/login.php
+200      GET        1l      393w    15974c http://monitorsthree.htb/images/about-us.svg
+200      GET      935l     1752w    15174c http://monitorsthree.htb/css/style.css
+200      GET      109l      619w    13655c http://monitorsthree.htb/images/service.svg
+200      GET        1l      359w    22207c http://monitorsthree.htb/images/banner.svg
+200      GET        5l      369w    21003c http://monitorsthree.htb/js/popper.min.js
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/
+200      GET      175l     1248w    89112c http://monitorsthree.htb/admin/assets/images/logo.png
+200      GET        4l     1293w    86709c http://monitorsthree.htb/js/jquery-min.js
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/images/
+403      GET        7l       10w      162c http://monitorsthree.htb/css/
+200      GET        7l      277w    44342c http://monitorsthree.htb/js/owl.carousel.min.js
+403      GET        7l       10w      162c http://monitorsthree.htb/images/
+200      GET        7l      683w    60010c http://monitorsthree.htb/js/bootstrap.min.js
+200      GET       87l     1326w   157954c http://monitorsthree.htb/admin/assets/images/logo.ico
+200      GET      338l      982w    13560c http://monitorsthree.htb/
+403      GET        7l       10w      162c http://monitorsthree.htb/images/services/
+403      GET        7l       10w      162c http://monitorsthree.htb/js/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/images/backgrounds/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/css/
+403      GET        7l       10w      162c http://monitorsthree.htb/fonts/
+403      GET        7l       10w      162c http://monitorsthree.htb/images/blog/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/js/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/css/icons/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/images/ui/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/js/charts/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/js/core/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/js/maps/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/js/pages/
+403      GET        7l       10w      162c http://monitorsthree.htb/admin/assets/js/plugins/
+[####################] - 8s     55397/55397   0s      found:40      errors:12005  
+[####################] - 6s      4614/4614    824/s   http://monitorsthree.htb/ 
+[####################] - 4s      4614/4614    1146/s  http://monitorsthree.htb/images/services/ 
+[####################] - 4s      4614/4614    1032/s  http://monitorsthree.htb/images/ 
+[####################] - 4s      4614/4614    1132/s  http://monitorsthree.htb/js/ 
+[####################] - 4s      4614/4614    1038/s  http://monitorsthree.htb/css/ 
+[####################] - 4s      4614/4614    1038/s  http://monitorsthree.htb/admin/assets/images/ 
+[####################] - 4s      4614/4614    1131/s  http://monitorsthree.htb/admin/ 
+[####################] - 4s      4614/4614    1147/s  http://monitorsthree.htb/admin/assets/ 
+[####################] - 4s      4614/4614    1301/s  http://monitorsthree.htb/admin/assets/css/ 
+[####################] - 4s      4614/4614    1259/s  http://monitorsthree.htb/fonts/ 
+[####################] - 4s      4614/4614    1261/s  http://monitorsthree.htb/images/blog/ 
+[####################] - 4s      4614/4614    1139/s  http://monitorsthree.htb/admin/assets/js/                                                                           
