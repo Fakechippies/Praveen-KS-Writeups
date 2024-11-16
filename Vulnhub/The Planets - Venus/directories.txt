@@ -1,0 +1,43 @@
+feroxbuster -u http://192.168.122.21:8080 -w /usr/share/wordlists/dirb/common.txt -t 200 -r
+                                                                                                                                                                          
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://192.168.122.21:8080
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+404      GET       10l       21w      179c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET       30l       64w      626c http://192.168.122.21:8080/
+200      GET       97l      146w     2240c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/
+200      GET       97l      146w     2252c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/
+200      GET       97l      146w     2236c http://192.168.122.21:8080/admin/login/?next=/admin/login/admin
+200      GET       97l      146w     2242c http://192.168.122.21:8080/admin/login/?next=/admin/login/text/css
+200      GET       97l      146w     2258c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/js/
+200      GET       97l      146w     2260c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/css/
+200      GET       97l      146w     2278c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/css/login.css
+200      GET       97l      146w     2248c http://192.168.122.21:8080/admin/login/?next=/admin/login/admin/login
+200      GET       97l      146w     2290c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/css/nav_sidebar.css
+200      GET       97l      146w     2236c http://192.168.122.21:8080/admin/login/?next=/admin/login/text/
+200      GET       97l      146w     2276c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/css/base.css
+200      GET       97l      146w     2238c http://192.168.122.21:8080/admin/login/?next=/admin/login/admin/
+200      GET       97l      146w     2288c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/css/responsive.css
+200      GET       97l      146w     2286c http://192.168.122.21:8080/admin/login/?next=/admin/login/static/admin/js/nav_sidebar.js
+200      GET       97l      146w     2214c http://192.168.122.21:8080/admin/login/?next=/admin/
+200      GET       97l      146w        -c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+[####################] - 60s    13856/13856   0s      found:16      errors:1415   
+[####################] - 28s     4614/4614    162/s   http://192.168.122.21:8080/ 
+[####################] - 50s     4614/4614    92/s    http://192.168.122.21:8080/admin/login/?next=/admin/ 
+[####################] - 53s     4614/4614    87/s    http://192.168.122.21:8080/admin/login/?next=/admin/login/cgi-bin/                                                  

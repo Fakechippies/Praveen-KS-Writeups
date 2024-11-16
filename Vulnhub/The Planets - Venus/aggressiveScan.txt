@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Sat Nov 16 18:29:12 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,8080 -o aggressiveScan.txt 192.168.122.21
+Nmap scan report for 192.168.122.21
+Host is up (0.00053s latency).
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.5 (protocol 2.0)
+| ssh-hostkey: 
+|   256 b0:3e:1c:68:4a:31:32:77:53:e3:10:89:d6:29:78:50 (ECDSA)
+|_  256 fd:b4:20:d0:d8:da:02:67:a4:a5:48:f3:46:e2:b9:0f (ED25519)
+8080/tcp open  http    WSGIServer 0.2 (Python 3.9.5)
+|_http-server-header: WSGIServer/0.2 CPython/3.9.5
+|_http-title: Venus Monitoring Login
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov 16 18:29:19 2024 -- 1 IP address (1 host up) scanned in 6.61 seconds

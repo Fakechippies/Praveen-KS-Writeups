@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Sat Nov 16 18:26:24 2024 as: nmap -p- -Pn -n --min-rate=10000 -o allPortScan.txt 192.168.122.21
+Nmap scan report for 192.168.122.21
+Host is up (0.00030s latency).
+Not shown: 65514 filtered tcp ports (no-response), 19 filtered tcp ports (host-unreach)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+8080/tcp open  http-proxy
+
+# Nmap done at Sat Nov 16 18:26:38 2024 -- 1 IP address (1 host up) scanned in 13.30 seconds
