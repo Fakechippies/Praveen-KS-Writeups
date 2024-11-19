@@ -1,0 +1,108 @@
+# Nmap 7.95 scan initiated Tue Nov 19 20:41:47 2024 as: nmap -sC -sV -A -T5 -n -Pn -p 22,80,139,445,9000 -o aggressiveScan.txt 192.168.122.207
+Nmap scan report for 192.168.122.207
+Host is up (0.00040s latency).
+
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)
+| ssh-hostkey: 
+|   256 68:94:ca:2f:f7:62:45:56:a4:67:84:59:1b:fe:e9:bc (ECDSA)
+|_  256 3b:79:1a:21:81:af:75:c2:c1:2e:4e:f5:a3:9c:c9:e3 (ED25519)
+80/tcp   open  http        nginx 1.22.1
+|_http-title: 403 Forbidden
+|_http-server-header: nginx/1.22.1
+139/tcp  open  netbios-ssn Samba smbd 4
+445/tcp  open  netbios-ssn Samba smbd 4
+9000/tcp open  cslistener?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Server: Unit/1.33.0
+|     Date: Tue, 19 Nov 2024 15:11:58 GMT
+|     Content-Type: application/json
+|     Content-Length: 40
+|     Connection: close
+|     "error": "Value doesn't exist."
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Server: Unit/1.33.0
+|     Date: Tue, 19 Nov 2024 15:11:58 GMT
+|     Content-Type: application/json
+|     Content-Length: 1042
+|     Connection: close
+|     "certificates": {},
+|     "js_modules": {},
+|     "config": {
+|     "listeners": {},
+|     "routes": [],
+|     "applications": {}
+|     "status": {
+|     "modules": {
+|     "python": {
+|     "version": "3.11.2",
+|     "lib": "/usr/lib/unit/modules/python3.11.unit.so"
+|     "php": {
+|     "version": "8.2.18",
+|     "lib": "/usr/lib/unit/modules/php.unit.so"
+|     "perl": {
+|     "version": "5.36.0",
+|     "lib": "/usr/lib/unit/modules/perl.unit.so"
+|     "ruby": {
+|     "version": "3.1.2",
+|     "lib": "/usr/lib/unit/modules/ruby.unit.so"
+|     "java": {
+|     "version": "17.0.11",
+|     "lib": "/usr/lib/unit/modules/java17.unit.so"
+|     "wasm": {
+|     "version": "0.1",
+|     "lib": "/usr/lib/unit/modules/wasm.unit.so"
+|   HTTPOptions: 
+|     HTTP/1.1 405 Method Not Allowed
+|     Server: Unit/1.33.0
+|     Date: Tue, 19 Nov 2024 15:11:58 GMT
+|     Content-Type: application/json
+|     Content-Length: 35
+|     Connection: close
+|_    "error": "Invalid method."
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9000-TCP:V=7.95%I=7%D=11/19%Time=673CAABE%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,4A8,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20Unit/1\.33\.0\r\nDa
+SF:te:\x20Tue,\x2019\x20Nov\x202024\x2015:11:58\x20GMT\r\nContent-Type:\x2
+SF:0application/json\r\nContent-Length:\x201042\r\nConnection:\x20close\r\
+SF:n\r\n{\r\n\t\"certificates\":\x20{},\r\n\t\"js_modules\":\x20{},\r\n\t\
+SF:"config\":\x20{\r\n\t\t\"listeners\":\x20{},\r\n\t\t\"routes\":\x20\[\]
+SF:,\r\n\t\t\"applications\":\x20{}\r\n\t},\r\n\r\n\t\"status\":\x20{\r\n\
+SF:t\t\"modules\":\x20{\r\n\t\t\t\"python\":\x20{\r\n\t\t\t\t\"version\":\
+SF:x20\"3\.11\.2\",\r\n\t\t\t\t\"lib\":\x20\"/usr/lib/unit/modules/python3
+SF:\.11\.unit\.so\"\r\n\t\t\t},\r\n\r\n\t\t\t\"php\":\x20{\r\n\t\t\t\t\"ve
+SF:rsion\":\x20\"8\.2\.18\",\r\n\t\t\t\t\"lib\":\x20\"/usr/lib/unit/module
+SF:s/php\.unit\.so\"\r\n\t\t\t},\r\n\r\n\t\t\t\"perl\":\x20{\r\n\t\t\t\t\"
+SF:version\":\x20\"5\.36\.0\",\r\n\t\t\t\t\"lib\":\x20\"/usr/lib/unit/modu
+SF:les/perl\.unit\.so\"\r\n\t\t\t},\r\n\r\n\t\t\t\"ruby\":\x20{\r\n\t\t\t\
+SF:t\"version\":\x20\"3\.1\.2\",\r\n\t\t\t\t\"lib\":\x20\"/usr/lib/unit/mo
+SF:dules/ruby\.unit\.so\"\r\n\t\t\t},\r\n\r\n\t\t\t\"java\":\x20{\r\n\t\t\
+SF:t\t\"version\":\x20\"17\.0\.11\",\r\n\t\t\t\t\"lib\":\x20\"/usr/lib/uni
+SF:t/modules/java17\.unit\.so\"\r\n\t\t\t},\r\n\r\n\t\t\t\"wasm\":\x20{\r\
+SF:n\t\t\t\t\"version\":\x20\"0\.1\",\r\n\t\t\t\t\"lib\":\x20\"/usr/lib/un
+SF:it/modules/wasm\.unit\.so\"\r\n\t\t\t},\r\n\r\n\t\t")%r(HTTPOptions,C7,
+SF:"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nServer:\x20Unit/1\.33\
+SF:.0\r\nDate:\x20Tue,\x2019\x20Nov\x202024\x2015:11:58\x20GMT\r\nContent-
+SF:Type:\x20application/json\r\nContent-Length:\x2035\r\nConnection:\x20cl
+SF:ose\r\n\r\n{\r\n\t\"error\":\x20\"Invalid\x20method\.\"\r\n}\r\n")%r(Fo
+SF:urOhFourRequest,C3,"HTTP/1\.1\x20404\x20Not\x20Found\r\nServer:\x20Unit
+SF:/1\.33\.0\r\nDate:\x20Tue,\x2019\x20Nov\x202024\x2015:11:58\x20GMT\r\nC
+SF:ontent-Type:\x20application/json\r\nContent-Length:\x2040\r\nConnection
+SF::\x20close\r\n\r\n{\r\n\t\"error\":\x20\"Value\x20doesn't\x20exist\.\"\
+SF:r\n}\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: ICECREAM, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-11-19T15:11:59
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 19 20:41:58 2024 -- 1 IP address (1 host up) scanned in 11.76 seconds
