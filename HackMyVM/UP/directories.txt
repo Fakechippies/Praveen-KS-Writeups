@@ -1,0 +1,36 @@
+feroxbuster -u http://192.168.122.52 -w /usr/share/wordlists/dirb/common.txt -t 200 -r --scan-dir-listings
+                                                                                                                                                                          
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.11.0
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://192.168.122.52
+ 🚀  Threads               │ 200
+ 📖  Wordlist              │ /usr/share/wordlists/dirb/common.txt
+ 👌  Status Codes          │ All Status Codes!
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.11.0
+ 💉  Config File           │ /home/pks/.config/feroxbuster/ferox-config.toml
+ 🔎  Extract Links         │ true
+ 📂  Scan Dir Listings     │ true
+ 🏁  HTTP methods          │ [GET]
+ 📍  Follow Redirects      │ true
+ 🔃  Recursion Depth       │ 4
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+403      GET        9l       28w      279c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+404      GET        9l       31w      276c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET      150l      388w     4489c http://192.168.122.52/index.php
+200      GET      150l      388w     4489c http://192.168.122.52/
+403      GET       31l       94w      964c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+200      GET        1l        1w     1301c http://192.168.122.52/uploads/robots.txt
+200      GET     5455l    31425w  2390062c http://192.168.122.52/sh.jpg
+403      GET       31l       94w      964c http://192.168.122.52/uploads/
+200      GET    10907l    44549w   289782c http://192.168.122.52/javascript/jquery/jquery
+[####################] - 21s    18466/18466   0s      found:5       errors:465    
+[####################] - 9s      4614/4614    510/s   http://192.168.122.52/ 
+[####################] - 15s     4614/4614    317/s   http://192.168.122.52/javascript/ 
+[####################] - 13s     4614/4614    352/s   http://192.168.122.52/uploads/ 
+[####################] - 13s     4614/4614    364/s   http://192.168.122.52/javascript/jquery/                                                                            
