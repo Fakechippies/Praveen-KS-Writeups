@@ -1,0 +1,37 @@
+rustscan -a 10.10.11.44 --ulimit 5000
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: http://discord.skerritt.blog         :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+RustScan: allowing you to send UDP packets into the void 1200x faster than NMAP
+
+[~] The config file is expected to be at "/home/pks/.rustscan.toml"
+[~] Automatically increasing ulimit value to 5000.
+Open 10.10.11.44:22
+Open 10.10.11.44:80
+[~] Starting Script(s)
+[~] Starting Nmap 7.95 ( https://nmap.org ) at 2024-12-20 18:00 IST
+Initiating Ping Scan at 18:00
+Scanning 10.10.11.44 [2 ports]
+Completed Ping Scan at 18:00, 0.09s elapsed (1 total hosts)
+Initiating Connect Scan at 18:00
+Scanning alert.htb (10.10.11.44) [2 ports]
+Discovered open port 22/tcp on 10.10.11.44
+Discovered open port 80/tcp on 10.10.11.44
+Completed Connect Scan at 18:00, 0.27s elapsed (2 total ports)
+Nmap scan report for alert.htb (10.10.11.44)
+Host is up, received syn-ack (0.12s latency).
+Scanned at 2024-12-20 18:00:47 IST for 0s
+
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.38 seconds
+
